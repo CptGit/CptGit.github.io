@@ -1,9 +1,6 @@
 /* colors definition */
+/* Used RGB values Yuri purple: #9528bd deepskyblue: #00bfff */
 body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif; min-height: 100%; margin: 0; padding: 0 0 2em 0; }
-
-a:link, a:visited { color: #00bfff; }
-
-a:hover, a:active { color: #ffffff; background-color: #00bfff; }
 
 #banner { color: #ffffff; background-color: #00bfff; border-bottom: 1px solid #000000; }
 
@@ -12,6 +9,10 @@ a:hover, a:active { color: #ffffff; background-color: #00bfff; }
 #banner h1 { margin: 0; padding: .2em; font-size: 2.2em; font-weight: normal; }
 
 #menu { margin: 10px 0 0 0; }
+
+#menu a:link, #menu a:visited { color: #00bfff; }
+
+#menu a:hover, #menu a:active { color: #ffffff; background-color: #00bfff; }
 
 #menu a.current { background: #00bfff; color: #ffffff; }
 
