@@ -1,14 +1,131 @@
----
-layout: default
-title: Blog
----
-<h1>Latest Posts</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=/assets/css/style.css>
+    <link rel="shortcut icon" type="image/png" href=/assets/img/favicon.png>
+    <title>Zhiqiang Zang | Blog</title>
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Zhiqiang Zang" />
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Blog | Zhiqiang Zang</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Blog" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Zhiqiang Zang" />
+<script type="application/ld+json">
+{"headline":"Blog","@type":"WebPage","url":"/blog.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <div id="banner">
+  <!-- <img src="/assets/img/header.jpg" alt="header image" width="100%"> -->
+  <h1>Have a nice day 😉</h1>
+</div>
+
+    <div id="menu">
+  <nav>
+    <ul>
+      
+        <li>
+          <a href="/" >
+            Home
+          </a>
+        </li>
+      
+        <li>
+          <a href="/blog.html" class="current">
+            Blog
+          </a>
+        </li>
+      
+        <li>
+          <a href="/misc.html" >
+            Misc
+          </a>
+        </li>
+      
+        <li>
+          <a href="/resume.html" >
+            Resume
+          </a>
+        </li>
+      
+        <li>
+          <a href="/contact.html" >
+            Contact
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+
+    <div id="content">
+      <h1>Latest Posts</h1>
 
 <ul>
-  {% for post in site.posts %}
+  
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
+      <h2><a href="/2019/08/13/jekyll-markdownify-generates-unexpected-p-tag.html">Jekyll Markdownify Generates Unexpected P Tag</a></h2>
+      <p><h3 id="problem">Problem</h3>
+<p>Jekyll’s markdownify filter generates unexpected <code class="highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> tag, e.g.,</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign text = "hello" %}
+{{ text | markdownify }}
+</code></pre></div></div>
+
+<p>We expect to see <code class="highlighter-rouge">hello</code> but jekyll ends with <code class="highlighter-rouge">&lt;p&gt;hello&lt;/p&gt;</code>.</p>
+</p>
     </li>
-  {% endfor %}
+  
+    <li>
+      <h2><a href="/2019/08/05/zip%E7%9A%84%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98.html">Zip的编码问题</a></h2>
+      <p><p>昨天整理MO资源包的时候，突然发现zip包里的文件名编码好像有点问题。我先
+是用7-zip在Win10中文区域配置下打包出了一个zip，然后当我把Win10的“非
+Unicode程序的语言”调成英文时，zip解压出的文件中原来的中文文件名会以乱
+码显示。我想，八成又是编码问题，不知道是哪里又没有用UTF-8。</p>
+</p>
+    </li>
+  
+    <li>
+      <h2><a href="/2018/06/30/%E5%8E%BB.html">去</a></h2>
+      <p><p>在六月的最后一天，坐在复兴号上，捧着电脑，耳畔传来<a href="https://mp.weixin.qq.com/s/QEcJ1yS89o2_mx1i0YRziw">《北邮姑娘》</a>的悠扬。北邮，再见。北京，再见。</p>
+</p>
+    </li>
+  
+    <li>
+      <h2><a href="/2018/06/05/%E7%8E%84%E5%A5%98%E4%B9%8B%E8%B7%AF.html">玄奘之路</a></h2>
+      <p><p><em>自大学来，历四载沉沦，余表言达意之才骤减。近来深感情势之严重，倘若日后无以叙事辩理，岂非与废人无异？假使听之任之，而不加以训练，必难逃失语之厄运。遂有此篇。</em></p>
+</p>
+    </li>
+  
+    <li>
+      <h2><a href="/2018/04/10/%E5%9B%B4%E5%9F%8E%E6%9D%82%E6%84%9F.html">围城杂感</a></h2>
+      <p><p>最近读完了《围城》，还是有一些感触的，寻思着记下来，不然就凭我这记性，恐怕过些时日又要忘记了。不过，丑话说在前头，下面尽是些一家之言了，求同存异，和而不同，理解万岁。</p>
+</p>
+    </li>
+  
+    <li>
+      <h2><a href="/2018/03/29/MIT-Linear-Algebra-P2.html">MIT 18.06SC Linear Algebra Session 1.6 - 1.10</a></h2>
+      <p><p>The following is my notes of Session 1.6 - 1.0.</p>
+</p>
+    </li>
+  
+    <li>
+      <h2><a href="/2018/03/10/MIT-Linear-Algebra-P1.html">MIT 18.06SC Linear Algebra Session 1.1 - 1.5</a></h2>
+      <p><p>Hmmm… I’m learning <a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm">MIT 18.06SC Linear Algebra</a> at <a href="https://ocw.mit.edu/index.htm">MIT OpenCourseWare</a>.</p>
+</p>
+    </li>
+  
 </ul>
+
+    </div>
+    <div id="clear"></div>
+    <div id="footer">
+  2019@Zhiqiang Zang
+</div>
+
+  </body>
+</html>

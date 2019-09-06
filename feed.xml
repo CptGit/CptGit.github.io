@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-09-06T06:13:12+00:00</updated><id>/feed.xml</id><title type="html">Zhiqiang Zang</title><entry xml:lang="en"><title type="html">Jekyll Markdownify Generates Unexpected P Tag</title><link href="/2019/08/13/jekyll-markdownify-generates-unexpected-p-tag.html" rel="alternate" type="text/html" title="Jekyll Markdownify Generates Unexpected P Tag" /><published>2019-08-13T00:00:00+00:00</published><updated>2019-08-13T00:00:00+00:00</updated><id>/2019/08/13/jekyll-markdownify-generates-unexpected-p-tag</id><content type="html" xml:base="/2019/08/13/jekyll-markdownify-generates-unexpected-p-tag.html">&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
+&lt;p&gt;Jekyll’s markdownify filter generates unexpected &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; tag, e.g.,&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign text = &quot;hello&quot; %}
+{{ text | markdownify }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We expect to see &lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt; but jekyll ends with &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;hello&amp;lt;/p&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;brutal-solution&quot;&gt;Brutal Solution&lt;/h3&gt;
+&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ text | markdownify | remove: '&amp;lt;p&amp;gt;' | remove: '&amp;lt;/p&amp;gt;' }}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;helpful-links&quot;&gt;Helpful Links&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/3571&quot;&gt;https://github.com/jekyll/jekyll/issues/3571&lt;/a&gt;&lt;/p&gt;</content><author><name>zzq</name></author><summary type="html">Problem Jekyll’s markdownify filter generates unexpected &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; tag, e.g., {% assign text = &quot;hello&quot; %} {{ text | markdownify }} We expect to see hello but jekyll ends with &amp;lt;p&amp;gt;hello&amp;lt;/p&amp;gt;.</summary></entry><entry xml:lang="zh-cn"><title type="html">Zip的编码问题</title><link href="/2019/08/05/zip%E7%9A%84%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98.html" rel="alternate" type="text/html" title="Zip的编码问题" /><published>2019-08-05T00:00:00+00:00</published><updated>2019-08-05T00:00:00+00:00</updated><id>/2019/08/05/zip%E7%9A%84%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98</id><content type="html" xml:base="/2019/08/05/zip%E7%9A%84%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98.html">&lt;p&gt;昨天整理MO资源包的时候，突然发现zip包里的文件名编码好像有点问题。我先
+是用7-zip在Win10中文区域配置下打包出了一个zip，然后当我把Win10的“非
+Unicode程序的语言”调成英文时，zip解压出的文件中原来的中文文件名会以乱
+码显示。我想，八成又是编码问题，不知道是哪里又没有用UTF-8。&lt;/p&gt;
+
+&lt;p&gt;在谷歌了一通之后，大概明白了原因，梳理如下：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;使用7-zip软件制作zip压缩包时，7-zip不会默认采用UTF-8编码，而是默认
+采用操作系统当前的编码。只有当文件名中含有当前系统编码不支持的字符
+时，7-zip才会对该文件名使用UTF-8编码。&lt;/li&gt;
+  &lt;li&gt;Win10下“非Unicode程序的语言”会影响此处的文件名的当前系统编码。&lt;/li&gt;
+  &lt;li&gt;鉴于上述原因，当我在2处使用中文时，1处会使用GBK编码（猜的，反正是某
+种中文编码）。因此，当我将2处设置改成英文后，在解压时就无法识别
+GBK编码了。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;综上，该问题的解决方案有如下几种：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;把Win10下“非Unicode程序的语言”设置成中文。&lt;/li&gt;
+  &lt;li&gt;在使用7-zip压缩时添加“cu”参数。&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>zzq</name></author><summary type="html">昨天整理MO资源包的时候，突然发现zip包里的文件名编码好像有点问题。我先 是用7-zip在Win10中文区域配置下打包出了一个zip，然后当我把Win10的“非 Unicode程序的语言”调成英文时，zip解压出的文件中原来的中文文件名会以乱 码显示。我想，八成又是编码问题，不知道是哪里又没有用UTF-8。</summary></entry><entry xml:lang="zh-cn"><title type="html">去</title><link href="/2018/06/30/%E5%8E%BB.html" rel="alternate" type="text/html" title="去" /><published>2018-06-30T00:00:00+00:00</published><updated>2018-06-30T00:00:00+00:00</updated><id>/2018/06/30/%E5%8E%BB</id><content type="html" xml:base="/2018/06/30/%E5%8E%BB.html">&lt;p&gt;在六月的最后一天，坐在复兴号上，捧着电脑，耳畔传来&lt;a href=&quot;https://mp.weixin.qq.com/s/QEcJ1yS89o2_mx1i0YRziw&quot;&gt;《北邮姑娘》&lt;/a&gt;的悠扬。北邮，再见。北京，再见。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;毕业季已经持续一个月了，然而，作为一个向来情感反应滞后的人，纵使每天都能见到穿着学士服的同学们三五成群地毕业合影，纵使每天都经过小松林旁北邮四季的展板和学生发展中心门口“我们毕业了”的红底白字，纵使参加了不止一场的毕业晚会与毕业典礼，纵使频繁地在朋友圈和空间里瞥见熟人的毕业照和毕业感想，这一切又一切都并未在我的内心触起太多的波澜，用万里的话说，毫无毕业的感觉。直到昨天，直到目送剑霸离开的那一刻，似乎我近一个月的情感时延突然完成，刹那间，我感受到一股来自泪腺强烈的刺激。回到宿舍，剑霸的床铺依然齐整，好像他未曾离开。然而，当喊出剑霸三连的时候，再也没有了回应；再也没有人会推开门，瞪大双眼，张圆嘴巴，吃惊地问你一句“你为什么会在这里”；深夜，再也没有人给博哥骂“你SB嘛？”了。我坐在宿舍里，环顾这杂乱的寝室：地面上摆满了大大小小的箱子与袋子，裹挟着床底的尘灰与污垢；床头架上空荡荡，现出了灰漆的本色；桌面一如既往的杂乱，只是不再有一排整齐的电脑；起身拉开抽屉，出人意料的轻松，因为里面已经不再充盈；转身走向阳台，那些层层叠叠的快递箱都消失不见，阳台又恢复了往日的空旷；瞅一眼洗手间，地面的瓷砖因最近清理的尘灰而显得异常肮脏，我曾多少次在周五的晚上哀叹还要清洗多少遍这黑漆漆的地面才能毕业，如今却再也没有机会做一次清洁。&lt;/p&gt;
+
+&lt;p&gt;我不知道留在本校或者留在北京继续读研的同学会不会有离别的伤感，但对于此刻正以350km/h的速度离开的我来说，或许从今以后，北京只能出现在我的一张机票或车票上，再也没有与此联系的生活与成长。回首这四年，最终我没有登上十大头条，整日挂在嘴边的给剑霸征友也从未真正去发过帖，BT的账号停留在1T多一点而没有达到我永存账号的目标，离走遍祖国大地一半省份的期望也还差些许。但，时光依旧饱满。&lt;/p&gt;
+
+&lt;p&gt;我记得那些事：记得大一时披星戴月地早起占座；记得在宏福学五楼后的小道上顶着妖风寸步难行；记得剑霸吃坏肚子拉到出不了宿舍的门；记得我闹肚子后在深夜不可描述的囧途；记得被万里吃倒闭的食堂自助窗口；记得大一结束时搬家回到本部的筋疲力竭；记得大二上学期每周几乎排满的课表，提着电路盒从教二飞奔到食堂混碗饺子再飞奔到主楼；记得每天十一点熄灯以后，博哥一声“剑霸”，然后两人哼哧哼哧抬桌子去过道学习；记得为了毛概视频熬到三点钟的那一夜；记得拍红了手掌却也不能唤醒的声控报警器；记得16年的暑假里我独自一个人在寝室度过的两周；记得为了美赛连续二十个小时未曾合眼；记得我在教三的楼道里留下的一串串托福口语练习声；记得那个全部献给GRE的暑假；记得两次提醒学校保持教三一楼大教室开放到十一点的那些邮件；记得大四上漫长繁琐但不失温暖的申请季和一亩三分地；记得那次现场效果异常出色的特奖答辩；记得倾注了无尽心血的若梦杯和御风杯北邮红警邀请赛；记得那个给我一块钱的疑似韩国小姐姐；记得沙河图书馆终于建成而我却已要离开；记得，学士服的穗要放在左边。&lt;/p&gt;
+
+&lt;p&gt;我也记得那些人：记得我的每一个好室友：剑霸、博哥、万里、泽阳、深昊；记得身边被我羡慕和毕竟的各种大佬；记得陪我一起度过无数自习时间的子仪和PC，还有些脸熟却未曾认识过的自习狂魔；记得北邮红警的小伙伴，怎么打也打不完的老胡、永远加载到最后一名的黑鹰、一言不合就尬图的海员等等；记得教三的保洁叔叔阿姨和新食堂三楼换了一拨又一拨的员工……&lt;/p&gt;
+
+&lt;p&gt;如果任凭思绪漫游，或许我能够想起每一个点点滴滴，或许我压根儿只能得到空白的记忆。和古代印度人一样，我是个不擅于记录的人，我没有记日记的习惯，也没有发动态的习惯。往事随风，如果不记录，过去很快就会消散在风中，只留下与特定时间紧密结合的朦胧情感，每当想起，不自然就会触发这些情思。&lt;/p&gt;
+
+&lt;p&gt;我从大一黑北邮黑到大四，总是笑称出国的原动力就是想离开北邮，可是，待到真正离开的时候，又有谁能舍得呢。就像院长和校长在毕业典礼上说过的那样，在我们14级本科生和北邮一起度过的这四年里，大家共同见证了不少难忘的时刻。15年的60周年校庆，我们一起迎来了一个重新修缮的音乐喷泉、三尊雕像和许多路灯。17年的夏天，我们见证着每一幢宿舍楼上挂起了鳞次栉比的小天鹅空调外机，盼来了北邮的空调元年。另外，官方不会愿意提起的论坛和BT关闭风波和UPS起火事件，我想这都是属于我们独特的记忆。曾经，我们是北邮人，现在，我们是北邮人。&lt;/p&gt;
+
+&lt;p&gt;我不知道还能说些什么。这几年，我似乎没有太多成长，依旧迷茫，依旧不知所措，成熟二字还是离我很遥远。与高中毕业时那个懵懂的少年相比，除了对社会的现实与无奈有了更多的认识，现在的我也并无不同，依旧理想主义，依旧奋不顾身。昨天翻到两年半前写的上一篇日记（我真该多写写日记……），那是最后一次见honey回来以后写的吧，我看到几点对自己提的要求：要承担责任，要真诚，要change。现在看来，我有些惭愧，惭愧的不是我没有做到这些要求，而是我忘却了。不求高处不胜寒，只求对得起自己当年大言不惭的优秀。&lt;/p&gt;
+
+&lt;p&gt;本来想结尾了，既然说到了honey，也想到了大志。每次剑霸问我为什么来北邮的时候，我总是说“被大志骗来的”。大志是了解我第二多的人了吧，哎……毕业没和你合影，想想还是蛮可惜，算了算了，反正我常年拿“君子之交淡如水”来搪塞。加油，或者用你喜欢的语言，干巴爹？&lt;/p&gt;
+
+&lt;p&gt;古来万事东流水，一蓑烟雨任平生。忧伤好似唆麻，尝了一口就会让我上瘾，沉浸其中，无法自拔。毕业的泪水，终究还是没有流下。愿当一切散去，你我依然安好，归来仍是北邮人。再见，北邮。再见，北京。再见，我的大学。&lt;/p&gt;
+
+&lt;p&gt;末了，附词一首，柳永的《雨霖铃》：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;寒蝉凄切，对长亭晚，骤雨初歇。都门帐饮无绪，留恋处，兰舟催发。执手相看泪眼，竟无语凝噎。念去去，千里烟波，暮霭沉沉楚天阔。&lt;/p&gt;
+
+  &lt;p&gt;多情自古伤离别，更那堪，冷落清秋节！今宵酒醒何处？杨柳岸，晓风残月。此去经年，应是良辰好景虚设。便纵有千种风情，更与何人说？&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>zzq</name></author><category term="Life" /><summary type="html">在六月的最后一天，坐在复兴号上，捧着电脑，耳畔传来《北邮姑娘》的悠扬。北邮，再见。北京，再见。</summary></entry><entry xml:lang="zh-cn"><title type="html">玄奘之路</title><link href="/2018/06/05/%E7%8E%84%E5%A5%98%E4%B9%8B%E8%B7%AF.html" rel="alternate" type="text/html" title="玄奘之路" /><published>2018-06-05T00:00:00+00:00</published><updated>2018-06-05T00:00:00+00:00</updated><id>/2018/06/05/%E7%8E%84%E5%A5%98%E4%B9%8B%E8%B7%AF</id><content type="html" xml:base="/2018/06/05/%E7%8E%84%E5%A5%98%E4%B9%8B%E8%B7%AF.html">&lt;p&gt;&lt;em&gt;自大学来，历四载沉沦，余表言达意之才骤减。近来深感情势之严重，倘若日后无以叙事辩理，岂非与废人无异？假使听之任之，而不加以训练，必难逃失语之厄运。遂有此篇。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;四天前，我看完了纪录片《玄奘之路》。玄奘，这位有可能是中国历史上最广为人知的僧人，在我心中的形象又再次被颠覆了。无论是西游记中迂腐无能的小白脸，还是历史书上的插图中背着书箱、顶着伞的年轻小和尚，都无法将玄奘与“圣贤”二字联系起来。如果《玄奘之路》所述真如《大唐西域记》所著，如果《大唐西域记》所著真如玄奘亲身所经历，那么，不止是圣贤，玄奘是惊为天人了。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;玄奘，绝不仅仅是一代高僧那么简单。在一千三百多年前，西行前往印度绝非易事，没有孙悟空，玄奘可以依靠的只有他自己。所幸玄奘并非等闲之辈，除了我们能想到的坚定的理想与信念之外，他还拥有近乎完美的人格与形象：他身材高大、外貌不凡，道德修养极高、文化底蕴深厚，善言辞、通人情、晓事故。如果玄奘跨越时空向你走来，你定会感到他独特的气质和魅力。这些软实力，成为了他西行十九年的宝贵财富，一路上助他逢凶化吉。玄奘，靠着自己的人格魅力，征服了很多人。他是高昌国王鞠文泰的结拜兄弟，甚至被委以辅佐陛下的重任（虽然玄奘并未答应）；他是戒贤法师最出色的弟子，百岁高龄的戒贤法师亲自为玄奘重开讲堂讲授《瑜伽师地论》；他是那烂陀寺的辩经代表，在一次接着一次的辩经中从未败阵，为寺院守住了声誉；他是戒日王的座上宾，在戒日王举办的辩经大会上讲经十八天，台下诸位高僧大德居然无一人敢挑战，自此他名声鹊起，被尊为“大乘天”、“解脱天”，成为享誉整个印度的佛学大师。&lt;/p&gt;
+
+&lt;p&gt;玄奘的胜利不止是他一个人的胜利。纪录片中有一句话说的很好，“没有朝廷的支持，一切都寸步难行”，他的背后站着高昌国国王鞠文泰、站着西突厥可汗、站着戒日王、站着“贞观之治”中的大唐帝国、还站着许许多多为玄奘的旅途献出了生命的普通人。在去程抵达西域的高昌国之前，玄奘的确是孤身一人，甚至差点在沙漠中丢了性命，但是，自高昌国以后，玄奘的旅途再也不是独自一人了。玄奘用自己的人格魅力与不屈信念征服了国王鞠文泰，获得了鞠文泰举国之力的帮助，玄奘随行的官员、徒弟、随从竟达二十多人，他们更是携带着大量钱财与礼物，构成了浩浩荡荡的一支队伍。自此以后，玄奘成为了有身份有地位的人，再也不是当时那个偷渡出关的僧人了。不敢想象，如果没有高昌王的帮助，玄奘还能不能顺利抵达印度，也许他连那座凌山都翻不过去，也许他连西域都走不出就被强盗取走了性命。在西突厥的地盘，鞠文泰提前给西突厥可汗准备好的国书也起了大作用，正是有可汗的支持，在突厥军官一路的护送下玄奘才能安全穿过偌大的中亚草原抵达印度河畔。而在印度，玄奘凭借自己的不凡的佛学修养赢得了戒日王史无前例的尊崇，甚至开启了唐帝国与戒日帝国之间数十年的外交来往。当玄奘返程的时候，崛起的大唐已经重新恢复了自汉代以来一直混乱的丝绸之路的秩序，得益于此，玄奘能够迅速地返回长安。然而，历史的大风吹过，留下的只能是大石块，玄奘的队伍中有相当数量的仆人、随从永远地倒在了路上，翻越一个凌山，就损失了几近一半的人马，他们默默无闻，永远也不为人所知，就这样成为玄奘之路的铺路石。&lt;/p&gt;
+
+&lt;p&gt;玄奘留给后人的远不止佛学成就，由他口述、弟子辩机笔录的《大唐西域记》成为了古代印度和一些西域地区唯一的历史参考书目。玄奘拥有惊人的语言天赋，不仅擅长讲经和雄辩，也是一个出色的历史、地理、人文记录者。关于古代印度历史，有句话这么说，“印度人创造历史、中国人记录历史、英国人发掘历史’‘，这里的“中国人”指的就是玄奘。玄奘在印度停留了长达十四年，几乎游历了印度的每一片土地，他详细记录了各地的风土人情、人文历史。千年以后，英国人康宁汉姆根据玄奘的描述，发掘出佛教在印度诞生和繁荣的遗迹。同样受益于玄奘的《大唐西域记》的还有斯坦因，循着玄奘的脚步，他发现了许多西域的古国遗址，甚至那场对敦煌莫高窟的洗劫，也是靠玄奘才与王道士套上的近乎。没有玄奘，没有《大唐西域记》，不知道多少尘事将永远埋葬于黄沙之下。&lt;/p&gt;
+
+&lt;p&gt;十岁失去双亲，十三岁遁入空门，二十八岁从长安出发，历经十九年西行求法，四十六岁返回长安，紧接着十九年的佛经翻译工作，于六十五岁圆寂。玄奘的一生到底是在追求什么？西行十九年，译经十九年，他的每一分每一秒，都献给了他挚爱的佛学事业。甚至，为了能够更好地完成翻译经书的工作，为了给佛教更多的生存空间，玄奘自回到大唐以后一直都不得不与唐朝皇室保持着良好的互动，这样的交际对于一个僧人而言，并不是那么顺遂心意的事情。玄奘西行取经是为了化解他心中的困惑，当时中国佛教教派繁杂、对佛经的解释不一，玄奘渴望得知佛教的真谛，因而才有了前往当时世界佛教最高学府那烂陀的动因。而玄奘真的就把自己的一生都献给了这个伟大的事业。鲁迅先生曾经写道，“我们从古以来，就有埋头苦干的人，有拼命硬干的人，有为民请命的人，有舍身求法的人……虽是等于为帝王将相作家谱的所谓‘正史’，也往往掩不住他们的光耀，这就是中国的脊梁。”想想我们现代人，幸福和快乐真的是值得追求的吗？那一片唆麻带来的快感，真的值得我们作为终生目标吗？或许，我们需要想想玄奘，想想和玄奘一样许许多多为了自己的信念与追求而献出一切的人，想想他们的一生是如何度过的。真、善、美，从来都是所谓幸福快乐的对立面，追求真善美的道路从来都充斥着痛苦。如果说，文化与思想也是某种生命体，它们借着人类的躯壳来承载自己，并试图通过人类的口耳相传与文字记载来复制自己，那么，迄今为止它们的繁衍无疑都是非常非常成功的。古往今来，一代又一代人类的精英们为了它们的延续而甘愿放弃自己生物本能要求的幸福快乐。如果可以，我也想成为一种思想。&lt;/p&gt;
+
+&lt;p&gt;回到《玄奘之路》这部纪录片，谈点别的。其实这部片子除了玄奘之外，还介绍了很多相关地区的历史与文化，包括佛教在印度的兴起与衰落。当然，最触动我的还是那烂陀这个地方，与其说这是一所寺院，倒不如说这是一所综合性大学。那烂陀规模宏大，壮丽华美，容纳一万多人，学生们不仅学习佛法，还学习逻辑学、语言学，甚至研究医学和数学。那烂陀的学术氛围严谨而又开放，除了玄奘，还拥有来自各地的留学生，所有的学生们都孜孜不倦地渴求着知识，连好学的玄奘都曾感叹道在这里一日不讨论高深的佛法脸儿都挂不住。如此高雅之所，放到如今也不失为一个令人羡艳的存在，不是吗？&lt;/p&gt;
+
+&lt;p&gt;最后，别黑河南人了，人玄奘就是洛阳人。&lt;/p&gt;
+
+&lt;p&gt;最后的最后，如果有机会，我还想再去一次大慈恩寺，再看一次大雁塔。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;文末，我记得上回有人说我模块化写读后感，那我这回大杂烩好了，追求形散而神不散。另外，今天从沙河回来，新图书馆真的不错呀，看得我老泪纵横。哦，你们要纪录片链接？B站就有，点&lt;a href=&quot;https://www.bilibili.com/bangumi/play/ep121359&quot;&gt;这里&lt;/a&gt;。&lt;/em&gt;&lt;/p&gt;</content><author><name>zzq</name></author><category term="Reading" /><summary type="html">自大学来，历四载沉沦，余表言达意之才骤减。近来深感情势之严重，倘若日后无以叙事辩理，岂非与废人无异？假使听之任之，而不加以训练，必难逃失语之厄运。遂有此篇。</summary></entry><entry xml:lang="zh-cn"><title type="html">围城杂感</title><link href="/2018/04/10/%E5%9B%B4%E5%9F%8E%E6%9D%82%E6%84%9F.html" rel="alternate" type="text/html" title="围城杂感" /><published>2018-04-10T00:00:00+00:00</published><updated>2018-04-10T00:00:00+00:00</updated><id>/2018/04/10/%E5%9B%B4%E5%9F%8E%E6%9D%82%E6%84%9F</id><content type="html" xml:base="/2018/04/10/%E5%9B%B4%E5%9F%8E%E6%9D%82%E6%84%9F.html">&lt;p&gt;最近读完了《围城》，还是有一些感触的，寻思着记下来，不然就凭我这记性，恐怕过些时日又要忘记了。不过，丑话说在前头，下面尽是些一家之言了，求同存异，和而不同，理解万岁。&lt;/p&gt;
+
+&lt;h3 id=&quot;读之前&quot;&gt;读之前&lt;/h3&gt;
+
+&lt;p&gt;也是突发奇想，看完前一本书《月亮与六便士》之后不知怎么地就想起了《围城》，虽然很早就有耳闻钱钟书先生的这本大作，也知道那句经典的“城外的人想进去，城里的人想出来”，但是却从未真正接触过这本书，甚至对情节和故事都一无所知。其实，现在看完了书，回过头来我反而觉得这也是一种万幸吧，因为这本书真的蛮让我惊喜的，用一句流行语来说，可以说是，万万没想到了。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;读之中&quot;&gt;读之中&lt;/h3&gt;
+
+&lt;p&gt;这个小标题起的，也是有一些突兀的，读书之中又有什么好写的呢，也许只是为了凑个格式吧。罢了罢了，听我细细道来。&lt;/p&gt;
+
+&lt;p&gt;平时在学校，我的习惯是每天睡觉之前读上半小时左右的书，一般也就是十一点五十到十二点二十这样。可是，读起《围城》来，常常放下书来发现都快一点钟了，不得不逼着自己去睡觉。一方面是由于故事的确很好看，另一方面，我认为是由钱钟书先生的写作特点决定的，一段完整情节的篇幅比较长，这就导致我一旦一不小心没忍住开始读一段新的情节，再等到这段完事二十分钟又过去了……&lt;/p&gt;
+
+&lt;p&gt;其实这本书的字数算挺多的，可是我居然在一个月内就读完了，这比我的平均阅读速度还是快了不少的。当然，付出的一些代价可能是这些日子早上起得比较迟，嘿嘿。离题一小下，想起一句话，“书非借而不能读也”，图书馆真是个好东西。&lt;/p&gt;
+
+&lt;p&gt;还有一点不得不提，《围城》可能是第一本我每翻几页就要笑出声的书，钱钟书先生的文风非常幽默风趣，时常于言语间极尽嘲讽之能，但妙的是又绝无任何粗俗的字眼，也许这就是大家的魄力吧。印象最深的莫非这一句了，“骂来骂去无非是司机想和这辆破车的母亲或者祖母发生肉体恋爱”，捧腹也。&lt;/p&gt;
+
+&lt;h3 id=&quot;读之后&quot;&gt;读之后&lt;/h3&gt;
+
+&lt;p&gt;知乎上有个问题，“一句话证明自己读过围城”。我发现自己读完以后，第一反应居然只有那句，“方先生，赵叔叔在哄我，是不是？”&lt;/p&gt;
+
+&lt;p&gt;合上书，回想起来，论清新愉悦，我最爱鸿渐、文纨等人留学初归在上海的日子；论一波三折、趣味横生，非鸿渐、辛楣等一行五人前往三闾大学的囧途莫属；论世态炎凉、人心不古，三闾大学的勾心斗角和鸿渐归沪的婚后生活可谓是对“围城”最真实的写照。其实我读书时的情感变化倒和主角方鸿渐的经历差不多，都是每况愈下。最初的故事给我一种欢欣、轻快又充满希望的感觉，越到后面就越觉得惋惜而可悲。我很喜欢读初期鸿渐、文纨、辛楣等人之间的对话，古今中外的文学典故和诗篇层出不穷，又常伴着些对时事的巧妙讽刺和机智的斗嘴。不像后面，不仅出现了李梅亭、韩学愈这种令人生厌的人，而且原来的朋友们都变了，就连苏文纨都成了那么世俗的一个女子，当初的风韵荡然无存。再后来，鸿渐和柔嘉的婚姻简直就像微波炉里的玉米粒，啪啪啪，隔三岔五就要炸开花，真的看得人很揪心。&lt;/p&gt;
+
+&lt;p&gt;谈到《围城》，离不开的话题就是“围城”这个词了。可我并不想谈什么围城不围城的，我更感兴趣的是书中的这些人物。&lt;/p&gt;
+
+&lt;h4 id=&quot;方鸿渐&quot;&gt;方鸿渐&lt;/h4&gt;
+
+&lt;p&gt;我开始的时候对方鸿渐这家伙真的毫无好感可言。论学识，他不及有正规博士文凭的苏文纨，号称流过几年洋，可拿着丈人家的钱净耍开心去了，本事没学到多少，道听途说的轶闻和各种学识的皮毛倒是懂了很多，为他那副损人的嘴皮子启动的时候添了不少燃料，更别提什么克莱登大学的假文凭了；论为人处世的能力手段，他也远比不过风生水起、仕途通达的赵辛楣，常常一股愣头青做派。除此之外，我还觉得他在对待感情上也并不算个正面形象，起先在船上的时候和鲍小姐缠绵，后来又对苏小姐的追求一直拖泥带水、半推半就，总是事后埋怨“不该走得这样近，又要造成误会了”之类的，当事时候净干嘛去了，心软的不是个地方。尤其是他明明对唐小姐一见钟情，却一直和文纨来往，还禁不住诱惑吻人家，也难怪文纨后来得知实情后那么生气，直接葬送了他和唐晓芙的任何可能。可就在鸿渐因失恋而痛不欲生，感到又一个自己死了的时候，我又开始渐渐地同情甚至欣赏起他了。显然，比起三闾大学的李、韩、高、汪等人，我们的鸿渐算得上是一股清流了。这一年里，方先生还是那个方先生，虽然他依然对孙柔嘉的温柔毫无还手之力，甚至还就这样稀里糊涂结了婚，虽然他依旧是那个“全无用处”的软蛋，但是有一些东西他依然在坚守，那是一些读书人的操守，是得知苏文纨干起了李梅亭贩卖走私那行时的那种不耻。&lt;/p&gt;
+
+&lt;p&gt;钱钟书先生塑造的这个形象是十分贴地气的，我们很多人的心中可能都有这么一个方鸿渐。拿我自己说，除了比方鸿渐要正直一些（我决不会干买假文凭这种事……也许，是没有遇到诱惑？），在其他方面，我真的能从鸿渐身上看到很多自己的影子。骨子里有股心气儿，然而表现出的又只能是长期的软弱以及一时的傲气转化而来的怒气，对这个社会、这个时代充满着愤懑，而又无力反抗，只被推着走。就连在个性上，我也是同属方鸿渐这类吃软不吃硬，被轻松温柔杀的人。但我知道，我不是一个人，看到这里的各位一定也或多或少有类似的感受。&lt;/p&gt;
+
+&lt;h4 id=&quot;苏唐孙&quot;&gt;苏、唐、孙&lt;/h4&gt;
+
+&lt;p&gt;（咱们不谈鲍小姐）&lt;/p&gt;
+
+&lt;p&gt;在这三个女性角色中，钱钟书先生无疑是偏向唐小姐的，白玉无瑕，几乎完美，“一个真正的女孩子”。也许正是没有了后文，才致使这样完美的形象可以在读者的脑海中一直留存。&lt;/p&gt;
+
+&lt;p&gt;但，我是更偏爱苏小姐的，大概是因为她的才女属性吧（看来我读的书怕是比鸿渐还要少，唉……），所以对苏小姐后来的转变之大，我和鸿渐一样很吃惊，也很惋惜。虽然原文并没有提，但是我认为在香港那一面以后，即便是鸿渐心中还留存任何一点对文纨的好感，也一定是荡然无存了。苏文纨之前给我的印象是一个大家闺秀、留洋才女诗人，善说话、会做人，我甚至都觉得文纨才应该是鸿渐更好的选择，可是，“事实上，一个人的缺点正像猴子的尾巴，在地面的时候，尾巴是看不见的，直到他向树上爬，就把后部供大众瞻仰，可是这红臀长尾巴本来就有，并非地位爬高了的新标识”。我和鸿渐一样没有洞察力，在得知文纨嫁了曹元朗之后，也和他一样惊呼这女人怕是傻了吧，殊不知苏文纨本性如此，后来她贩卖走私的行为也就可以理解了吧。我想这是缘于我对苏文纨的好感先入为主，这在一定程度上导致我忽视了作者在前文的一些铺垫与暗示，虽然话是这么说，肥皂泡破裂的时候还真是有点心痛的。&lt;/p&gt;
+
+&lt;p&gt;至于孙柔嘉，正是由于她的赵叔叔早早帮我一眼看穿了她工于心计的本性，我从头到尾对她就没有产生过任何好感。孙小姐用温柔做武器，伪装出一副可怜可爱的样子，甚至不惜搬出子虚乌有的告密信，一步步利用鸿渐的软弱，最终将他收入囊中。咱们天真的鸿渐哪里斗得过这样的戏精啊！然而，真正把方鸿渐作了丈夫以后，柔嘉是不是也后悔过呢？这个自己千方百计嫁的丈夫，并不是自己满意的那样呀！不过，也有可能，孙小姐不会在意这么多就是了，她和鸿渐本就不是一类人，在三闾大学的时候可能只是为了迎合鸿渐才装出不屑于高、韩、汪等人为伍的样子，她的本性如何，无从可知，说不定再来个年轻的教员，她立马就改变目标了呢。不管这场闹剧般的婚姻对孙柔嘉是不是场悲剧，但对方鸿渐来说，却注定是一场劫难。&lt;/p&gt;
+
+&lt;h4 id=&quot;赵辛楣&quot;&gt;赵辛楣&lt;/h4&gt;
+
+&lt;p&gt;与对方鸿渐的态度刚好相反，我对“赵叔叔”的态度是欲扬先抑了。我还记得辛楣刚出场时自带的一股气场与傲慢，比起谦逊儒雅的鸿渐，并不讨人喜欢。更重要的是，居然一言不合就开始怼咱们的鸿渐！哼！鸿渐口才那么好，能讲不过你嘛，只是让着你罢了，不要太嚣张！基于上述的护主心理，每次看到这对“同情人”上演对手戏，我总是期待着鸿渐获胜，不过鸿渐赢得也的确多一些。辛楣那次故意灌醉鸿渐结果还弄巧成拙，想想也是很可笑呀。但是自从他俩双双失恋后，我渐渐发现辛楣不失为一个真诚、豪爽、讲义气的好伙伴，也的确，在之后的日子里，鸿渐可以说是一直在辛楣的荫泽下过活，从三闾大学的副教授，到上海一个小报馆的资料室主任，都是拜辛楣所赐，这一点柔嘉倒没说错。同时，辛楣作为一名年轻知识分子，也和鸿渐一样，对李梅亭这种人无法忍受，比如他和鸿渐躲在被子里听李梅亭和王美玉调情，“两人笑得蒙着头叫痛”，读到这里简直让人忍俊不禁，多有趣的一对小伙伴。&lt;/p&gt;
+
+&lt;p&gt;辛楣还有一点很值得玩味。他看人很准，比如对孙小姐，早早就赋予了她“心机侠”的称号，可惜傻傻的鸿渐一直不信结了婚以后才喊到“你是千方百计地嫁了我”；没错，还有对鸿渐本人也是，“你不讨厌，却毫无用处”，后文鸿渐的心理反应也算变相承认了辛楣的评价。然而，他为什么没有看出苏小姐的本相呢？还是说他本来也就是同道中人罢了。辛楣为人处世的手段比鸿渐高了十万八千丈，他的家世背景好，个人能力也强，在各处都能轻松谋个职位，我只能说这家伙不简单，即便旁敲侧击出他的一些模样，至于真实的辛楣，我无从知晓。他那个年轻的妻子，他和苏小姐依旧亲密的关系，都是谜，想想不免令人不寒而栗。可能残酷的真相就是，在这偌大的人际圈中，咱们的鸿渐依旧只是孤身一人，独自在这浑浊的世间“坚守”着那最后一点操守。&lt;/p&gt;
+
+&lt;h3 id=&quot;下一次读&quot;&gt;下一次读……&lt;/h3&gt;
+
+&lt;p&gt;书不能只读一遍，因为第一遍你总会漏掉很多细节，比如之前我提到的，我肯定因为先入为主滤去了很多关于苏文纨的“坏话”。我想今后我还会再去读《围城》的，不知道那时是否依然会被钱钟书先生妙趣横生的语言所吸引呢，不知道我对书中人物的喜恶与评价会不会变化呢，不知道我是不是依然钟爱着这个自己的化身方鸿渐呢。&lt;/p&gt;
+
+&lt;h3 id=&quot;什么你问我支持哪对cp&quot;&gt;什么？你问我支持哪对CP？&lt;/h3&gt;
+
+&lt;p&gt;当然是赵辛楣和方鸿渐这对了，贴下一段深情表白，逃~&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;辛楣笑他颓丧，说：“你这样经不起打击，一辈子恋爱不会成功。”鸿渐道：“谁像你肯在苏小姐身上花二十年的工夫。”辛楣道：“我这几天来心里也闷，昨天半夜醒来，忽然想苏文纨会不会有时候想到我。”鸿渐想起唐晓芙和自己，心像火焰的舌头突跳起，说：“想到你还是想你？我们一天要想到不知多少人，亲戚、朋友、仇人，以及不相干的见过面的人。真正想一个人，记挂着他，希望跟他接近，这少得很。人事太忙了，不许我们全神贯注，无间断地怀念一个人。我们一生对于最亲爱的人的想念，加起来恐怕不会一点钟，此外不过是念头在他身上瞥过，想到而已。”辛楣笑道：“&lt;strong&gt;我总希望，你将来会分几秒钟给我。告诉你罢，我第一次碰到你以后，倒常常想你，念念不释地恨你，可惜我没有看表，计算时间。&lt;/strong&gt;”鸿渐道：“你看，情敌的彼此想念，比情人的彼此想念还要多——那时候也许苏小姐真在梦见你，所以你会忽然想到她。”辛楣道：“人家哪里有工夫梦见我们这种孤魂野鬼。并且她已经是曹元朗的人了，要梦见我就是对她丈夫不忠实。”鸿渐瞧他的正经样儿，笑得打跌道：“你这位政治家真是独裁的作风！谁做你的太太，做梦也不能自由，你要派特务式作人员去侦察她的潜意识。”&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>zzq</name></author><category term="Reading" /><summary type="html">最近读完了《围城》，还是有一些感触的，寻思着记下来，不然就凭我这记性，恐怕过些时日又要忘记了。不过，丑话说在前头，下面尽是些一家之言了，求同存异，和而不同，理解万岁。</summary></entry><entry xml:lang="en"><title type="html">MIT 18.06SC Linear Algebra Session 1.6 - 1.10</title><link href="/2018/03/29/MIT-Linear-Algebra-P2.html" rel="alternate" type="text/html" title="MIT 18.06SC Linear Algebra Session 1.6 - 1.10" /><published>2018-03-29T00:00:00+00:00</published><updated>2018-03-29T00:00:00+00:00</updated><id>/2018/03/29/MIT-Linear-Algebra-P2</id><content type="html" xml:base="/2018/03/29/MIT-Linear-Algebra-P2.html">&lt;p&gt;The following is my notes of Session 1.6 - 1.0.&lt;/p&gt;
+
+&lt;h2 id=&quot;session-16-transpose-permutation-vector-spaces-mathbbrn&quot;&gt;Session 1.6: Transpose, Permutation, Vector Spaces $\mathbb{R}^n$&lt;/h2&gt;
+
+&lt;h3 id=&quot;permutations&quot;&gt;Permutations&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nothing new here.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;transposes&quot;&gt;Transposes&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(A^\mathrm{T})_{ij} = A_{ji}&lt;/script&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Given any matrix $R$ the product $R^\mathrm{T}R$ is always &lt;em&gt;symmetric&lt;/em&gt;, which means the transpose of a matrix equals itself, because ($R^\mathrm{T}R)^\mathrm{T} = R^\mathrm{T}(R^\mathrm{T})^\mathrm{T} = R^\mathrm{T}R$.&lt;/p&gt;
+
+&lt;h3 id=&quot;vector-spaces&quot;&gt;Vector spaces&lt;/h3&gt;
+
+&lt;h4 id=&quot;closure&quot;&gt;Closure&lt;/h4&gt;
+
+&lt;p&gt;A collection of vectors has to satisfy two conditions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;closed under addition, which means the sum of any two vectors in the collection lies again in the collection,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;closed under multiplication by any real numbers, that is to say that multiplying any vector in the collection by any real number will not give a vector beyond the collection,&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;or, to put it in another way, closed under linear combinations.&lt;/p&gt;
+
+&lt;p&gt;s.t. we call the collection a &lt;em&gt;vector space&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;subspaces&quot;&gt;Subspaces&lt;/h4&gt;
+
+&lt;p&gt;A vector space that is contained inside of another vector space is called a &lt;em&gt;subspace&lt;/em&gt; of that space. For example,&lt;/p&gt;
+
+&lt;p&gt;the subspaces of $\mathbb{R}^2$ are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;all of $\mathbb{R}^2$,&lt;/li&gt;
+  &lt;li&gt;any line through the zero vector and&lt;/li&gt;
+  &lt;li&gt;the zero vector alone.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Every subspace must contain the zero vector.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;column-space&quot;&gt;Column space&lt;/h4&gt;
+
+&lt;p&gt;Given a matrix $A$, all the linear combinations of the columns of $A$ form a subspace. This is the &lt;em&gt;column space&lt;/em&gt; $C(A)$.&lt;/p&gt;
+
+&lt;p&gt;For example, if $A = \begin{bmatrix}1 &amp;amp; 3 \ 2 &amp;amp; 3 \ 4 &amp;amp; 1\end{bmatrix}$, the column space of $A$ is the plane through the origin in $\mathbb{R}^3$ containing $\begin{bmatrix}1 \ 2 \ 4\end{bmatrix}$ and $\begin{bmatrix}3 \ 3 \ 1\end{bmatrix}$.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-17-column-space-and-nullspace&quot;&gt;Session 1.7: Column Space and Nullspace&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A typo in both &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace/MIT18_06SCF11_Ses1.6prob.pdf&quot;&gt;Problems (PDF)&lt;/a&gt; and &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace/MIT18_06SCF11_Ses1.6sol.pdf&quot;&gt;Solutions (PDF)&lt;/a&gt; of this session:&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;Problem 6.2: $x - 3y - x = 0$ should be $x -3y - z = 0$.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;review-of-subspaces&quot;&gt;Review of subspaces&lt;/h3&gt;
+
+&lt;p&gt;The union of two subspaces is generally not a subspace, but the intersection of two subspaces is a subspace.&lt;/p&gt;
+
+&lt;h3 id=&quot;column-space-of-a-and-solving-aboldsymbolx--boldsymbolb&quot;&gt;Column space of $A$ and solving $A\boldsymbol{x} = \boldsymbol{b}$&lt;/h3&gt;
+
+&lt;p&gt;Given a matrix $A$, the system of linear equations $A\boldsymbol{x} = \boldsymbol{b}$ is solvable exactly when $\boldsymbol{b}$ is a vector in the &lt;em&gt;column space&lt;/em&gt; of $A$.&lt;/p&gt;
+
+&lt;h3 id=&quot;nullspace-of-a&quot;&gt;Nullspace of $A$&lt;/h3&gt;
+
+&lt;p&gt;The &lt;em&gt;nullspace&lt;/em&gt; of a matrix $A$ is the collection $x$ to the equation $A\boldsymbol{x} = \boldsymbol{0}$.&lt;/p&gt;
+
+&lt;p&gt;For example,
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{bmatrix}1 &amp; 1 &amp; 2 \\ 2 &amp; 1 &amp; 3 \\ 3 &amp; 1 &amp; 4 \\ 4 &amp; 1 &amp; 5\end{bmatrix}\begin{bmatrix}x_1 \\ x_2 \\ x_3\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}, %]]&gt;&lt;/script&gt;
+the nullspace $N(A)$ consists of all multiples of $\begin{bmatrix}1 \ 1 \ -1\end{bmatrix}$. This nullspace is a line in $\mathbb{R}^3$.&lt;/p&gt;
+
+&lt;p&gt;Attention, a nullspace is a vector space because it obviously satisfies the requirements about addition and scale multiplication. That is to say that any sum or multiple of solutions of $A\boldsymbol{x} = \boldsymbol{0}$ is also a solution: $A(\boldsymbol{x}_1 + \boldsymbol{x}_2) = \boldsymbol{0} + \boldsymbol{0} = \boldsymbol{0}$ and $A(c\boldsymbol{x}) = cA\boldsymbol{x} = c\boldsymbol{0} = \boldsymbol{0}$.&lt;/p&gt;
+
+&lt;h4 id=&quot;other-values-of-boldsymbolb&quot;&gt;Other values of $\boldsymbol{b}$&lt;/h4&gt;
+
+&lt;p&gt;The solutions to the equation:
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{bmatrix}1 &amp; 1 &amp; 2 \\ 2 &amp; 1 &amp; 3 \\ 3 &amp; 1 &amp; 4 \\ 4 &amp; 1 &amp; 5\end{bmatrix}\begin{bmatrix}x_1 \\ x_2 \\ x_3\end{bmatrix} = \begin{bmatrix}1 \\ 2 \\ 3 \\ 4\end{bmatrix}, %]]&gt;&lt;/script&gt;
+do not form a subspace. This conclusion is obvious since the zero vector is not a solution to the equation. Actually, the set of solutions forms a line in $\mathbb{R}^3$ that pass through the points $\begin{bmatrix}1 \ 0 \ 0\end{bmatrix}$ and $\begin{bmatrix}0 \ -1 \ 1\end{bmatrix}$, but not $\begin{bmatrix}0 \ 0 \ 0\end{bmatrix}$.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-18--solving-aboldsymbolx--boldsymbol0-pivot-variables-special-solutions&quot;&gt;Session 1.8:  Solving $A\boldsymbol{x} = \boldsymbol{0}$: Pivot Variables, Special Solutions&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A typo in &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-0-pivot-variables-special-solutions/MIT18_06SCF11_Ses1.7sol.pdf&quot;&gt;Solutions (PDF)&lt;/a&gt; of this session:&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;Problem 7.1: $- 23/4$ in rref of $A$ should be $23/4$, and $23/4$ in the solution $\boldsymbol{x}$ should be $-23/4$.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;computing-the-nullspace&quot;&gt;Computing the nullspace&lt;/h3&gt;
+
+&lt;p&gt;Just like the way we eliminate the invertible square matrix, we can do the same thing for any matrix $A$.&lt;/p&gt;
+
+&lt;p&gt;Suppose:
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+A = \begin{bmatrix}
+1 &amp; 2 &amp; 2 &amp; 2 \\
+2 &amp; 4 &amp; 6 &amp; 8\\
+3 &amp; 6 &amp; 8 &amp; 10
+\end{bmatrix}. %]]&gt;&lt;/script&gt;
+The elimination gives us:
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+A = \begin{bmatrix}
+1 &amp; 2 &amp; 2 &amp; 2 \\
+2 &amp; 4 &amp; 6 &amp; 8 \\
+3 &amp; 6 &amp; 8 &amp; 10
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; 2 &amp; 2 &amp; 2 \\
+0 &amp; 0 &amp; 2 &amp; 4 \\
+0 &amp; 0 &amp; 2 &amp; 4
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; 2 &amp; 2 &amp; 2 \\
+0 &amp; 0 &amp; 2 &amp; 4 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{bmatrix}
+= U %]]&gt;&lt;/script&gt;
+We call U in &lt;em&gt;echelon&lt;/em&gt; form. The &lt;em&gt;rank&lt;/em&gt; of a matrix $A$ is the number of pivots it has. In this example, the rank of $A$ is $2$.&lt;/p&gt;
+
+&lt;h3 id=&quot;special-solutions&quot;&gt;Special solutions&lt;/h3&gt;
+
+&lt;p&gt;We can use back-substitution to find the solution $\boldsymbol{x}$ to the equation $U\boldsymbol{x} = \boldsymbol{0}$. In the example, column 1 and 3 are &lt;em&gt;pivot columns&lt;/em&gt;, column 2 and 4 are &lt;em&gt;free columns&lt;/em&gt;. We can assign any value to $x_2$ and $x_4$; we call them &lt;em&gt;free variables&lt;/em&gt;. Yes, $x_1$ and $x_3$ are &lt;em&gt;pivot variables&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Suppose $x_2 = 1$ and $x_4 = 0$, then: $x_3 = 0$ and $x_1 = -2$. So that gives us one solution $\boldsymbol{x} = \begin{bmatrix}-2 \ 1 \ 0 \ 0\end{bmatrix}$. Similarly, if $x_2 = 0$ and $x_4 = 1$, then we’ll get another solution $\boldsymbol{x} = \begin{bmatrix}2 \ 0 \ -2 \ 1\end{bmatrix}$. &lt;strong&gt;The nullspace of $A$ is the collection of all linear combinations of these “special solution” vectors.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A fact we should note is that the &lt;em&gt;rank&lt;/em&gt; of $A$ equals the number of pivot columns, so the number of free columns is the number of columns minus the number of pivot columns, which is also the number of special solution vectors and the dimension of the nullspace.&lt;/p&gt;
+
+&lt;h3 id=&quot;reduced-row-echelon-form&quot;&gt;Reduced row echelon form&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Reduced row echelon form&lt;/em&gt; (rref form) means pivots equal to 1 and zeros above and below the pivots. Eliminating U gives us a rref form matrix $R$:
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+U = \begin{bmatrix}
+1 &amp; 2 &amp; 2 &amp; 2 \\
+0 &amp; 0 &amp; 2 &amp; 4 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; 2 &amp; 0 &amp; -2 \\
+0 &amp; 0 &amp; 2 &amp; 4 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; 2 &amp; 0 &amp; -2 \\
+0 &amp; 0 &amp; 1 &amp; 2 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{bmatrix}
+= R. %]]&gt;&lt;/script&gt;
+Generally, $R$ can be rewritten with  a copy of the identity matrix in the upper left corner and some free columns on the right, possibly followed by the lower rows filled with zeros:
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+R = \begin{bmatrix}
+I &amp; F \\
+\boldsymbol{0} &amp; \boldsymbol{0}
+\end{bmatrix}. %]]&gt;&lt;/script&gt;
+Here $I$ is an $r \times r$ square matrix and $F$ is an $r \times (n - r)$ matrix.&lt;/p&gt;
+
+&lt;p&gt;And we can find the nullspace matrix $N = \begin{bmatrix}-F \ I\end{bmatrix}$ s.t. $RN = \boldsymbol{0}$. Here $I$ is an $(n - r) \times (n - r)$ square matrix and $F$ is an $r \times (n - r)$ matrix. The columns of $N$ are the special solutions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-19-solving-aboldsymbolx--boldsymbolb-reduced-row-form-r&quot;&gt;Session 1.9: Solving $A\boldsymbol{x} = \boldsymbol{b}$: Reduced Row Form R&lt;/h2&gt;
+
+&lt;h3 id=&quot;solvability-conditions-on-boldsymbolb&quot;&gt;Solvability conditions on $\boldsymbol{b}$&lt;/h3&gt;
+
+&lt;p&gt;We again the example in the example in the previous session:
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+A = \begin{bmatrix}
+1 &amp; 2 &amp; 2 &amp; 2\\
+2 &amp; 4 &amp; 6 &amp; 8\\
+3 &amp; 6 &amp; 8 &amp; 10
+\end{bmatrix}. %]]&gt;&lt;/script&gt;
+Using Gauss-Jordan elimination:
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\left[
+\begin{array}{c|c}
+\begin{matrix}
+1 &amp; 2 &amp; 2 &amp; 2\\
+2 &amp; 4 &amp; 6 &amp; 2\\
+3 &amp; 6 &amp; 8 &amp;10
+\end{matrix}
+&amp;
+\begin{matrix}
+b_1 \\ b_2 \\ b_3
+\end{matrix}
+\end{array}
+\right]
+\rightarrow\cdots\rightarrow
+\left[
+\begin{array}{c|l}
+\begin{matrix}
+1 &amp; 2 &amp; 2 &amp; 2\\
+0 &amp; 0 &amp; 2 &amp; 4 \\
+0 &amp; 0 &amp; 0 &amp; 0
+\end{matrix}
+&amp;
+\begin{array}{l}
+b_1 \\ b_2 - 2b_1 \\ b_3-b_2-b_1
+\end{array}
+\end{array}
+\right]. %]]&gt;&lt;/script&gt;
+In our example, row 3 of $A$ is completely eliminated. So if $A\boldsymbol{x} = \boldsymbol{b}$ has a solution, then $b_3 - b_2 - b_1 = 0$.&lt;/p&gt;
+
+&lt;p&gt;From an earlier lecture, we know that $A\boldsymbol{x} = \boldsymbol{b}$ is solvable exactly when $\boldsymbol{b}$ is in the column space $C(A)$. In fact this condition is equivalent with $b_3 - b_2 - b_1 = 0$ here.&lt;/p&gt;
+
+&lt;h3 id=&quot;computing-solution&quot;&gt;Computing solution&lt;/h3&gt;
+
+&lt;p&gt;The complete solution is a particular solution plus all the vectors in the nullspace. That is $\boldsymbol{x}_{complete} = \boldsymbol{x}_p + \boldsymbol{x}_n$, where $\boldsymbol{x}_p$ is a particular solution and $\boldsymbol{x}_n$ is a generic vector in the nullspace. To see this, we add $A\boldsymbol{x}_p = \boldsymbol{b}$ to $A\boldsymbol{x}_n = 0$ and get $A(\boldsymbol{x}_p + \boldsymbol{x}_n) = \boldsymbol{b}$ for every vector $\boldsymbol{x}_n$ in the nullspace.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-particular-solution&quot;&gt;A particular solution&lt;/h4&gt;
+
+&lt;p&gt;For our matrix $A$, we choose $\boldsymbol{b} = \begin{bmatrix}1 \ 5 \ 6\end{bmatrix}$, then we get a particular solution $\boldsymbol{x} = \begin{bmatrix}-2 \ 0 \ 3/2 \ 0\end{bmatrix}$ when we let all free variables $x_2$ and $x_4$ equal $0$. (We would get another particular solution when assigning different $x_2$ or $x_4$. This will not affect the complete solution.)&lt;/p&gt;
+
+&lt;h4 id=&quot;combined-with-nullspace&quot;&gt;Combined with nullspace&lt;/h4&gt;
+
+&lt;p&gt;From last lecture we learned that the nullspace of $A$ is the collection of all combinations of the special solutions $\begin{bmatrix}-2 \ 1 \ 0 \ 0\end{bmatrix}$ and $\begin{bmatrix}2 \ 0 \ -2 \ 1\end{bmatrix}$. Adding our particular solution to the vectors in the nullspace, we get the complete solution to the equation $A\boldsymbol{x} = \begin{bmatrix}1 \ 5 \6\end{bmatrix}$ is:
+&lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}_{complete} = \begin{bmatrix}-2 \\ 0 \\ 3/2 \\ 0\end{bmatrix} + c_1 \begin{bmatrix}-2 \\ 1 \\ 0 \\ 0\end{bmatrix} + c_2 \begin{bmatrix}-2 \\ 0 \\ -2 \\ 1\end{bmatrix},&lt;/script&gt;
+where $c_1$ and $c_2$ are any real numbers.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A typo in the &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/MIT18_06SCF11_Ses1.8sum.pdf&quot;&gt;lecture summary (PDF)&lt;/a&gt; of this session:&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;$c_1$ is missing here…&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The nullspace is a two dimensional subspace of $\mathbb{R}^4$, and the complete solution form a plane parallel to that through $\boldsymbol{x}_p = \begin{bmatrix}-2 \ 0 \ 3/2 \ 0\end{bmatrix}$.&lt;/p&gt;
+
+&lt;h3 id=&quot;rank&quot;&gt;Rank&lt;/h3&gt;
+
+&lt;p&gt;The rank of a matrix equals the number of pivots of that matrix. If $A$ is an $m$ by $n$ matrix of rank $r$, we know $r \le m$ and $r \le n$. Actually the rank tells us all the information about solutions to the equation $A\boldsymbol{x} = \boldsymbol{b}$.
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{array}{|c|c|c|c|c|}
+\hline
+&amp; r = m = n &amp; r = n &lt; m &amp; r = m &lt; n &amp; r &lt; m, r &lt; n \\
+\hline
+R &amp; I &amp; \begin{bmatrix}I \\ \boldsymbol{0}\end{bmatrix} &amp; \begin{bmatrix}I &amp; F\end{bmatrix} &amp; \begin{bmatrix}I &amp; F \\ \boldsymbol{0} &amp; \boldsymbol{0}\end{bmatrix} \\
+\hline
+\text{Solutions to }A\boldsymbol{x} = \boldsymbol{b} &amp; 1 &amp; 0\text{ or }1 &amp; \infty &amp; 0\text{ or }\infty \\
+\hline
+\end{array} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-110-independence-basis-and-dimension&quot;&gt;Session 1.10: Independence, Basis and dimension&lt;/h2&gt;
+
+&lt;h3 id=&quot;linear-independence&quot;&gt;Linear Independence&lt;/h3&gt;
+
+&lt;p&gt;$\sum_i c_i\boldsymbol{x}_i = \boldsymbol{0}$ only when $c_1, c_2, \dots, c_n$ are all $0$.&lt;/p&gt;
+
+&lt;p&gt;$\Leftrightarrow$ The only solution to $A\boldsymbol{x} = \boldsymbol{0}$ is $\boldsymbol{x} = \boldsymbol{0}$, which means that the nullspace of $A$ contains only the zero vector.&lt;/p&gt;
+
+&lt;p&gt;$\Leftrightarrow$ The rank of $A$ is $n$ so there are no free variables.&lt;/p&gt;
+
+&lt;h3 id=&quot;spanning-a-space&quot;&gt;Spanning a space&lt;/h3&gt;
+
+&lt;p&gt;Vectors $\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_k$ &lt;em&gt;span&lt;/em&gt; a space when the space consists of all combinations of those vectors. The space spanned is also the smallest space containing those vectors.&lt;/p&gt;
+
+&lt;h3 id=&quot;basis-and-dimension&quot;&gt;Basis and dimension&lt;/h3&gt;
+
+&lt;p&gt;A &lt;em&gt;basis&lt;/em&gt; for a vector space is a sequence of vectors $\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d$ with two properties:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d$ are independent;&lt;/li&gt;
+  &lt;li&gt;$\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d$ span the vector space.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The number of vectors in a basis for a vector space is the &lt;em&gt;dimension&lt;/em&gt; of the space. There are exactly $n$ vectors in every basis for $\mathbb{R}^n$.&lt;/p&gt;
+
+&lt;h3 id=&quot;basis-of-a-column-space-and-nullspace&quot;&gt;Basis of a column space and nullspace&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{dimension of }C(A)  = \text{number of pivot columns of }A = \text{rank}(A)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{dimension of }N(A)  = \text{number of free variables of }A = \text{number of columns of }A - \text{rank}(A)&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This work is built upon the materials on &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm&quot;&gt;MIT OCW&lt;/a&gt;.&lt;/p&gt;</content><author><name>zzq</name></author><category term="Open Courses" /><category term="Mathematics" /><category term="Linear Algebra" /><category term="MIT 18.06SC Linear Algebra" /><summary type="html">The following is my notes of Session 1.6 - 1.0.</summary></entry><entry xml:lang="en"><title type="html">MIT 18.06SC Linear Algebra Session 1.1 - 1.5</title><link href="/2018/03/10/MIT-Linear-Algebra-P1.html" rel="alternate" type="text/html" title="MIT 18.06SC Linear Algebra Session 1.1 - 1.5" /><published>2018-03-10T00:00:00+00:00</published><updated>2018-03-10T00:00:00+00:00</updated><id>/2018/03/10/MIT-Linear-Algebra-P1</id><content type="html" xml:base="/2018/03/10/MIT-Linear-Algebra-P1.html">&lt;p&gt;Hmmm… I’m learning &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm&quot;&gt;MIT 18.06SC Linear Algebra&lt;/a&gt; at &lt;a href=&quot;https://ocw.mit.edu/index.htm&quot;&gt;MIT OpenCourseWare&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;OK, here we go!&lt;/p&gt;
+
+&lt;h1 id=&quot;unit-i-aboldsymbolx--boldsymbolb-and-the-four-subspaces&quot;&gt;Unit I: $A\boldsymbol{x} = \boldsymbol{b}$ and the Four Subspaces&lt;/h1&gt;
+
+&lt;h2 id=&quot;session-11-the-geometry-of-linear-equations&quot;&gt;Session 1.1: The Geometry of Linear Equations&lt;/h2&gt;
+
+&lt;p&gt;We have a system of equations:
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\left\{
+\begin{aligned}
+2x - y &amp;= 0 \\
+-x + 2y &amp;= 3
+\end{aligned}
+\right . %]]&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;row-picture&quot;&gt;Row Picture&lt;/h3&gt;
+
+&lt;p&gt;Line $2x - y = 0$ and line $-x + 2y = 0$ intersects at the point $(1, 2)$, so $(1, 2)$ is the solution of the system of equations.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Maybe I should draw a X-Y coordinates here &amp;gt;_&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;column-picture&quot;&gt;Column Picture&lt;/h3&gt;
+
+&lt;p&gt;We rewrite the system of linear equations as a single equation:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;x\begin{bmatrix}2 \\ -1\end{bmatrix} + y\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;We see $x$ and $y$ as scalars of column vectors: $\boldsymbol{v_1} = \begin{bmatrix}2 \ -1\end{bmatrix}$ and $\boldsymbol{v_2} = \begin{bmatrix}-1 \ 2\end{bmatrix}$, and the sum $x\boldsymbol{v_1} + y\boldsymbol{v_2}$ is called a &lt;em&gt;linear combination&lt;/em&gt; of $\boldsymbol{v_1}$ and $\boldsymbol{v_2}$.&lt;/p&gt;
+
+&lt;p&gt;Geometrically, we can find one copy of $\boldsymbol{v_1}$ added to two copies of $\boldsymbol{v_2}$ just equals the vector $\begin{bmatrix}0 \ 3\end{bmatrix}$. Then the solution should be $x = 1, y =2$.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I will add a figure when time is available &amp;gt;_&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;matrix-picture&quot;&gt;Matrix Picture&lt;/h3&gt;
+
+&lt;p&gt;We rewrite the equations in our example as a compact form,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A\boldsymbol{x} = \boldsymbol{b},&lt;/script&gt;
+
+&lt;p&gt;that is&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{bmatrix}2 &amp; -1 \\ -1 &amp; 2\end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;matrix-multiplication&quot;&gt;Matrix Multiplication&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned}
+\begin{bmatrix}2 &amp; -1 \\ -1 &amp; 2\end{bmatrix} \begin{bmatrix}1 \\ 2\end{bmatrix} = 1\begin{bmatrix}2 \\ -1\end{bmatrix} + 2\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}
+\end{aligned} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;A matrix times by a vector is just &lt;strong&gt;a linear combination of the column vectors of the matrix&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-12-an-overview-of-key-ideas&quot;&gt;Session 1.2: An Overview of Key Ideas&lt;/h2&gt;
+
+&lt;h3 id=&quot;vectors&quot;&gt;Vectors&lt;/h3&gt;
+&lt;p&gt;Let us take linear combinations of vectors.&lt;/p&gt;
+
+&lt;h3 id=&quot;matrices&quot;&gt;Matrices&lt;/h3&gt;
+&lt;p&gt;The product of a matrix and a vector is
+a combination of the columns of the matrix.&lt;/p&gt;
+
+&lt;h3 id=&quot;subspaces&quot;&gt;Subspaces&lt;/h3&gt;
+&lt;p&gt;All combinations of column vectors creates a subspace.
+The subspaces of $\mathbb{R}^3$ are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the origin,&lt;/li&gt;
+  &lt;li&gt;a line through the origin,&lt;/li&gt;
+  &lt;li&gt;a plane through the origin,&lt;/li&gt;
+  &lt;li&gt;all of $\mathbb{R}^3$.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A$ is invertible&lt;/p&gt;
+
+    &lt;p&gt;$\Leftrightarrow$ $A\boldsymbol{x} = \boldsymbol{b}$ has the unique solution $\boldsymbol{x}$ for each $\boldsymbol{b}$&lt;/p&gt;
+
+    &lt;p&gt;$\Leftrightarrow$ $A\boldsymbol{x} = \boldsymbol{0}$ has no non-zero solution $\boldsymbol{x}$&lt;/p&gt;
+
+    &lt;p&gt;$\Leftrightarrow$ The columns of $A$ are &lt;em&gt;independent&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;$\Leftrightarrow$ All vectors $A\boldsymbol{x}$ cover the whole vector space&lt;/p&gt;
+
+    &lt;p&gt;Example: $A = \begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \ -1 &amp;amp; 1 &amp;amp; 0 \ 0 &amp;amp; -1 &amp;amp; 1\end{bmatrix}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$A$ is not invertible&lt;/p&gt;
+
+    &lt;p&gt;$\Leftrightarrow$ $A\boldsymbol{x} = \boldsymbol{b}$ has a solution $\boldsymbol{x}$ only for some of $\boldsymbol{b}$ in the vector space&lt;/p&gt;
+
+    &lt;p&gt;$\Leftrightarrow$ $A\boldsymbol{x} = \boldsymbol{0}$ has non-zero solutions $\boldsymbol{x}$&lt;/p&gt;
+
+    &lt;p&gt;$\Leftrightarrow$ The columns of $A$ are &lt;em&gt;dependent&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;$\Leftrightarrow$ All vectors $A\boldsymbol{x}$ lies in only a subspace of the vector space&lt;/p&gt;
+
+    &lt;p&gt;Example: $A = \begin{bmatrix}1 &amp;amp; 0 &amp;amp; -1 \ -1 &amp;amp; 1 &amp;amp; 0 \ 0 &amp;amp; -1 &amp;amp; 1\end{bmatrix}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-13-elimination-with-matrices&quot;&gt;Session 1.3: Elimination with Matrices&lt;/h2&gt;
+
+&lt;h3 id=&quot;method-of-elimination&quot;&gt;Method of Elimination&lt;/h3&gt;
+
+&lt;p&gt;We have an example $A\boldsymbol{x} = \boldsymbol{b}$,&lt;/p&gt;
+
+&lt;p&gt;$A = \begin{bmatrix}1 &amp;amp; 2 &amp;amp; 1 \ 3 &amp;amp; 8 &amp;amp; 1 \ 0 &amp;amp; 4 &amp;amp; 1\end{bmatrix}$ and $\boldsymbol{b} = \begin{bmatrix}2 \ 12 \2\end{bmatrix}$.&lt;/p&gt;
+
+&lt;p&gt;Steps of Elimination:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1: subtract $3$ times row 1 from row 2;&lt;/li&gt;
+  &lt;li&gt;Step 2: subtract $2$ times row 2 from row 3.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+A = \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 3 &amp; 8 &amp; 1 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
+\rightarrow \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 2 &amp; -2 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
+\rightarrow U = \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 1 &amp; -2 \\ 0 &amp; 0 &amp; 5\end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\ 2\end{bmatrix}
+\rightarrow \cdots \rightarrow \begin{bmatrix}2 \\ 6 \\ -10\end{bmatrix}&lt;/script&gt;
+
+&lt;p&gt;Thus, we can easily solve the systems of equations, $\begin{bmatrix}x \ y  \ z\end{bmatrix} = \begin{bmatrix}2 \ 1  \ -2\end{bmatrix}$.&lt;/p&gt;
+
+&lt;h3 id=&quot;elimination-matrices&quot;&gt;Elimination Matrices&lt;/h3&gt;
+
+&lt;p&gt;The product of a matrix (3x3) and a column vector (3x1) is a column vector
+(3x1) that is a linear combination of the columns of the matrix.&lt;/p&gt;
+
+&lt;p&gt;The product of a row vector (1x3) and a matrix (3x3) is a row vector (1x3) that is a linear
+combination of the rows of the matrix.&lt;/p&gt;
+
+&lt;p&gt;For example,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{bmatrix}1 &amp; 0 &amp; 0 \\ -3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
+\begin{bmatrix}1 &amp; 2 &amp; 1 \\ 3 &amp; 8 &amp; 1 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
+= \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 2 &amp; -2 \\ 0 &amp; 4 &amp; 1\end{bmatrix}. %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Multiplying on the left by a permutation matrix exchanges the rows of a matrix, while multiplying on the right exchanges the columns. For example,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+P = \begin{bmatrix}0 &amp; 1 &amp; 0 \\ 1 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}. %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;$P$ is a &lt;em&gt;permutation matrix&lt;/em&gt; and the first and second rows of the matrix $PA$ are the second and first rows of the matrix $A$.&lt;/p&gt;
+
+&lt;p&gt;Note, matrix multiplication is &lt;em&gt;associative&lt;/em&gt; but &lt;em&gt;not commutative&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;inverses&quot;&gt;Inverses&lt;/h3&gt;
+&lt;p&gt;We have a matrix:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+E_{21} = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;which subtracts $3$ times row 1 from row 2. To “&lt;strong&gt;undo&lt;/strong&gt;” this operation we must add $3$ times row 1 to row 2 using the inverse matrix:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+E_{21}^{-1} = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ 3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}. %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;In fact, $E_{21}^{-1}E_{21} = I$.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-14-multiplication-and-inverse-matrices&quot;&gt;Session 1.4: Multiplication and Inverse Matrices&lt;/h2&gt;
+
+&lt;h3 id=&quot;four-and-a-half-ways-we-see-matrix-multiplication&quot;&gt;Four and a half ways we see matrix multiplication&lt;/h3&gt;
+
+&lt;p&gt;We have $AB = C$. $A$ is an $m \times n$ matrix and $B$ is an $n \times p$ matrix, then $C$ is an $m \times p$ matrix. We use $c_{ij}$ to denote the entry in row $i$ and column $j$ of matrix $C$ and the same denotation applies to $a_{ij}$ and $b_{ij}$.&lt;/p&gt;
+
+&lt;h4 id=&quot;row-times-column&quot;&gt;Row times column&lt;/h4&gt;
+
+&lt;p&gt;$c_{ij} = \sum_{k=1}^n a_{ik}b_{kj}$&lt;/p&gt;
+
+&lt;h4 id=&quot;columns&quot;&gt;Columns&lt;/h4&gt;
+
+&lt;p&gt;The product of matrix $A$ and column $j$ of matrix $B$ equals column $j$ of matrix $C$. This tells us that the columns of $C$ are combinations of columns of $A$.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+A
+\begin{bmatrix}
+| &amp; | &amp; | \\
+column 1 &amp; column 2 &amp; column 3 \\
+| &amp; | &amp; |
+\end{bmatrix}
+=\begin{bmatrix}
+| &amp; | &amp; | \\
+A(column 1) &amp; A(column 2) &amp; A(column 3) \\
+| &amp; | &amp; |
+\end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;rows&quot;&gt;Rows&lt;/h4&gt;
+&lt;p&gt;The product of row $i$ of matrix $A$ and matrix $B$ equals row $i$ of matrix $C$. So the rows of $C$ are combinations of rows of $B$.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\left[
+\begin{matrix}
+--- &amp; row 1 &amp; --- \\
+--- &amp; row 2 &amp; --- \\
+--- &amp; row 3 &amp; ---
+\end{matrix}
+\right]
+B
+=\left[
+\begin{matrix}
+--- &amp; (row 1)B &amp; --- \\
+--- &amp; (row 2)B &amp; --- \\
+--- &amp; (row 3)B &amp; ---
+\end{matrix}
+\right] %]]&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;column-times-row&quot;&gt;Column times row&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+AB = \sum_{k=1}{n}
+\begin{bmatrix}a_{1k} \\ \vdots \\ a_{mk}\end{bmatrix}
+\begin{bmatrix}b_{k1} &amp; \cdots &amp; b_{kp}\end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;note: Here I fixed a typo in the &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/MIT18_06SCF11_Ses1.3sum.pdf&quot;&gt;lecture summary (PDf)&lt;/a&gt; of this session: $b_{kp}$ instead of the original $b_{kn}$.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;blocks&quot;&gt;Blocks&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{bmatrix}A_1 &amp; A_2 \\ A_3 &amp; A_4 \end{bmatrix}
+\begin{bmatrix}B_1 &amp; B_2 \\ B_3 &amp; B_4 \end{bmatrix}
+=\begin{bmatrix}
+A_1B_1+A_2B_3 &amp; A_1B_2+A_2B_4 \\
+A_3B_1+A_4B_3 &amp; A_3B_2+A_4B_4
+\end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;inverses-1&quot;&gt;Inverses&lt;/h3&gt;
+
+&lt;p&gt;If $A$ is &lt;em&gt;singular&lt;/em&gt; or &lt;em&gt;not invertible&lt;/em&gt;,&lt;/p&gt;
+
+&lt;p&gt;then A does not have an inverse,&lt;/p&gt;
+
+&lt;p&gt;and we can find some non-zero vector $\boldsymbol{x}$ for which $A\boldsymbol{x} = \boldsymbol{0}$&lt;/p&gt;
+
+&lt;h4 id=&quot;gauss-jordan-elimination&quot;&gt;Gauss-Jordan Elimination&lt;/h4&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+E
+\left[
+\begin{array}{c|c}
+A &amp; I
+\end{array}
+\right]
+=\left[
+\begin{array}{c|c}
+I &amp; E
+\end{array}
+\right] %]]&gt;&lt;/script&gt;
+If $EA = I$, then $E = A^{-1}$.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;session-15-factorization-into-a--lu&quot;&gt;Session 1.5: Factorization into $A = LU$&lt;/h2&gt;
+
+&lt;h3 id=&quot;inverse-of-a-product&quot;&gt;Inverse of a product&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(AB)^{-1} = B^{-1}A^{-1}&lt;/script&gt;
+
+&lt;h3 id=&quot;transpose-of-a-product&quot;&gt;Transpose of a product&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(AB)^{T} = B^{T}A^{T}, \quad (A^{T})^{-1} = (A^{-1})^{T}&lt;/script&gt;
+
+&lt;h3 id=&quot;a--lu&quot;&gt;$A = LU$&lt;/h3&gt;
+
+&lt;p&gt;We can use elimination to convert $A$ into an upper triangular matrix $U$, that is $EA = U$, and further we can also convert this to a factorization $A = LU$ in which $L = E^{-1}$.&lt;/p&gt;
+
+&lt;p&gt;For example, in a three dimensional case, if $E_{32}E_{31}E_{21}A = U$ then $A=E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U = LU$. Suppose $E_{31}$ is the identity matrix and $E_{32}$ and $E_{21}$ are as shown below:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{array}{cccc}
+E_{32} &amp; E_{21} &amp; &amp; E \\
+\begin{bmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; -5 &amp; 1\end{bmatrix}
+&amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -2 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
+&amp; = &amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -2 &amp; 1 &amp; 0 \\ 10 &amp; -5 &amp; 1\end{bmatrix}
+\end{array}. %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Here $L = E^{-1} = E_{21}^{-1}E_{32}^{-1}$:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{array}{cccc}
+E_{21}^{-1} &amp; E_{32}^{-1} &amp; &amp; L \\
+\begin{bmatrix}1 &amp; 0 &amp; 0 \\ \underline{2} &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
+&amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; \underline{5} &amp; 1\end{bmatrix}
+&amp; = &amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ \underline{2} &amp; 1 &amp; 0 \\ 0 &amp; \underline{5} &amp; 1\end{bmatrix}
+\end{array} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Notice the 0 in row three column one of $L$, where $E$ had a $10$. The factorization $A = LU$ is preferable to the statement $EA = U$ because the combination of row subtractions does not have the effect on $L$ that it did on $E$.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If there are no row exchanges, the multipliers from the elimination matrices are copied directly into $L$.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cost-of-elimination&quot;&gt;Cost of elimination&lt;/h3&gt;
+
+&lt;p&gt;If we define a typical operation is to multiply one row and then subtract it from another, then the total number of operations needed to factor $n \times n$ $A$ into $LU$ is on the order of $n^3$:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;1^2 + 2^2 + \cdots + (n - 1)^2 + n^2 = \sum_{i = 1}^{n}i^2 \approx \int_0^n x\,\mathrm{d}x = \frac{1}{3}n^3.&lt;/script&gt;
+
+&lt;p&gt;While we’re factoring $A$ we’re also operating on $\boldsymbol{b}$. That costs about $n^2$ operations, which is hardly worth counting compared to $1/3n^3$.&lt;/p&gt;
+
+&lt;h3 id=&quot;row-exchanges&quot;&gt;Row exchanges&lt;/h3&gt;
+
+&lt;p&gt;The inverse of any permutation matrix $P$ is $P^{-1} = P^{T}$.&lt;/p&gt;
+
+&lt;p&gt;There are $n!$ different ways to permute the rows of an $n \times n$ matrix (including the permutation that leaves all rows unfixed) so there are $n!$ permutation matrices. These matrices form a &lt;em&gt;multiplicative group&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This work is built upon the materials on &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm&quot;&gt;MIT OCW&lt;/a&gt;.&lt;/p&gt;</content><author><name>zzq</name></author><category term="Open Courses" /><category term="Mathematics" /><category term="Linear Algebra" /><category term="MIT 18.06SC Linear Algebra" /><summary type="html">Hmmm… I’m learning MIT 18.06SC Linear Algebra at MIT OpenCourseWare.</summary></entry></feed>

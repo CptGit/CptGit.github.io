@@ -1,0 +1,33 @@
+/* colors definition */
+body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif; min-height: 100%; margin: 0; padding: 0 0 2em 0; }
+
+a:link, a:visited { color: #00bfff; }
+
+a:hover, a:active { color: #ffffff; background-color: #00bfff; }
+
+#banner { color: #ffffff; background-color: #00bfff; border-bottom: 1px solid #000000; }
+
+#banner img { max-width: 1318px; }
+
+#banner h1 { margin: 0; padding: .2em; font-size: 2.2em; font-weight: normal; }
+
+#menu { margin: 10px 0 0 0; }
+
+#menu a.current { background: #00bfff; color: #ffffff; }
+
+#menu ul { list-style-type: none; text-align: center; margin: 0; padding: 0; }
+
+#menu ul li { width: 120px; font-size: 1.4em; display: block; float: left; margin: 1px; }
+
+#menu ul li a { display: block; text-decoration: none; text-transform: uppercase; padding: 3px; }
+
+#menu :after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+@media screen and (max-width: 600px) { #menu ul li { float: none; width: auto; font-size: 1.2em; }
+  #menu :after { display: none; } }
+
+#clear { clear: both; height: 1em; }
+
+#footer { clear: both; position: fixed; left: 0; bottom: 0; height: 2em; width: 100%; border-top: 1px solid #000000; text-align: right; background-color: #00bfff; color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */
