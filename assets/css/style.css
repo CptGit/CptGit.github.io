@@ -31,7 +31,7 @@ body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "He
   #menu :after { display: none; } }
 
 /* Content. */
-#content { margin: 10px 10%; }
+#content { margin: 10px auto; min-width: 25em; max-width: 33em; font-size: 18px; }
 
 /* Blank space between content footer. */
 #clear { clear: both; height: 1em; }
