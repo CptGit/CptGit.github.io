@@ -41,4 +41,11 @@ body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "He
 
 #footer #inner { margin: .2em; text-align: right; color: #ffffff; }
 
+/* Publications list. */
+#publications span { display: block; }
+
+#publications em { font-style: normal; font-weight: bold; }
+
+#publications .title { font-style: italic; }
+
 /*# sourceMappingURL=style.css.map */
