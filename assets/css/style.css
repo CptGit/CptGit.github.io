@@ -1,13 +1,13 @@
 /* colors definition */
 /* Used RGB values Yuri purple: #9528bd deepskyblue: #00bfff */
-body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif; min-height: 100%; margin: 0; padding: 0 0 3.6em 0; }
+body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif; min-height: 100%; margin: 0; padding: 0 0 3.2em 0; }
 
 /* Banner. */
 #banner { color: #ffffff; background-color: #00bfff; border-bottom: 1px solid #00bfff; }
 
 #banner img { max-width: 1318px; }
 
-#banner h1 { margin: 0; padding: .6em .6em; font-size: 2.2em; font-weight: normal; }
+#banner h1 { margin: 0; padding: .2em .4em; font-size: 2.2em; font-weight: normal; }
 
 /* Menu. */
 #menu { margin: 5px 0 0 0; }
@@ -31,15 +31,15 @@ body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "He
   #menu :after { display: none; } }
 
 /* Content. */
-#content { margin: 10px auto; max-width: 33em; font-size: 16px; }
+#content { margin: 10px auto; padding: 0 .6em; max-width: 33em; font-size: 16px; }
 
 /* Blank space between content and footer. */
-#clear { clear: both; height: 1em; }
+#clear { clear: both; height: 1px; }
 
 /* Footer. */
-#footer { clear: both; position: fixed; left: 0; bottom: 0; height: 3.6em; width: 100%; border-top: 1px solid #00bfff; background-color: #00bfff; }
+#footer { clear: both; position: fixed; left: 0; bottom: 0; height: auto; width: 100%; border-top: 1px solid #00bfff; background-color: #00bfff; }
 
-#footer #inner { margin: .6em; text-align: right; color: #ffffff; }
+#footer #inner { margin: .2em .6em; text-align: right; color: #ffffff; }
 
 /* Publications list. */
 #publications span { display: block; }
