@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/authors/zzq.html</loc>
-<lastmod>2020-10-17T04:12:46+00:00</lastmod>
+<lastmod>2020-11-13T04:17:51+00:00</lastmod>
 </url>
 <url>
 <loc>/2018/03/10/MIT-Linear-Algebra-P1.html</loc>
@@ -50,10 +50,14 @@
 </url>
 <url>
 <loc>/dl/papers/BuhseETAL19VeDebug.pdf</loc>
-<lastmod>2020-10-17T04:12:19+00:00</lastmod>
+<lastmod>2020-11-13T04:15:07+00:00</lastmod>
+</url>
+<url>
+<loc>/dl/papers/NieETAL20Deuterium.pdf</loc>
+<lastmod>2020-11-13T04:15:07+00:00</lastmod>
 </url>
 <url>
 <loc>/dl/zhiqiang-zang-cv.pdf</loc>
-<lastmod>2020-10-17T04:12:19+00:00</lastmod>
+<lastmod>2020-11-13T04:15:07+00:00</lastmod>
 </url>
 </urlset>
