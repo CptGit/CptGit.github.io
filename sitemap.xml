@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/authors/zzq.html</loc>
-<lastmod>2020-11-30T06:26:05+00:00</lastmod>
+<lastmod>2020-11-30T06:27:00+00:00</lastmod>
 </url>
 <url>
 <loc>/2018/03/10/MIT-Linear-Algebra-P1.html</loc>
@@ -37,6 +37,10 @@
 <lastmod>2019-10-18T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>/2020/09/03/%E6%A2%81%E6%80%9D%E6%88%90%E6%9E%97%E5%BE%BD%E5%9B%A0.html</loc>
+<lastmod>2020-09-03T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>/blog.html</loc>
 </url>
 <url>
@@ -50,14 +54,14 @@
 </url>
 <url>
 <loc>/dl/papers/BuhseETAL19VeDebug.pdf</loc>
-<lastmod>2020-11-30T06:25:41+00:00</lastmod>
+<lastmod>2020-11-30T06:26:39+00:00</lastmod>
 </url>
 <url>
 <loc>/dl/papers/NieETAL20Deuterium.pdf</loc>
-<lastmod>2020-11-30T06:25:41+00:00</lastmod>
+<lastmod>2020-11-30T06:26:39+00:00</lastmod>
 </url>
 <url>
 <loc>/dl/zhiqiang-zang-cv.pdf</loc>
-<lastmod>2020-11-30T06:25:41+00:00</lastmod>
+<lastmod>2020-11-30T06:26:39+00:00</lastmod>
 </url>
 </urlset>
