@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href=/assets/css/style.css>
     <link rel="shortcut icon" type="image/png" href=/assets/img/favicon.png>
-    <title>Zhiqiang Zang | MIT 18.06SC Linear Algebra Session 1.1 - 1.5</title><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Zhiqiang Zang" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+    <title>Zhiqiang Zang | MIT 18.06SC Linear Algebra Session 1.1 - 1.5</title><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Zhiqiang Zang" /><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>MIT 18.06SC Linear Algebra Session 1.1 - 1.5 | Zhiqiang Zang</title>
-<meta name="generator" content="Jekyll v4.0.0" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="MIT 18.06SC Linear Algebra Session 1.1 - 1.5" />
 <meta name="author" content="zzq" />
 <meta property="og:locale" content="en" />
@@ -16,8 +16,10 @@
 <meta property="og:site_name" content="Zhiqiang Zang" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-03-10T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="MIT 18.06SC Linear Algebra Session 1.1 - 1.5" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"zzq"},"headline":"MIT 18.06SC Linear Algebra Session 1.1 - 1.5","dateModified":"2018-03-10T00:00:00+00:00","description":"Hmmm… I’m learning MIT 18.06SC Linear Algebra at MIT OpenCourseWare.","datePublished":"2018-03-10T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2018/03/10/MIT-Linear-Algebra-P1.html"},"@type":"BlogPosting","url":"/2018/03/10/MIT-Linear-Algebra-P1.html","@context":"https://schema.org"}</script>
+{"headline":"MIT 18.06SC Linear Algebra Session 1.1 - 1.5","dateModified":"2018-03-10T00:00:00+00:00","datePublished":"2018-03-10T00:00:00+00:00","description":"Hmmm… I’m learning MIT 18.06SC Linear Algebra at MIT OpenCourseWare.","author":{"@type":"Person","name":"zzq"},"mainEntityOfPage":{"@type":"WebPage","@id":"/2018/03/10/MIT-Linear-Algebra-P1.html"},"@type":"BlogPosting","url":"/2018/03/10/MIT-Linear-Algebra-P1.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 </head>
   <body><div id="banner">
@@ -65,25 +67,24 @@
 
 <p>OK, here we go!</p>
 
-<h1 id="unit-i-aboldsymbolx--boldsymbolb-and-the-four-subspaces">Unit I: <script type="math/tex">A\boldsymbol{x} = \boldsymbol{b}</script> and the Four Subspaces</h1>
+<h1 id="unit-i-aboldsymbolx--boldsymbolb-and-the-four-subspaces">Unit I: \(A\boldsymbol{x} = \boldsymbol{b}\) and the Four Subspaces</h1>
 
 <h2 id="session-11-the-geometry-of-linear-equations">Session 1.1: The Geometry of Linear Equations</h2>
 
 <p>We have a system of equations:</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\left\{
+\[\left\{
 \begin{aligned}
-2x - y &= 0 \\
--x + 2y &= 3
+2x - y &amp;= 0 \\
+-x + 2y &amp;= 3
 \end{aligned}
-\right . %]]></script>
+\right .\]
 
 <!--more-->
 
 <h3 id="row-picture">Row Picture</h3>
 
-<p>Line <script type="math/tex">2x - y = 0</script> and line <script type="math/tex">-x + 2y = 0</script> intersects at the point <script type="math/tex">(1, 2)</script>, so <script type="math/tex">(1, 2)</script> is the solution of the system of equations.</p>
+<p>Line \(2x - y = 0\) and line \(-x + 2y = 0\) intersects at the point \((1, 2)\), so \((1, 2)\) is the solution of the system of equations.</p>
 
 <blockquote>
   <p>Maybe I should draw a X-Y coordinates here &gt;_&gt;</p>
@@ -93,11 +94,11 @@
 
 <p>We rewrite the system of linear equations as a single equation:</p>
 
-<script type="math/tex; mode=display">x\begin{bmatrix}2 \\ -1\end{bmatrix} + y\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}</script>
+\[x\begin{bmatrix}2 \\ -1\end{bmatrix} + y\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}\]
 
-<p>We see <script type="math/tex">x</script> and <script type="math/tex">y</script> as scalars of column vectors: <script type="math/tex">\boldsymbol{v_1} = \begin{bmatrix}2 \\ -1\end{bmatrix}</script> and <script type="math/tex">\boldsymbol{v_2} = \begin{bmatrix}-1 \\ 2\end{bmatrix}</script>, and the sum <script type="math/tex">x\boldsymbol{v_1} + y\boldsymbol{v_2}</script> is called a <em>linear combination</em> of <script type="math/tex">\boldsymbol{v_1}</script> and <script type="math/tex">\boldsymbol{v_2}</script>.</p>
+<p>We see \(x\) and \(y\) as scalars of column vectors: \(\boldsymbol{v_1} = \begin{bmatrix}2 \\ -1\end{bmatrix}\) and \(\boldsymbol{v_2} = \begin{bmatrix}-1 \\ 2\end{bmatrix}\), and the sum \(x\boldsymbol{v_1} + y\boldsymbol{v_2}\) is called a <em>linear combination</em> of \(\boldsymbol{v_1}\) and \(\boldsymbol{v_2}\).</p>
 
-<p>Geometrically, we can find one copy of <script type="math/tex">\boldsymbol{v_1}</script> added to two copies of <script type="math/tex">\boldsymbol{v_2}</script> just equals the vector <script type="math/tex">\begin{bmatrix}0 \\ 3\end{bmatrix}</script>. Then the solution should be <script type="math/tex">x = 1, y =2</script>.</p>
+<p>Geometrically, we can find one copy of \(\boldsymbol{v_1}\) added to two copies of \(\boldsymbol{v_2}\) just equals the vector \(\begin{bmatrix}0 \\ 3\end{bmatrix}\). Then the solution should be \(x = 1, y =2\).</p>
 
 <blockquote>
   <p>I will add a figure when time is available &gt;_&gt;</p>
@@ -107,19 +108,17 @@
 
 <p>We rewrite the equations in our example as a compact form,</p>
 
-<script type="math/tex; mode=display">A\boldsymbol{x} = \boldsymbol{b},</script>
+\[A\boldsymbol{x} = \boldsymbol{b},\]
 
 <p>that is</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{bmatrix}2 & -1 \\ -1 & 2\end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix} %]]></script>
+\[\begin{bmatrix}2 &amp; -1 \\ -1 &amp; 2\end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}\]
 
 <h3 id="matrix-multiplication">Matrix Multiplication</h3>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{aligned}
-\begin{bmatrix}2 & -1 \\ -1 & 2\end{bmatrix} \begin{bmatrix}1 \\ 2\end{bmatrix} = 1\begin{bmatrix}2 \\ -1\end{bmatrix} + 2\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}
-\end{aligned} %]]></script>
+\[\begin{aligned}
+\begin{bmatrix}2 &amp; -1 \\ -1 &amp; 2\end{bmatrix} \begin{bmatrix}1 \\ 2\end{bmatrix} = 1\begin{bmatrix}2 \\ -1\end{bmatrix} + 2\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}
+\end{aligned}\]
 
 <p>A matrix times by a vector is just <strong>a linear combination of the column vectors of the matrix</strong>.</p>
 
@@ -136,44 +135,42 @@ a combination of the columns of the matrix.</p>
 
 <h3 id="subspaces">Subspaces</h3>
 <p>All combinations of column vectors creates a subspace.
-The subspaces of <script type="math/tex">\mathbb{R}^3</script> are:</p>
+The subspaces of \(\mathbb{R}^3\) are:</p>
 
 <ul>
   <li>the origin,</li>
   <li>a line through the origin,</li>
   <li>a plane through the origin,</li>
-  <li>all of <script type="math/tex">\mathbb{R}^3</script>.</li>
+  <li>all of \(\mathbb{R}^3\).</li>
 </ul>
 
 <h3 id="conclusion">Conclusion</h3>
 <ul>
   <li>
-    <p><script type="math/tex">A</script> is invertible</p>
+    <p>\(A\) is invertible</p>
 
-    <p><script type="math/tex">\Leftrightarrow</script> <script type="math/tex">A\boldsymbol{x} = \boldsymbol{b}</script> has the unique solution <script type="math/tex">\boldsymbol{x}</script> for each <script type="math/tex">\boldsymbol{b}</script></p>
+    <p>\(\Leftrightarrow\) \(A\boldsymbol{x} = \boldsymbol{b}\) has the unique solution \(\boldsymbol{x}\) for each \(\boldsymbol{b}\)</p>
 
-    <p><script type="math/tex">\Leftrightarrow</script> <script type="math/tex">A\boldsymbol{x} = \boldsymbol{0}</script> has no non-zero solution <script type="math/tex">\boldsymbol{x}</script></p>
+    <p>\(\Leftrightarrow\) \(A\boldsymbol{x} = \boldsymbol{0}\) has no non-zero solution \(\boldsymbol{x}\)</p>
 
-    <p><script type="math/tex">\Leftrightarrow</script> The columns of <script type="math/tex">A</script> are <em>independent</em></p>
+    <p>\(\Leftrightarrow\) The columns of \(A\) are <em>independent</em></p>
 
-    <p><script type="math/tex">\Leftrightarrow</script> All vectors <script type="math/tex">A\boldsymbol{x}</script> cover the whole vector space</p>
+    <p>\(\Leftrightarrow\) All vectors \(A\boldsymbol{x}\) cover the whole vector space</p>
 
-    <p>Example: <script type="math/tex">% <![CDATA[
-A = \begin{bmatrix}1 & 0 & 0 \\ -1 & 1 & 0 \\ 0 & -1 & 1\end{bmatrix} %]]></script></p>
+    <p>Example: \(A = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -1 &amp; 1 &amp; 0 \\ 0 &amp; -1 &amp; 1\end{bmatrix}\)</p>
   </li>
   <li>
-    <p><script type="math/tex">A</script> is not invertible</p>
+    <p>\(A\) is not invertible</p>
 
-    <p><script type="math/tex">\Leftrightarrow</script> <script type="math/tex">A\boldsymbol{x} = \boldsymbol{b}</script> has a solution <script type="math/tex">\boldsymbol{x}</script> only for some of <script type="math/tex">\boldsymbol{b}</script> in the vector space</p>
+    <p>\(\Leftrightarrow\) \(A\boldsymbol{x} = \boldsymbol{b}\) has a solution \(\boldsymbol{x}\) only for some of \(\boldsymbol{b}\) in the vector space</p>
 
-    <p><script type="math/tex">\Leftrightarrow</script> <script type="math/tex">A\boldsymbol{x} = \boldsymbol{0}</script> has non-zero solutions <script type="math/tex">\boldsymbol{x}</script></p>
+    <p>\(\Leftrightarrow\) \(A\boldsymbol{x} = \boldsymbol{0}\) has non-zero solutions \(\boldsymbol{x}\)</p>
 
-    <p><script type="math/tex">\Leftrightarrow</script> The columns of <script type="math/tex">A</script> are <em>dependent</em></p>
+    <p>\(\Leftrightarrow\) The columns of \(A\) are <em>dependent</em></p>
 
-    <p><script type="math/tex">\Leftrightarrow</script> All vectors <script type="math/tex">A\boldsymbol{x}</script> lies in only a subspace of the vector space</p>
+    <p>\(\Leftrightarrow\) All vectors \(A\boldsymbol{x}\) lies in only a subspace of the vector space</p>
 
-    <p>Example: <script type="math/tex">% <![CDATA[
-A = \begin{bmatrix}1 & 0 & -1 \\ -1 & 1 & 0 \\ 0 & -1 & 1\end{bmatrix} %]]></script></p>
+    <p>Example: \(A = \begin{bmatrix}1 &amp; 0 &amp; -1 \\ -1 &amp; 1 &amp; 0 \\ 0 &amp; -1 &amp; 1\end{bmatrix}\)</p>
   </li>
 </ul>
 
@@ -183,64 +180,58 @@ A = \begin{bmatrix}1 & 0 & -1 \\ -1 & 1 & 0 \\ 0 & -1 & 1\end{bmatrix} %]]></scr
 
 <h3 id="method-of-elimination">Method of Elimination</h3>
 
-<p>We have an example <script type="math/tex">A\boldsymbol{x} = \boldsymbol{b}</script>,</p>
+<p>We have an example \(A\boldsymbol{x} = \boldsymbol{b}\),</p>
 
-<p><script type="math/tex">% <![CDATA[
-A = \begin{bmatrix}1 & 2 & 1 \\ 3 & 8 & 1 \\ 0 & 4 & 1\end{bmatrix} %]]></script> and <script type="math/tex">\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\2\end{bmatrix}</script>.</p>
+<p>\(A = \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 3 &amp; 8 &amp; 1 \\ 0 &amp; 4 &amp; 1\end{bmatrix}\) and \(\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\2\end{bmatrix}\).</p>
 
 <p>Steps of Elimination:</p>
 
 <ul>
-  <li>Step 1: subtract <script type="math/tex">3</script> times row <script type="math/tex">1</script> from row <script type="math/tex">2</script>;</li>
-  <li>Step 2: subtract <script type="math/tex">2</script> times row <script type="math/tex">2</script> from row <script type="math/tex">3</script>.</li>
+  <li>Step 1: subtract \(3\) times row \(1\) from row \(2\);</li>
+  <li>Step 2: subtract \(2\) times row \(2\) from row \(3\).</li>
 </ul>
 
-<script type="math/tex; mode=display">% <![CDATA[
-A = \begin{bmatrix}1 & 2 & 1 \\ 3 & 8 & 1 \\ 0 & 4 & 1\end{bmatrix}
-\rightarrow \begin{bmatrix}1 & 2 & 1 \\ 0 & 2 & -2 \\ 0 & 4 & 1\end{bmatrix}
-\rightarrow U = \begin{bmatrix}1 & 2 & 1 \\ 0 & 1 & -2 \\ 0 & 0 & 5\end{bmatrix} %]]></script>
+\[A = \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 3 &amp; 8 &amp; 1 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
+\rightarrow \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 2 &amp; -2 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
+\rightarrow U = \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 1 &amp; -2 \\ 0 &amp; 0 &amp; 5\end{bmatrix}\]
 
-<script type="math/tex; mode=display">\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\ 2\end{bmatrix}
-\rightarrow \cdots \rightarrow \begin{bmatrix}2 \\ 6 \\ -10\end{bmatrix}</script>
+\[\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\ 2\end{bmatrix}
+\rightarrow \cdots \rightarrow \begin{bmatrix}2 \\ 6 \\ -10\end{bmatrix}\]
 
-<p>Thus, we can easily solve the systems of equations, <script type="math/tex">\begin{bmatrix}x \\ y  \\ z\end{bmatrix} = \begin{bmatrix}2 \\ 1  \\ -2\end{bmatrix}</script>.</p>
+<p>Thus, we can easily solve the systems of equations, \(\begin{bmatrix}x \\ y  \\ z\end{bmatrix} = \begin{bmatrix}2 \\ 1  \\ -2\end{bmatrix}\).</p>
 
 <h3 id="elimination-matrices">Elimination Matrices</h3>
 
-<p>The product of a matrix (<script type="math/tex">3 \times 3</script>) and a column vector (<script type="math/tex">3 \times 1</script>) is a column vector
-(<script type="math/tex">3 \times 1</script>) that is a linear combination of the columns of the matrix.</p>
+<p>The product of a matrix (\(3 \times 3\)) and a column vector (\(3 \times 1\)) is a column vector
+(\(3 \times 1\)) that is a linear combination of the columns of the matrix.</p>
 
-<p>The product of a row vector (<script type="math/tex">1 \times 3</script>) and a matrix (<script type="math/tex">3 \times 3</script>) is a row vector (<script type="math/tex">1 \times 3</script>) that is a linear
+<p>The product of a row vector (\(1 \times 3\)) and a matrix (\(3 \times 3\)) is a row vector (\(1 \times 3\)) that is a linear
 combination of the rows of the matrix.</p>
 
 <p>For example,</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{bmatrix}1 & 0 & 0 \\ -3 & 1 & 0 \\ 0 & 0 & 1\end{bmatrix}
-\begin{bmatrix}1 & 2 & 1 \\ 3 & 8 & 1 \\ 0 & 4 & 1\end{bmatrix}
-= \begin{bmatrix}1 & 2 & 1 \\ 0 & 2 & -2 \\ 0 & 4 & 1\end{bmatrix}. %]]></script>
+\[\begin{bmatrix}1 &amp; 0 &amp; 0 \\ -3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
+\begin{bmatrix}1 &amp; 2 &amp; 1 \\ 3 &amp; 8 &amp; 1 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
+= \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 2 &amp; -2 \\ 0 &amp; 4 &amp; 1\end{bmatrix}.\]
 
 <p>Multiplying on the left by a permutation matrix exchanges the rows of a matrix, while multiplying on the right exchanges the columns. For example,</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-P = \begin{bmatrix}0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1\end{bmatrix}. %]]></script>
+\[P = \begin{bmatrix}0 &amp; 1 &amp; 0 \\ 1 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}.\]
 
-<p><script type="math/tex">P</script> is a <em>permutation matrix</em> and the first and second rows of the matrix <script type="math/tex">PA</script> are the second and first rows of the matrix <script type="math/tex">A</script>.</p>
+<p>\(P\) is a <em>permutation matrix</em> and the first and second rows of the matrix \(PA\) are the second and first rows of the matrix \(A\).</p>
 
 <p>Note, matrix multiplication is <em>associative</em> but <em>not commutative</em>.</p>
 
 <h3 id="inverses">Inverses</h3>
 <p>We have a matrix:</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-E_{21} = \begin{bmatrix}1 & 0 & 0 \\ -3 & 1 & 0 \\ 0 & 0 & 1\end{bmatrix} %]]></script>
+\[E_{21} = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}\]
 
-<p>which subtracts <script type="math/tex">3</script> times row <script type="math/tex">1</script> from row <script type="math/tex">2</script>. To “<strong>undo</strong>” this operation we must add <script type="math/tex">3</script> times row <script type="math/tex">1</script> to row <script type="math/tex">2</script> using the inverse matrix:</p>
+<p>which subtracts \(3\) times row \(1\) from row \(2\). To “<strong>undo</strong>” this operation we must add \(3\) times row \(1\) to row \(2\) using the inverse matrix:</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-E_{21}^{-1} = \begin{bmatrix}1 & 0 & 0 \\ 3 & 1 & 0 \\ 0 & 0 & 1\end{bmatrix}. %]]></script>
+\[E_{21}^{-1} = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ 3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}.\]
 
-<p>In fact, <script type="math/tex">E_{21}^{-1}E_{21} = I</script>.</p>
+<p>In fact, \(E_{21}^{-1}E_{21} = I\).</p>
 
 <hr />
 
@@ -248,147 +239,140 @@ E_{21}^{-1} = \begin{bmatrix}1 & 0 & 0 \\ 3 & 1 & 0 \\ 0 & 0 & 1\end{bmatrix}. %
 
 <h3 id="four-and-a-half-ways-we-see-matrix-multiplication">Four and a half ways we see matrix multiplication</h3>
 
-<p>We have <script type="math/tex">AB = C</script>. <script type="math/tex">A</script> is an <script type="math/tex">m \times n</script> matrix and <script type="math/tex">B</script> is an <script type="math/tex">n \times p</script> matrix, then <script type="math/tex">C</script> is an <script type="math/tex">m \times p</script> matrix. We use <script type="math/tex">c_{ij}</script> to denote the entry in row <script type="math/tex">i</script> and column <script type="math/tex">j</script> of matrix <script type="math/tex">C</script> and the same denotation applies to <script type="math/tex">a_{ij}</script> and <script type="math/tex">b_{ij}</script>.</p>
+<p>We have \(AB = C\). \(A\) is an \(m \times n\) matrix and \(B\) is an \(n \times p\) matrix, then \(C\) is an \(m \times p\) matrix. We use \(c_{ij}\) to denote the entry in row \(i\) and column \(j\) of matrix \(C\) and the same denotation applies to \(a_{ij}\) and \(b_{ij}\).</p>
 
 <h4 id="row-times-column">Row times column</h4>
 
-<script type="math/tex; mode=display">c_{ij} = \sum_{k=1}^n a_{ik}b_{kj}</script>
+\[c_{ij} = \sum_{k=1}^n a_{ik}b_{kj}\]
 
 <h4 id="columns">Columns</h4>
 
-<p>The product of matrix <script type="math/tex">A</script> and column <script type="math/tex">j</script> of matrix <script type="math/tex">B</script> equals column <script type="math/tex">j</script> of matrix <script type="math/tex">C</script>. This tells us that the columns of <script type="math/tex">C</script> are combinations of columns of <script type="math/tex">A</script>.</p>
+<p>The product of matrix \(A\) and column \(j\) of matrix \(B\) equals column \(j\) of matrix \(C\). This tells us that the columns of \(C\) are combinations of columns of \(A\).</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-A
+\[A
 \begin{bmatrix}
-| & | & | \\
-column 1 & column 2 & column 3 \\
-| & | & |
+| &amp; | &amp; | \\
+column 1 &amp; column 2 &amp; column 3 \\
+| &amp; | &amp; |
 \end{bmatrix}
 =\begin{bmatrix}
-| & | & | \\
-A(column 1) & A(column 2) & A(column 3) \\
-| & | & |
-\end{bmatrix} %]]></script>
+| &amp; | &amp; | \\
+A(column 1) &amp; A(column 2) &amp; A(column 3) \\
+| &amp; | &amp; |
+\end{bmatrix}\]
 
 <h4 id="rows">Rows</h4>
-<p>The product of row <script type="math/tex">i</script> of matrix <script type="math/tex">A</script> and matrix <script type="math/tex">B</script> equals row <script type="math/tex">i</script> of matrix <script type="math/tex">C</script>. So the rows of <script type="math/tex">C</script> are combinations of rows of <script type="math/tex">B</script>.</p>
+<p>The product of row \(i\) of matrix \(A\) and matrix \(B\) equals row \(i\) of matrix \(C\). So the rows of \(C\) are combinations of rows of \(B\).</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\left[
+\[\left[
 \begin{matrix}
---- & row 1 & --- \\
---- & row 2 & --- \\
---- & row 3 & ---
+--- &amp; row 1 &amp; --- \\
+--- &amp; row 2 &amp; --- \\
+--- &amp; row 3 &amp; ---
 \end{matrix}
 \right]
 B
 =\left[
 \begin{matrix}
---- & (row 1)B & --- \\
---- & (row 2)B & --- \\
---- & (row 3)B & ---
+--- &amp; (row 1)B &amp; --- \\
+--- &amp; (row 2)B &amp; --- \\
+--- &amp; (row 3)B &amp; ---
 \end{matrix}
-\right] %]]></script>
+\right]\]
 
 <h4 id="column-times-row">Column times row</h4>
 
-<script type="math/tex; mode=display">% <![CDATA[
-AB = \sum_{k=1}{n}
+\[AB = \sum_{k=1}{n}
 \begin{bmatrix}a_{1k} \\ \vdots \\ a_{mk}\end{bmatrix}
-\begin{bmatrix}b_{k1} & \cdots & b_{kp}\end{bmatrix} %]]></script>
+\begin{bmatrix}b_{k1} &amp; \cdots &amp; b_{kp}\end{bmatrix}\]
 
 <blockquote>
-  <p>note: Here I fixed a typo in the <a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/MIT18_06SCF11_Ses1.3sum.pdf">lecture summary (PDf)</a> of this session: <script type="math/tex">b_{kp}</script> instead of the original <script type="math/tex">b_{kn}</script>.</p>
+  <p>note: Here I fixed a typo in the <a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/MIT18_06SCF11_Ses1.3sum.pdf">lecture summary (PDf)</a> of this session: \(b_{kp}\) instead of the original \(b_{kn}\).</p>
 </blockquote>
 
 <h4 id="blocks">Blocks</h4>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{bmatrix}A_1 & A_2 \\ A_3 & A_4 \end{bmatrix}
-\begin{bmatrix}B_1 & B_2 \\ B_3 & B_4 \end{bmatrix}
+\[\begin{bmatrix}A_1 &amp; A_2 \\ A_3 &amp; A_4 \end{bmatrix}
+\begin{bmatrix}B_1 &amp; B_2 \\ B_3 &amp; B_4 \end{bmatrix}
 =\begin{bmatrix}
-A_1B_1+A_2B_3 & A_1B_2+A_2B_4 \\
-A_3B_1+A_4B_3 & A_3B_2+A_4B_4
-\end{bmatrix} %]]></script>
+A_1B_1+A_2B_3 &amp; A_1B_2+A_2B_4 \\
+A_3B_1+A_4B_3 &amp; A_3B_2+A_4B_4
+\end{bmatrix}\]
 
 <h3 id="inverses-1">Inverses</h3>
 
-<p>If <script type="math/tex">A</script> is <em>singular</em> or <em>not invertible</em>,</p>
+<p>If \(A\) is <em>singular</em> or <em>not invertible</em>,</p>
 
 <p>then A does not have an inverse,</p>
 
-<p>and we can find some non-zero vector <script type="math/tex">\boldsymbol{x}</script> for which <script type="math/tex">A\boldsymbol{x} = \boldsymbol{0}</script></p>
+<p>and we can find some non-zero vector \(\boldsymbol{x}\) for which \(A\boldsymbol{x} = \boldsymbol{0}\)</p>
 
 <h4 id="gauss-jordan-elimination">Gauss-Jordan Elimination</h4>
 
-<p><script type="math/tex">% <![CDATA[
-E
+<p>\(E
 \left[
 \begin{array}{c|c}
-A & I
+A &amp; I
 \end{array}
 \right]
 =\left[
 \begin{array}{c|c}
-I & E
+I &amp; E
 \end{array}
-\right] %]]></script>
-If <script type="math/tex">EA = I</script>, then <script type="math/tex">E = A^{-1}</script>.</p>
+\right]\)
+If \(EA = I\), then \(E = A^{-1}\).</p>
 
 <hr />
 
-<h2 id="session-15-factorization-into-a--lu">Session 1.5: Factorization into <script type="math/tex">A = LU</script></h2>
+<h2 id="session-15-factorization-into-a--lu">Session 1.5: Factorization into \(A = LU\)</h2>
 
 <h3 id="inverse-of-a-product">Inverse of a product</h3>
 
-<script type="math/tex; mode=display">(AB)^{-1} = B^{-1}A^{-1}</script>
+\[(AB)^{-1} = B^{-1}A^{-1}\]
 
 <h3 id="transpose-of-a-product">Transpose of a product</h3>
 
-<script type="math/tex; mode=display">(AB)^{T} = B^{T}A^{T}, \quad (A^{T})^{-1} = (A^{-1})^{T}</script>
+\[(AB)^{T} = B^{T}A^{T}, \quad (A^{T})^{-1} = (A^{-1})^{T}\]
 
-<h3 id="a--lu"><script type="math/tex">A = LU</script></h3>
+<h3 id="a--lu">\(A = LU\)</h3>
 
-<p>We can use elimination to convert <script type="math/tex">A</script> into an upper triangular matrix <script type="math/tex">U</script>, that is <script type="math/tex">EA = U</script>, and further we can also convert this to a factorization <script type="math/tex">A = LU</script> in which <script type="math/tex">L = E^{-1}</script>.</p>
+<p>We can use elimination to convert \(A\) into an upper triangular matrix \(U\), that is \(EA = U\), and further we can also convert this to a factorization \(A = LU\) in which \(L = E^{-1}\).</p>
 
-<p>For example, in a three dimensional case, if <script type="math/tex">E_{32}E_{31}E_{21}A = U</script> then <script type="math/tex">A=E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U = LU</script>. Suppose <script type="math/tex">E_{31}</script> is the identity matrix and <script type="math/tex">E_{32}</script> and <script type="math/tex">E_{21}</script> are as shown below:</p>
+<p>For example, in a three dimensional case, if \(E_{32}E_{31}E_{21}A = U\) then \(A=E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U = LU\). Suppose \(E_{31}\) is the identity matrix and \(E_{32}\) and \(E_{21}\) are as shown below:</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{array}{cccc}
-E_{32} & E_{21} & & E \\
-\begin{bmatrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & -5 & 1\end{bmatrix}
-& \begin{bmatrix}1 & 0 & 0 \\ -2 & 1 & 0 \\ 0 & 0 & 1\end{bmatrix}
-& = & \begin{bmatrix}1 & 0 & 0 \\ -2 & 1 & 0 \\ 10 & -5 & 1\end{bmatrix}
-\end{array}. %]]></script>
+\[\begin{array}{cccc}
+E_{32} &amp; E_{21} &amp; &amp; E \\
+\begin{bmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; -5 &amp; 1\end{bmatrix}
+&amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -2 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
+&amp; = &amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -2 &amp; 1 &amp; 0 \\ 10 &amp; -5 &amp; 1\end{bmatrix}
+\end{array}.\]
 
-<p>Here <script type="math/tex">L = E^{-1} = E_{21}^{-1}E_{32}^{-1}</script>:</p>
+<p>Here \(L = E^{-1} = E_{21}^{-1}E_{32}^{-1}\):</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{array}{cccc}
-E_{21}^{-1} & E_{32}^{-1} & & L \\
-\begin{bmatrix}1 & 0 & 0 \\ \underline{2} & 1 & 0 \\ 0 & 0 & 1\end{bmatrix}
-& \begin{bmatrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & \underline{5} & 1\end{bmatrix}
-& = & \begin{bmatrix}1 & 0 & 0 \\ \underline{2} & 1 & 0 \\ 0 & \underline{5} & 1\end{bmatrix}
-\end{array} %]]></script>
+\[\begin{array}{cccc}
+E_{21}^{-1} &amp; E_{32}^{-1} &amp; &amp; L \\
+\begin{bmatrix}1 &amp; 0 &amp; 0 \\ \underline{2} &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
+&amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; \underline{5} &amp; 1\end{bmatrix}
+&amp; = &amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ \underline{2} &amp; 1 &amp; 0 \\ 0 &amp; \underline{5} &amp; 1\end{bmatrix}
+\end{array}\]
 
-<p>Notice the <script type="math/tex">0</script> in row three column one of <script type="math/tex">L</script>, where <script type="math/tex">E</script> had a <script type="math/tex">10</script>. The factorization <script type="math/tex">A = LU</script> is preferable to the statement <script type="math/tex">EA = U</script> because the combination of row subtractions does not have the effect on <script type="math/tex">L</script> that it did on <script type="math/tex">E</script>.</p>
+<p>Notice the \(0\) in row three column one of \(L\), where \(E\) had a \(10\). The factorization \(A = LU\) is preferable to the statement \(EA = U\) because the combination of row subtractions does not have the effect on \(L\) that it did on \(E\).</p>
 
-<p><strong>If there are no row exchanges, the multipliers from the elimination matrices are copied directly into <script type="math/tex">L</script>.</strong></p>
+<p><strong>If there are no row exchanges, the multipliers from the elimination matrices are copied directly into \(L\).</strong></p>
 
 <h3 id="cost-of-elimination">Cost of elimination</h3>
 
-<p>If we define a typical operation is to multiply one row and then subtract it from another, then the total number of operations needed to factor <script type="math/tex">n \times n</script> <script type="math/tex">A</script> into <script type="math/tex">LU</script> is on the order of <script type="math/tex">n^3</script>:</p>
+<p>If we define a typical operation is to multiply one row and then subtract it from another, then the total number of operations needed to factor \(n \times n\) \(A\) into \(LU\) is on the order of \(n^3\):</p>
 
-<script type="math/tex; mode=display">1^2 + 2^2 + \cdots + (n - 1)^2 + n^2 = \sum_{i = 1}^{n}i^2 \approx \int_0^n x\,\mathrm{d}x = \frac{1}{3}n^3.</script>
+\[1^2 + 2^2 + \cdots + (n - 1)^2 + n^2 = \sum_{i = 1}^{n}i^2 \approx \int_0^n x\,\mathrm{d}x = \frac{1}{3}n^3.\]
 
-<p>While we’re factoring <script type="math/tex">A</script> we’re also operating on <script type="math/tex">\boldsymbol{b}</script>. That costs about <script type="math/tex">n^2</script> operations, which is hardly worth counting compared to <script type="math/tex">1/3n^3</script>.</p>
+<p>While we’re factoring \(A\) we’re also operating on \(\boldsymbol{b}\). That costs about \(n^2\) operations, which is hardly worth counting compared to \(1/3n^3\).</p>
 
 <h3 id="row-exchanges">Row exchanges</h3>
 
-<p>The inverse of any permutation matrix <script type="math/tex">P</script> is <script type="math/tex">P^{-1} = P^{T}</script>.</p>
+<p>The inverse of any permutation matrix \(P\) is \(P^{-1} = P^{T}\).</p>
 
-<p>There are <script type="math/tex">n!</script> different ways to permute the rows of an <script type="math/tex">n \times n</script> matrix (including the permutation that leaves all rows unfixed) so there are <script type="math/tex">n!</script> permutation matrices. These matrices form a <em>multiplicative group</em>.</p>
+<p>There are \(n!\) different ways to permute the rows of an \(n \times n\) matrix (including the permutation that leaves all rows unfixed) so there are \(n!\) permutation matrices. These matrices form a <em>multiplicative group</em>.</p>
 
 <hr />
 

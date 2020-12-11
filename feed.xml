@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-11-30T17:22:18+00:00</updated><id>/feed.xml</id><title type="html">Zhiqiang Zang</title><entry xml:lang="zh-cn"><title type="html">梁思成林徽因</title><link href="/2020/09/03/%E6%A2%81%E6%80%9D%E6%88%90%E6%9E%97%E5%BE%BD%E5%9B%A0.html" rel="alternate" type="text/html" title="梁思成林徽因" /><published>2020-09-03T00:00:00+00:00</published><updated>2020-09-03T00:00:00+00:00</updated><id>/2020/09/03/%E6%A2%81%E6%80%9D%E6%88%90%E6%9E%97%E5%BE%BD%E5%9B%A0</id><content type="html" xml:base="/2020/09/03/%E6%A2%81%E6%80%9D%E6%88%90%E6%9E%97%E5%BE%BD%E5%9B%A0.html">&lt;p&gt;&lt;em&gt;九月三日雨，既阅梁林，怆然而涕下。无以系怀，故作此篇。&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-11T00:14:30+00:00</updated><id>/feed.xml</id><title type="html">Zhiqiang Zang</title><entry xml:lang="zh-cn"><title type="html">梁思成林徽因</title><link href="/2020/09/03/%E6%A2%81%E6%80%9D%E6%88%90%E6%9E%97%E5%BE%BD%E5%9B%A0.html" rel="alternate" type="text/html" title="梁思成林徽因" /><published>2020-09-03T00:00:00+00:00</published><updated>2020-09-03T00:00:00+00:00</updated><id>/2020/09/03/%E6%A2%81%E6%80%9D%E6%88%90%E6%9E%97%E5%BE%BD%E5%9B%A0</id><content type="html" xml:base="/2020/09/03/%E6%A2%81%E6%80%9D%E6%88%90%E6%9E%97%E5%BE%BD%E5%9B%A0.html">&lt;p&gt;&lt;em&gt;九月三日雨，既阅梁林，怆然而涕下。无以系怀，故作此篇。&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;我不知该说什么好，也不知从何说起。感谢胡劲草编导能将梁林两位先生跌宕起伏的人生带到我的面前，而且是以这样一种生动又立体的形式。虽然在整整八集里，我能看到的只有照片和信件，能听到的只有后人的回忆，但这对学者伉俪的形象在我的脑海里却愈发清晰，也愈发高大。他们的一生，也正是那段波澜壮阔的近代史的一个缩影，看他们如何在激荡的岁月里闪耀人格的光芒，这才引发更多的思考，也带来无尽的感伤。&lt;/p&gt;
 
@@ -106,22 +106,22 @@
 
 &lt;p&gt;&lt;em&gt;本来是打算认真打磨一篇观后感的，没想到一拖再拖，写下这段话的时候已经是11月29日了。时隔近半年，此时的我已经无法再找回当晚的那种情感。这次的经历给了我一个教训，创作是不能拖的，灵感或者说情感的保质期往往很短。&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;强扭的瓜它也不甜不是吗？既然如此，我就稍加整理了一下九月份留存下来的一些笔记，主要是一些引用，陈列在这里，也不做刻意的展开与归纳了。（也许这就是传说中的“散”文？）但愿在不久后的将来我会有兴致再来回访梁林的故事，将这座“烂尾楼”竣工吧。&lt;/em&gt;&lt;/p&gt;</content><author><name>zzq</name></author><category term="Reading" /><summary type="html">九月三日雨，既阅梁林，怆然而涕下。无以系怀，故作此篇。</summary></entry><entry xml:lang="en"><title type="html">Kramdown Uses Double Dollar Signs Even In Inline Math Mode</title><link href="/2019/10/18/kramdown-uses-double-dollar-signs-even-in-inline-math-mode.html" rel="alternate" type="text/html" title="Kramdown Uses Double Dollar Signs Even In Inline Math Mode" /><published>2019-10-18T00:00:00+00:00</published><updated>2019-10-18T00:00:00+00:00</updated><id>/2019/10/18/kramdown-uses-double-dollar-signs-even-in-inline-math-mode</id><content type="html" xml:base="/2019/10/18/kramdown-uses-double-dollar-signs-even-in-inline-math-mode.html">&lt;p&gt;Kramdown uses double &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt; even for inline math mode. If you want a
+&lt;p&gt;&lt;em&gt;强扭的瓜它也不甜不是吗？既然如此，我就稍加整理了一下九月份留存下来的一些笔记，主要是一些引用，陈列在这里，也不做刻意的展开与归纳了。（也许这就是传说中的“散”文？）但愿在不久后的将来我会有兴致再来回访梁林的故事，将这座“烂尾楼”竣工吧。&lt;/em&gt;&lt;/p&gt;</content><author><name>zzq</name></author><category term="Reading" /><summary type="html">九月三日雨，既阅梁林，怆然而涕下。无以系怀，故作此篇。</summary></entry><entry xml:lang="en"><title type="html">Kramdown Uses Double Dollar Signs Even In Inline Math Mode</title><link href="/2019/10/18/kramdown-uses-double-dollar-signs-even-in-inline-math-mode.html" rel="alternate" type="text/html" title="Kramdown Uses Double Dollar Signs Even In Inline Math Mode" /><published>2019-10-18T00:00:00+00:00</published><updated>2019-10-18T00:00:00+00:00</updated><id>/2019/10/18/kramdown-uses-double-dollar-signs-even-in-inline-math-mode</id><content type="html" xml:base="/2019/10/18/kramdown-uses-double-dollar-signs-even-in-inline-math-mode.html">&lt;p&gt;Kramdown uses double &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&lt;/code&gt; even for inline math mode. If you want a
 displayed mode, please surround your math block with blank lines.&lt;/p&gt;
 
 &lt;p&gt;See &lt;a href=&quot;https://kramdown.gettalong.org/syntax.html#math-blocks&quot;&gt;https://kramdown.gettalong.org/syntax.html#math-blocks&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;See &lt;a href=&quot;https://github.com/gettalong/kramdown/issues/627&quot;&gt;https://github.com/gettalong/kramdown/issues/627&lt;/a&gt;&lt;/p&gt;</content><author><name>zzq</name></author><summary type="html">Kramdown uses double $ even for inline math mode. If you want a displayed mode, please surround your math block with blank lines.</summary></entry><entry xml:lang="en"><title type="html">Jekyll Markdownify Generates Unexpected P Tag</title><link href="/2019/08/13/jekyll-markdownify-generates-unexpected-p-tag.html" rel="alternate" type="text/html" title="Jekyll Markdownify Generates Unexpected P Tag" /><published>2019-08-13T00:00:00+00:00</published><updated>2019-08-13T00:00:00+00:00</updated><id>/2019/08/13/jekyll-markdownify-generates-unexpected-p-tag</id><content type="html" xml:base="/2019/08/13/jekyll-markdownify-generates-unexpected-p-tag.html">&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
-&lt;p&gt;Jekyll’s markdownify filter generates unexpected &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; tag, e.g.,&lt;/p&gt;
+&lt;p&gt;Jekyll’s markdownify filter generates unexpected &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; tag, e.g.,&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign text = &quot;hello&quot; %}
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign text = &quot;hello&quot; %}
 {{ text | markdownify }}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;We expect to see &lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt; but jekyll ends with &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;hello&amp;lt;/p&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We expect to see &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hello&lt;/code&gt; but jekyll ends with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;hello&amp;lt;/p&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;brutal-solution&quot;&gt;Brutal Solution&lt;/h3&gt;
-&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ text | markdownify | remove: '&amp;lt;p&amp;gt;' | remove: '&amp;lt;/p&amp;gt;' }}&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{ text | markdownify | remove: '&amp;lt;p&amp;gt;' | remove: '&amp;lt;/p&amp;gt;' }}&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;helpful-links&quot;&gt;Helpful Links&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/3571&quot;&gt;https://github.com/jekyll/jekyll/issues/3571&lt;/a&gt;&lt;/p&gt;</content><author><name>zzq</name></author><summary type="html">Problem Jekyll’s markdownify filter generates unexpected &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; tag, e.g., {% assign text = &quot;hello&quot; %} {{ text | markdownify }} We expect to see hello but jekyll ends with &amp;lt;p&amp;gt;hello&amp;lt;/p&amp;gt;.</summary></entry><entry xml:lang="zh-cn"><title type="html">Zip的编码问题</title><link href="/2019/08/05/zip%E7%9A%84%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98.html" rel="alternate" type="text/html" title="Zip的编码问题" /><published>2019-08-05T00:00:00+00:00</published><updated>2019-08-05T00:00:00+00:00</updated><id>/2019/08/05/zip%E7%9A%84%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98</id><content type="html" xml:base="/2019/08/05/zip%E7%9A%84%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98.html">&lt;p&gt;昨天整理MO资源包的时候，突然发现zip包里的文件名编码好像有点问题。我先是用7-zip在Win10中文区域配置下打包出了一个zip，然后当我把Win10的“非Unicode程序的语言”调成英文时，zip解压出的文件中原来的中文文件名会以乱码显示。我想，八成又是编码问题，不知道是哪里又没有用UTF-8。&lt;/p&gt;
@@ -245,7 +245,7 @@ displayed mode, please surround your math block with blank lines.&lt;/p&gt;
   &lt;p&gt;辛楣笑他颓丧，说：“你这样经不起打击，一辈子恋爱不会成功。”鸿渐道：“谁像你肯在苏小姐身上花二十年的工夫。”辛楣道：“我这几天来心里也闷，昨天半夜醒来，忽然想苏文纨会不会有时候想到我。”鸿渐想起唐晓芙和自己，心像火焰的舌头突跳起，说：“想到你还是想你？我们一天要想到不知多少人，亲戚、朋友、仇人，以及不相干的见过面的人。真正想一个人，记挂着他，希望跟他接近，这少得很。人事太忙了，不许我们全神贯注，无间断地怀念一个人。我们一生对于最亲爱的人的想念，加起来恐怕不会一点钟，此外不过是念头在他身上瞥过，想到而已。”辛楣笑道：“&lt;strong&gt;我总希望，你将来会分几秒钟给我。告诉你罢，我第一次碰到你以后，倒常常想你，念念不释地恨你，可惜我没有看表，计算时间。&lt;/strong&gt;”鸿渐道：“你看，情敌的彼此想念，比情人的彼此想念还要多——那时候也许苏小姐真在梦见你，所以你会忽然想到她。”辛楣道：“人家哪里有工夫梦见我们这种孤魂野鬼。并且她已经是曹元朗的人了，要梦见我就是对她丈夫不忠实。”鸿渐瞧他的正经样儿，笑得打跌道：“你这位政治家真是独裁的作风！谁做你的太太，做梦也不能自由，你要派特务式作人员去侦察她的潜意识。”&lt;/p&gt;
 &lt;/blockquote&gt;</content><author><name>zzq</name></author><category term="Reading" /><summary type="html">最近读完了《围城》，还是有一些感触的，寻思着记下来，不然就凭我这记性，恐怕过些时日又要忘记了。不过，丑话说在前头，下面尽是些一家之言了，求同存异，和而不同，理解万岁。</summary></entry><entry xml:lang="en"><title type="html">MIT 18.06SC Linear Algebra Session 1.6 - 1.10</title><link href="/2018/03/29/MIT-Linear-Algebra-P2.html" rel="alternate" type="text/html" title="MIT 18.06SC Linear Algebra Session 1.6 - 1.10" /><published>2018-03-29T00:00:00+00:00</published><updated>2018-03-29T00:00:00+00:00</updated><id>/2018/03/29/MIT-Linear-Algebra-P2</id><content type="html" xml:base="/2018/03/29/MIT-Linear-Algebra-P2.html">&lt;p&gt;The following is my notes of Session 1.6 - 1.0.&lt;/p&gt;
 
-&lt;h2 id=&quot;session-16-transpose-permutation-vector-spaces-mathbbrn&quot;&gt;Session 1.6: Transpose, Permutation, Vector Spaces &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^n&lt;/script&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;session-16-transpose-permutation-vector-spaces-mathbbrn&quot;&gt;Session 1.6: Transpose, Permutation, Vector Spaces \(\mathbb{R}^n\)&lt;/h2&gt;
 
 &lt;h3 id=&quot;permutations&quot;&gt;Permutations&lt;/h3&gt;
 
@@ -255,11 +255,11 @@ displayed mode, please surround your math block with blank lines.&lt;/p&gt;
 
 &lt;h3 id=&quot;transposes&quot;&gt;Transposes&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(A^\mathrm{T})_{ij} = A_{ji}&lt;/script&gt;
+\[(A^\mathrm{T})_{ij} = A_{ji}\]
 
 &lt;!--more--&gt;
 
-&lt;p&gt;Given any matrix &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; the product &lt;script type=&quot;math/tex&quot;&gt;R^\mathrm{T}R&lt;/script&gt; is always &lt;em&gt;symmetric&lt;/em&gt;, which means the transpose of a matrix equals itself, because (&lt;script type=&quot;math/tex&quot;&gt;R^\mathrm{T}R)^\mathrm{T} = R^\mathrm{T}(R^\mathrm{T})^\mathrm{T} = R^\mathrm{T}R&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Given any matrix \(R\) the product \(R^\mathrm{T}R\) is always &lt;em&gt;symmetric&lt;/em&gt;, which means the transpose of a matrix equals itself, because (\(R^\mathrm{T}R)^\mathrm{T} = R^\mathrm{T}(R^\mathrm{T})^\mathrm{T} = R^\mathrm{T}R\).&lt;/p&gt;
 
 &lt;h3 id=&quot;vector-spaces&quot;&gt;Vector spaces&lt;/h3&gt;
 
@@ -284,10 +284,10 @@ displayed mode, please surround your math block with blank lines.&lt;/p&gt;
 
 &lt;p&gt;A vector space that is contained inside of another vector space is called a &lt;em&gt;subspace&lt;/em&gt; of that space. For example,&lt;/p&gt;
 
-&lt;p&gt;the subspaces of &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^2&lt;/script&gt; are:&lt;/p&gt;
+&lt;p&gt;the subspaces of \(\mathbb{R}^2\) are:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;all of &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^2&lt;/script&gt;,&lt;/li&gt;
+  &lt;li&gt;all of \(\mathbb{R}^2\),&lt;/li&gt;
   &lt;li&gt;any line through the zero vector and&lt;/li&gt;
   &lt;li&gt;the zero vector alone.&lt;/li&gt;
 &lt;/ul&gt;
@@ -296,10 +296,9 @@ displayed mode, please surround your math block with blank lines.&lt;/p&gt;
 
 &lt;h4 id=&quot;column-space&quot;&gt;Column space&lt;/h4&gt;
 
-&lt;p&gt;Given a matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, all the linear combinations of the columns of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; form a subspace. This is the &lt;em&gt;column space&lt;/em&gt; &lt;script type=&quot;math/tex&quot;&gt;C(A)&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Given a matrix \(A\), all the linear combinations of the columns of \(A\) form a subspace. This is the &lt;em&gt;column space&lt;/em&gt; \(C(A)\).&lt;/p&gt;
 
-&lt;p&gt;For example, if &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-A = \begin{bmatrix}1 &amp; 3 \\ 2 &amp; 3 \\ 4 &amp; 1\end{bmatrix} %]]&gt;&lt;/script&gt;, the column space of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is the plane through the origin in &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^3&lt;/script&gt; containing &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}1 \\ 2 \\ 4\end{bmatrix}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}3 \\ 3 \\ 1\end{bmatrix}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;For example, if \(A = \begin{bmatrix}1 &amp;amp; 3 \\ 2 &amp;amp; 3 \\ 4 &amp;amp; 1\end{bmatrix}\), the column space of \(A\) is the plane through the origin in \(\mathbb{R}^3\) containing \(\begin{bmatrix}1 \\ 2 \\ 4\end{bmatrix}\) and \(\begin{bmatrix}3 \\ 3 \\ 1\end{bmatrix}\).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -309,7 +308,7 @@ A = \begin{bmatrix}1 &amp; 3 \\ 2 &amp; 3 \\ 4 &amp; 1\end{bmatrix} %]]&gt;&lt;/
   &lt;p&gt;A typo in both &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace/MIT18_06SCF11_Ses1.6prob.pdf&quot;&gt;Problems (PDF)&lt;/a&gt; and &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace/MIT18_06SCF11_Ses1.6sol.pdf&quot;&gt;Solutions (PDF)&lt;/a&gt; of this session:&lt;/p&gt;
 
   &lt;blockquote&gt;
-    &lt;p&gt;Problem 6.2: &lt;script type=&quot;math/tex&quot;&gt;x - 3y - x = 0&lt;/script&gt; should be &lt;script type=&quot;math/tex&quot;&gt;x -3y - z = 0&lt;/script&gt;.&lt;/p&gt;
+    &lt;p&gt;Problem 6.2: \(x - 3y - x = 0\) should be \(x -3y - z = 0\).&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -317,151 +316,143 @@ A = \begin{bmatrix}1 &amp; 3 \\ 2 &amp; 3 \\ 4 &amp; 1\end{bmatrix} %]]&gt;&lt;/
 
 &lt;p&gt;The union of two subspaces is generally not a subspace, but the intersection of two subspaces is a subspace.&lt;/p&gt;
 
-&lt;h3 id=&quot;column-space-of-a-and-solving-aboldsymbolx--boldsymbolb&quot;&gt;Column space of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; and solving &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;column-space-of-a-and-solving-aboldsymbolx--boldsymbolb&quot;&gt;Column space of \(A\) and solving \(A\boldsymbol{x} = \boldsymbol{b}\)&lt;/h3&gt;
 
-&lt;p&gt;Given a matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, the system of linear equations &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt; is solvable exactly when &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b}&lt;/script&gt; is a vector in the &lt;em&gt;column space&lt;/em&gt; of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Given a matrix \(A\), the system of linear equations \(A\boldsymbol{x} = \boldsymbol{b}\) is solvable exactly when \(\boldsymbol{b}\) is a vector in the &lt;em&gt;column space&lt;/em&gt; of \(A\).&lt;/p&gt;
 
-&lt;h3 id=&quot;nullspace-of-a&quot;&gt;Nullspace of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;nullspace-of-a&quot;&gt;Nullspace of \(A\)&lt;/h3&gt;
 
-&lt;p&gt;The &lt;em&gt;nullspace&lt;/em&gt; of a matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is the collection &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; to the equation &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;nullspace&lt;/em&gt; of a matrix \(A\) is the collection \(x\) to the equation \(A\boldsymbol{x} = \boldsymbol{0}\).&lt;/p&gt;
 
 &lt;p&gt;For example,&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{bmatrix}1 &amp; 1 &amp; 2 \\ 2 &amp; 1 &amp; 3 \\ 3 &amp; 1 &amp; 4 \\ 4 &amp; 1 &amp; 5\end{bmatrix}\begin{bmatrix}x_1 \\ x_2 \\ x_3\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}, %]]&gt;&lt;/script&gt;
+\[\begin{bmatrix}1 &amp;amp; 1 &amp;amp; 2 \\ 2 &amp;amp; 1 &amp;amp; 3 \\ 3 &amp;amp; 1 &amp;amp; 4 \\ 4 &amp;amp; 1 &amp;amp; 5\end{bmatrix}\begin{bmatrix}x_1 \\ x_2 \\ x_3\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix},\]
 
-&lt;p&gt;the nullspace &lt;script type=&quot;math/tex&quot;&gt;N(A)&lt;/script&gt; consists of all multiples of &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}1 \\ 1 \\ -1\end{bmatrix}&lt;/script&gt;. This nullspace is a line in &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^3&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;the nullspace \(N(A)\) consists of all multiples of \(\begin{bmatrix}1 \\ 1 \\ -1\end{bmatrix}\). This nullspace is a line in \(\mathbb{R}^3\).&lt;/p&gt;
 
-&lt;p&gt;Attention, a nullspace is a vector space because it obviously satisfies the requirements about addition and scale multiplication. That is to say that any sum or multiple of solutions of &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt; is also a solution: &lt;script type=&quot;math/tex&quot;&gt;A(\boldsymbol{x}_1 + \boldsymbol{x}_2) = \boldsymbol{0} + \boldsymbol{0} = \boldsymbol{0}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;A(c\boldsymbol{x}) = cA\boldsymbol{x} = c\boldsymbol{0} = \boldsymbol{0}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Attention, a nullspace is a vector space because it obviously satisfies the requirements about addition and scale multiplication. That is to say that any sum or multiple of solutions of \(A\boldsymbol{x} = \boldsymbol{0}\) is also a solution: \(A(\boldsymbol{x}_1 + \boldsymbol{x}_2) = \boldsymbol{0} + \boldsymbol{0} = \boldsymbol{0}\) and \(A(c\boldsymbol{x}) = cA\boldsymbol{x} = c\boldsymbol{0} = \boldsymbol{0}\).&lt;/p&gt;
 
-&lt;h4 id=&quot;other-values-of-boldsymbolb&quot;&gt;Other values of &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b}&lt;/script&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;other-values-of-boldsymbolb&quot;&gt;Other values of \(\boldsymbol{b}\)&lt;/h4&gt;
 
 &lt;p&gt;The solutions to the equation:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{bmatrix}1 &amp; 1 &amp; 2 \\ 2 &amp; 1 &amp; 3 \\ 3 &amp; 1 &amp; 4 \\ 4 &amp; 1 &amp; 5\end{bmatrix}\begin{bmatrix}x_1 \\ x_2 \\ x_3\end{bmatrix} = \begin{bmatrix}1 \\ 2 \\ 3 \\ 4\end{bmatrix}, %]]&gt;&lt;/script&gt;
+\[\begin{bmatrix}1 &amp;amp; 1 &amp;amp; 2 \\ 2 &amp;amp; 1 &amp;amp; 3 \\ 3 &amp;amp; 1 &amp;amp; 4 \\ 4 &amp;amp; 1 &amp;amp; 5\end{bmatrix}\begin{bmatrix}x_1 \\ x_2 \\ x_3\end{bmatrix} = \begin{bmatrix}1 \\ 2 \\ 3 \\ 4\end{bmatrix},\]
 
-&lt;p&gt;do not form a subspace. This conclusion is obvious since the zero vector is not a solution to the equation. Actually, the set of solutions forms a line in &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^3&lt;/script&gt; that pass through the points &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}1 \\ 0 \\ 0\end{bmatrix}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}0 \\ -1 \\ 1\end{bmatrix}&lt;/script&gt;, but not &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}0 \\ 0 \\ 0\end{bmatrix}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;do not form a subspace. This conclusion is obvious since the zero vector is not a solution to the equation. Actually, the set of solutions forms a line in \(\mathbb{R}^3\) that pass through the points \(\begin{bmatrix}1 \\ 0 \\ 0\end{bmatrix}\) and \(\begin{bmatrix}0 \\ -1 \\ 1\end{bmatrix}\), but not \(\begin{bmatrix}0 \\ 0 \\ 0\end{bmatrix}\).&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;session-18--solving-aboldsymbolx--boldsymbol0-pivot-variables-special-solutions&quot;&gt;Session 1.8:  Solving &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt;: Pivot Variables, Special Solutions&lt;/h2&gt;
+&lt;h2 id=&quot;session-18--solving-aboldsymbolx--boldsymbol0-pivot-variables-special-solutions&quot;&gt;Session 1.8:  Solving \(A\boldsymbol{x} = \boldsymbol{0}\): Pivot Variables, Special Solutions&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;A typo in &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-0-pivot-variables-special-solutions/MIT18_06SCF11_Ses1.7sol.pdf&quot;&gt;Solutions (PDF)&lt;/a&gt; of this session:&lt;/p&gt;
 
   &lt;blockquote&gt;
-    &lt;p&gt;Problem 7.1: &lt;script type=&quot;math/tex&quot;&gt;- 23/4&lt;/script&gt; in rref of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; should be &lt;script type=&quot;math/tex&quot;&gt;23/4&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;23/4&lt;/script&gt; in the solution &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}&lt;/script&gt; should be &lt;script type=&quot;math/tex&quot;&gt;-23/4&lt;/script&gt;.&lt;/p&gt;
+    &lt;p&gt;Problem 7.1: \(- 23/4\) in rref of \(A\) should be \(23/4\), and \(23/4\) in the solution \(\boldsymbol{x}\) should be \(-23/4\).&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;computing-the-nullspace&quot;&gt;Computing the nullspace&lt;/h3&gt;
 
-&lt;p&gt;Just like the way we eliminate the invertible square matrix, we can do the same thing for any matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Just like the way we eliminate the invertible square matrix, we can do the same thing for any matrix \(A\).&lt;/p&gt;
 
 &lt;p&gt;Suppose:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-A = \begin{bmatrix}
-1 &amp; 2 &amp; 2 &amp; 2 \\
-2 &amp; 4 &amp; 6 &amp; 8\\
-3 &amp; 6 &amp; 8 &amp; 10
-\end{bmatrix}. %]]&gt;&lt;/script&gt;
+\[A = \begin{bmatrix}
+1 &amp;amp; 2 &amp;amp; 2 &amp;amp; 2 \\
+2 &amp;amp; 4 &amp;amp; 6 &amp;amp; 8\\
+3 &amp;amp; 6 &amp;amp; 8 &amp;amp; 10
+\end{bmatrix}.\]
 
 &lt;p&gt;The elimination gives us:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-A = \begin{bmatrix}
-1 &amp; 2 &amp; 2 &amp; 2 \\
-2 &amp; 4 &amp; 6 &amp; 8 \\
-3 &amp; 6 &amp; 8 &amp; 10
+\[A = \begin{bmatrix}
+1 &amp;amp; 2 &amp;amp; 2 &amp;amp; 2 \\
+2 &amp;amp; 4 &amp;amp; 6 &amp;amp; 8 \\
+3 &amp;amp; 6 &amp;amp; 8 &amp;amp; 10
 \end{bmatrix}
 \rightarrow
 \begin{bmatrix}
-1 &amp; 2 &amp; 2 &amp; 2 \\
-0 &amp; 0 &amp; 2 &amp; 4 \\
-0 &amp; 0 &amp; 2 &amp; 4
+1 &amp;amp; 2 &amp;amp; 2 &amp;amp; 2 \\
+0 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4 \\
+0 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4
 \end{bmatrix}
 \rightarrow
 \begin{bmatrix}
-1 &amp; 2 &amp; 2 &amp; 2 \\
-0 &amp; 0 &amp; 2 &amp; 4 \\
-0 &amp; 0 &amp; 0 &amp; 0
+1 &amp;amp; 2 &amp;amp; 2 &amp;amp; 2 \\
+0 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4 \\
+0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0
 \end{bmatrix}
-= U %]]&gt;&lt;/script&gt;
+= U\]
 
-&lt;p&gt;We call U in &lt;em&gt;echelon&lt;/em&gt; form. The &lt;em&gt;rank&lt;/em&gt; of a matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is the number of pivots it has. In this example, the rank of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;We call U in &lt;em&gt;echelon&lt;/em&gt; form. The &lt;em&gt;rank&lt;/em&gt; of a matrix \(A\) is the number of pivots it has. In this example, the rank of \(A\) is \(2\).&lt;/p&gt;
 
 &lt;h3 id=&quot;special-solutions&quot;&gt;Special solutions&lt;/h3&gt;
 
-&lt;p&gt;We can use back-substitution to find the solution &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}&lt;/script&gt; to the equation &lt;script type=&quot;math/tex&quot;&gt;U\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt;. In the example, column 1 and 3 are &lt;em&gt;pivot columns&lt;/em&gt;, column 2 and 4 are &lt;em&gt;free columns&lt;/em&gt;. We can assign any value to &lt;script type=&quot;math/tex&quot;&gt;x_2&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;x_4&lt;/script&gt;; we call them &lt;em&gt;free variables&lt;/em&gt;. Yes, &lt;script type=&quot;math/tex&quot;&gt;x_1&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;x_3&lt;/script&gt; are &lt;em&gt;pivot variables&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We can use back-substitution to find the solution \(\boldsymbol{x}\) to the equation \(U\boldsymbol{x} = \boldsymbol{0}\). In the example, column 1 and 3 are &lt;em&gt;pivot columns&lt;/em&gt;, column 2 and 4 are &lt;em&gt;free columns&lt;/em&gt;. We can assign any value to \(x_2\) and \(x_4\); we call them &lt;em&gt;free variables&lt;/em&gt;. Yes, \(x_1\) and \(x_3\) are &lt;em&gt;pivot variables&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Suppose &lt;script type=&quot;math/tex&quot;&gt;x_2 = 1&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;x_4 = 0&lt;/script&gt;, then: &lt;script type=&quot;math/tex&quot;&gt;x_3 = 0&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;x_1 = -2&lt;/script&gt;. So that gives us one solution &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x} = \begin{bmatrix}-2 \\ 1 \\ 0 \\ 0\end{bmatrix}&lt;/script&gt;. Similarly, if &lt;script type=&quot;math/tex&quot;&gt;x_2 = 0&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;x_4 = 1&lt;/script&gt;, then we’ll get another solution &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x} = \begin{bmatrix}2 \\ 0 \\ -2 \\ 1\end{bmatrix}&lt;/script&gt;. &lt;strong&gt;The nullspace of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is the collection of all linear combinations of these “special solution” vectors.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Suppose \(x_2 = 1\) and \(x_4 = 0\), then: \(x_3 = 0\) and \(x_1 = -2\). So that gives us one solution \(\boldsymbol{x} = \begin{bmatrix}-2 \\ 1 \\ 0 \\ 0\end{bmatrix}\). Similarly, if \(x_2 = 0\) and \(x_4 = 1\), then we’ll get another solution \(\boldsymbol{x} = \begin{bmatrix}2 \\ 0 \\ -2 \\ 1\end{bmatrix}\). &lt;strong&gt;The nullspace of \(A\) is the collection of all linear combinations of these “special solution” vectors.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;A fact we should note is that the &lt;em&gt;rank&lt;/em&gt; of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; equals the number of pivot columns, so the number of free columns is the number of columns minus the number of pivot columns, which is also the number of special solution vectors and the dimension of the nullspace.&lt;/p&gt;
+&lt;p&gt;A fact we should note is that the &lt;em&gt;rank&lt;/em&gt; of \(A\) equals the number of pivot columns, so the number of free columns is the number of columns minus the number of pivot columns, which is also the number of special solution vectors and the dimension of the nullspace.&lt;/p&gt;
 
 &lt;h3 id=&quot;reduced-row-echelon-form&quot;&gt;Reduced row echelon form&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;Reduced row echelon form&lt;/em&gt; (rref form) means pivots equal to 1 and zeros above and below the pivots. Eliminating U gives us a rref form matrix &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Reduced row echelon form&lt;/em&gt; (rref form) means pivots equal to 1 and zeros above and below the pivots. Eliminating U gives us a rref form matrix \(R\):&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-U = \begin{bmatrix}
-1 &amp; 2 &amp; 2 &amp; 2 \\
-0 &amp; 0 &amp; 2 &amp; 4 \\
-0 &amp; 0 &amp; 0 &amp; 0
+\[U = \begin{bmatrix}
+1 &amp;amp; 2 &amp;amp; 2 &amp;amp; 2 \\
+0 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4 \\
+0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0
 \end{bmatrix}
 \rightarrow
 \begin{bmatrix}
-1 &amp; 2 &amp; 0 &amp; -2 \\
-0 &amp; 0 &amp; 2 &amp; 4 \\
-0 &amp; 0 &amp; 0 &amp; 0
+1 &amp;amp; 2 &amp;amp; 0 &amp;amp; -2 \\
+0 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4 \\
+0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0
 \end{bmatrix}
 \rightarrow
 \begin{bmatrix}
-1 &amp; 2 &amp; 0 &amp; -2 \\
-0 &amp; 0 &amp; 1 &amp; 2 \\
-0 &amp; 0 &amp; 0 &amp; 0
+1 &amp;amp; 2 &amp;amp; 0 &amp;amp; -2 \\
+0 &amp;amp; 0 &amp;amp; 1 &amp;amp; 2 \\
+0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0
 \end{bmatrix}
-= R. %]]&gt;&lt;/script&gt;
+= R.\]
 
-&lt;p&gt;Generally, &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; can be rewritten with  a copy of the identity matrix in the upper left corner and some free columns on the right, possibly followed by the lower rows filled with zeros:&lt;/p&gt;
+&lt;p&gt;Generally, \(R\) can be rewritten with  a copy of the identity matrix in the upper left corner and some free columns on the right, possibly followed by the lower rows filled with zeros:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-R = \begin{bmatrix}
-I &amp; F \\
-\boldsymbol{0} &amp; \boldsymbol{0}
-\end{bmatrix}. %]]&gt;&lt;/script&gt;
+\[R = \begin{bmatrix}
+I &amp;amp; F \\
+\boldsymbol{0} &amp;amp; \boldsymbol{0}
+\end{bmatrix}.\]
 
-&lt;p&gt;Here &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;r \times r&lt;/script&gt; square matrix and &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;r \times (n - r)&lt;/script&gt; matrix.&lt;/p&gt;
+&lt;p&gt;Here \(I\) is an \(r \times r\) square matrix and \(F\) is an \(r \times (n - r)\) matrix.&lt;/p&gt;
 
-&lt;p&gt;And we can find the nullspace matrix &lt;script type=&quot;math/tex&quot;&gt;N = \begin{bmatrix}-F \\ I\end{bmatrix}&lt;/script&gt; s.t. &lt;script type=&quot;math/tex&quot;&gt;RN = \boldsymbol{0}&lt;/script&gt;. Here &lt;script type=&quot;math/tex&quot;&gt;I&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;(n - r) \times (n - r)&lt;/script&gt; square matrix and &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;r \times (n - r)&lt;/script&gt; matrix. The columns of &lt;script type=&quot;math/tex&quot;&gt;N&lt;/script&gt; are the special solutions.&lt;/p&gt;
+&lt;p&gt;And we can find the nullspace matrix \(N = \begin{bmatrix}-F \\ I\end{bmatrix}\) s.t. \(RN = \boldsymbol{0}\). Here \(I\) is an \((n - r) \times (n - r)\) square matrix and \(F\) is an \(r \times (n - r)\) matrix. The columns of \(N\) are the special solutions.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;session-19-solving-aboldsymbolx--boldsymbolb-reduced-row-form-r&quot;&gt;Session 1.9: Solving &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt;: Reduced Row Form R&lt;/h2&gt;
+&lt;h2 id=&quot;session-19-solving-aboldsymbolx--boldsymbolb-reduced-row-form-r&quot;&gt;Session 1.9: Solving \(A\boldsymbol{x} = \boldsymbol{b}\): Reduced Row Form R&lt;/h2&gt;
 
-&lt;h3 id=&quot;solvability-conditions-on-boldsymbolb&quot;&gt;Solvability conditions on &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b}&lt;/script&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;solvability-conditions-on-boldsymbolb&quot;&gt;Solvability conditions on \(\boldsymbol{b}\)&lt;/h3&gt;
 
 &lt;p&gt;We again the example in the example in the previous session:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-A = \begin{bmatrix}
-1 &amp; 2 &amp; 2 &amp; 2\\
-2 &amp; 4 &amp; 6 &amp; 8\\
-3 &amp; 6 &amp; 8 &amp; 10
-\end{bmatrix}. %]]&gt;&lt;/script&gt;
+\[A = \begin{bmatrix}
+1 &amp;amp; 2 &amp;amp; 2 &amp;amp; 2\\
+2 &amp;amp; 4 &amp;amp; 6 &amp;amp; 8\\
+3 &amp;amp; 6 &amp;amp; 8 &amp;amp; 10
+\end{bmatrix}.\]
 
 &lt;p&gt;Using Gauss-Jordan elimination:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\left[
+\[\left[
 \begin{array}{c|c}
 \begin{matrix}
-1 &amp; 2 &amp; 2 &amp; 2\\
-2 &amp; 4 &amp; 6 &amp; 2\\
-3 &amp; 6 &amp; 8 &amp;10
+1 &amp;amp; 2 &amp;amp; 2 &amp;amp; 2\\
+2 &amp;amp; 4 &amp;amp; 6 &amp;amp; 2\\
+3 &amp;amp; 6 &amp;amp; 8 &amp;amp;10
 \end{matrix}
-&amp;
+&amp;amp;
 \begin{matrix}
 b_1 \\ b_2 \\ b_3
 \end{matrix}
@@ -471,61 +462,60 @@ b_1 \\ b_2 \\ b_3
 \left[
 \begin{array}{c|l}
 \begin{matrix}
-1 &amp; 2 &amp; 2 &amp; 2\\
-0 &amp; 0 &amp; 2 &amp; 4 \\
-0 &amp; 0 &amp; 0 &amp; 0
+1 &amp;amp; 2 &amp;amp; 2 &amp;amp; 2\\
+0 &amp;amp; 0 &amp;amp; 2 &amp;amp; 4 \\
+0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0
 \end{matrix}
-&amp;
+&amp;amp;
 \begin{array}{l}
 b_1 \\ b_2 - 2b_1 \\ b_3-b_2-b_1
 \end{array}
 \end{array}
-\right]. %]]&gt;&lt;/script&gt;
+\right].\]
 
-&lt;p&gt;In our example, row &lt;script type=&quot;math/tex&quot;&gt;3&lt;/script&gt; of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is completely eliminated. So if &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt; has a solution, then &lt;script type=&quot;math/tex&quot;&gt;b_3 - b_2 - b_1 = 0&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;In our example, row \(3\) of \(A\) is completely eliminated. So if \(A\boldsymbol{x} = \boldsymbol{b}\) has a solution, then \(b_3 - b_2 - b_1 = 0\).&lt;/p&gt;
 
-&lt;p&gt;From an earlier lecture, we know that &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt; is solvable exactly when &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b}&lt;/script&gt; is in the column space &lt;script type=&quot;math/tex&quot;&gt;C(A)&lt;/script&gt;. In fact this condition is equivalent with &lt;script type=&quot;math/tex&quot;&gt;b_3 - b_2 - b_1 = 0&lt;/script&gt; here.&lt;/p&gt;
+&lt;p&gt;From an earlier lecture, we know that \(A\boldsymbol{x} = \boldsymbol{b}\) is solvable exactly when \(\boldsymbol{b}\) is in the column space \(C(A)\). In fact this condition is equivalent with \(b_3 - b_2 - b_1 = 0\) here.&lt;/p&gt;
 
 &lt;h3 id=&quot;computing-solution&quot;&gt;Computing solution&lt;/h3&gt;
 
-&lt;p&gt;The complete solution is a particular solution plus all the vectors in the nullspace. That is &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}_{complete} = \boldsymbol{x}_p + \boldsymbol{x}_n&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}_p&lt;/script&gt; is a particular solution and &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}_n&lt;/script&gt; is a generic vector in the nullspace. To see this, we add &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x}_p = \boldsymbol{b}&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x}_n = 0&lt;/script&gt; and get &lt;script type=&quot;math/tex&quot;&gt;A(\boldsymbol{x}_p + \boldsymbol{x}_n) = \boldsymbol{b}&lt;/script&gt; for every vector &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}_n&lt;/script&gt; in the nullspace.&lt;/p&gt;
+&lt;p&gt;The complete solution is a particular solution plus all the vectors in the nullspace. That is \(\boldsymbol{x}_{complete} = \boldsymbol{x}_p + \boldsymbol{x}_n\), where \(\boldsymbol{x}_p\) is a particular solution and \(\boldsymbol{x}_n\) is a generic vector in the nullspace. To see this, we add \(A\boldsymbol{x}_p = \boldsymbol{b}\) to \(A\boldsymbol{x}_n = 0\) and get \(A(\boldsymbol{x}_p + \boldsymbol{x}_n) = \boldsymbol{b}\) for every vector \(\boldsymbol{x}_n\) in the nullspace.&lt;/p&gt;
 
 &lt;h4 id=&quot;a-particular-solution&quot;&gt;A particular solution&lt;/h4&gt;
 
-&lt;p&gt;For our matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, we choose &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b} = \begin{bmatrix}1 \\ 5 \\ 6\end{bmatrix}&lt;/script&gt;, then we get a particular solution &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x} = \begin{bmatrix}-2 \\ 0 \\ 3/2 \\ 0\end{bmatrix}&lt;/script&gt; when we let all free variables &lt;script type=&quot;math/tex&quot;&gt;x_2&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;x_4&lt;/script&gt; equal &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;. (We would get another particular solution when assigning different &lt;script type=&quot;math/tex&quot;&gt;x_2&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;x_4&lt;/script&gt;. This will not affect the complete solution.)&lt;/p&gt;
+&lt;p&gt;For our matrix \(A\), we choose \(\boldsymbol{b} = \begin{bmatrix}1 \\ 5 \\ 6\end{bmatrix}\), then we get a particular solution \(\boldsymbol{x} = \begin{bmatrix}-2 \\ 0 \\ 3/2 \\ 0\end{bmatrix}\) when we let all free variables \(x_2\) and \(x_4\) equal \(0\). (We would get another particular solution when assigning different \(x_2\) or \(x_4\). This will not affect the complete solution.)&lt;/p&gt;
 
 &lt;h4 id=&quot;combined-with-nullspace&quot;&gt;Combined with nullspace&lt;/h4&gt;
 
-&lt;p&gt;From last lecture we learned that the nullspace of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is the collection of all combinations of the special solutions &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}-2 \\ 1 \\ 0 \\ 0\end{bmatrix}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}2 \\ 0 \\ -2 \\ 1\end{bmatrix}&lt;/script&gt;. Adding our particular solution to the vectors in the nullspace, we get the complete solution to the equation &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \begin{bmatrix}1 \\ 5 \\6\end{bmatrix}&lt;/script&gt; is:&lt;/p&gt;
+&lt;p&gt;From last lecture we learned that the nullspace of \(A\) is the collection of all combinations of the special solutions \(\begin{bmatrix}-2 \\ 1 \\ 0 \\ 0\end{bmatrix}\) and \(\begin{bmatrix}2 \\ 0 \\ -2 \\ 1\end{bmatrix}\). Adding our particular solution to the vectors in the nullspace, we get the complete solution to the equation \(A\boldsymbol{x} = \begin{bmatrix}1 \\ 5 \\6\end{bmatrix}\) is:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\boldsymbol{x}_{complete} = \begin{bmatrix}-2 \\ 0 \\ 3/2 \\ 0\end{bmatrix} + c_1 \begin{bmatrix}-2 \\ 1 \\ 0 \\ 0\end{bmatrix} + c_2 \begin{bmatrix}-2 \\ 0 \\ -2 \\ 1\end{bmatrix},&lt;/script&gt;
+\[\boldsymbol{x}_{complete} = \begin{bmatrix}-2 \\ 0 \\ 3/2 \\ 0\end{bmatrix} + c_1 \begin{bmatrix}-2 \\ 1 \\ 0 \\ 0\end{bmatrix} + c_2 \begin{bmatrix}-2 \\ 0 \\ -2 \\ 1\end{bmatrix},\]
 
-&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;c_1&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;c_2&lt;/script&gt; are any real numbers.&lt;/p&gt;
+&lt;p&gt;where \(c_1\) and \(c_2\) are any real numbers.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;A typo in the &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/MIT18_06SCF11_Ses1.8sum.pdf&quot;&gt;lecture summary (PDF)&lt;/a&gt; of this session:&lt;/p&gt;
 
   &lt;blockquote&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;c_1&lt;/script&gt; is missing here…&lt;/p&gt;
+    &lt;p&gt;\(c_1\) is missing here…&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The nullspace is a two dimensional subspace of &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^4&lt;/script&gt;, and the complete solution form a plane parallel to that through &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}_p = \begin{bmatrix}-2 \\ 0 \\ 3/2 \\ 0\end{bmatrix}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;The nullspace is a two dimensional subspace of \(\mathbb{R}^4\), and the complete solution form a plane parallel to that through \(\boldsymbol{x}_p = \begin{bmatrix}-2 \\ 0 \\ 3/2 \\ 0\end{bmatrix}\).&lt;/p&gt;
 
 &lt;h3 id=&quot;rank&quot;&gt;Rank&lt;/h3&gt;
 
-&lt;p&gt;The rank of a matrix equals the number of pivots of that matrix. If &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; by &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; matrix of rank &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;, we know &lt;script type=&quot;math/tex&quot;&gt;r \le m&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;r \le n&lt;/script&gt;. Actually the rank tells us all the information about solutions to the equation &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;The rank of a matrix equals the number of pivots of that matrix. If \(A\) is an \(m\) by \(n\) matrix of rank \(r\), we know \(r \le m\) and \(r \le n\). Actually the rank tells us all the information about solutions to the equation \(A\boldsymbol{x} = \boldsymbol{b}\).&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{array}{|c|c|c|c|c|}
+\[\begin{array}{|c|c|c|c|c|}
 \hline
-&amp; r = m = n &amp; r = n &lt; m &amp; r = m &lt; n &amp; r &lt; m, r &lt; n \\
+&amp;amp; r = m = n &amp;amp; r = n &amp;lt; m &amp;amp; r = m &amp;lt; n &amp;amp; r &amp;lt; m, r &amp;lt; n \\
 \hline
-R &amp; I &amp; \begin{bmatrix}I \\ \boldsymbol{0}\end{bmatrix} &amp; \begin{bmatrix}I &amp; F\end{bmatrix} &amp; \begin{bmatrix}I &amp; F \\ \boldsymbol{0} &amp; \boldsymbol{0}\end{bmatrix} \\
+R &amp;amp; I &amp;amp; \begin{bmatrix}I \\ \boldsymbol{0}\end{bmatrix} &amp;amp; \begin{bmatrix}I &amp;amp; F\end{bmatrix} &amp;amp; \begin{bmatrix}I &amp;amp; F \\ \boldsymbol{0} &amp;amp; \boldsymbol{0}\end{bmatrix} \\
 \hline
-\text{Solutions to }A\boldsymbol{x} = \boldsymbol{b} &amp; 1 &amp; 0\text{ or }1 &amp; \infty &amp; 0\text{ or }\infty \\
+\text{Solutions to }A\boldsymbol{x} = \boldsymbol{b} &amp;amp; 1 &amp;amp; 0\text{ or }1 &amp;amp; \infty &amp;amp; 0\text{ or }\infty \\
 \hline
-\end{array} %]]&gt;&lt;/script&gt;
+\end{array}\]
 
 &lt;hr /&gt;
 
@@ -533,32 +523,32 @@ R &amp; I &amp; \begin{bmatrix}I \\ \boldsymbol{0}\end{bmatrix} &amp; \begin{bma
 
 &lt;h3 id=&quot;linear-independence&quot;&gt;Linear Independence&lt;/h3&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sum_i c_i\boldsymbol{x}_i = \boldsymbol{0}&lt;/script&gt; only when &lt;script type=&quot;math/tex&quot;&gt;c_1, c_2, \dots, c_n&lt;/script&gt; are all &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;\(\sum_i c_i\boldsymbol{x}_i = \boldsymbol{0}\) only when \(c_1, c_2, \dots, c_n\) are all \(0\).&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; The only solution to &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt;, which means that the nullspace of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; contains only the zero vector.&lt;/p&gt;
+&lt;p&gt;\(\Leftrightarrow\) The only solution to \(A\boldsymbol{x} = \boldsymbol{0}\) is \(\boldsymbol{x} = \boldsymbol{0}\), which means that the nullspace of \(A\) contains only the zero vector.&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; The rank of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; so there are no free variables.&lt;/p&gt;
+&lt;p&gt;\(\Leftrightarrow\) The rank of \(A\) is \(n\) so there are no free variables.&lt;/p&gt;
 
 &lt;h3 id=&quot;spanning-a-space&quot;&gt;Spanning a space&lt;/h3&gt;
 
-&lt;p&gt;Vectors &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_k&lt;/script&gt; &lt;em&gt;span&lt;/em&gt; a space when the space consists of all combinations of those vectors. The space spanned is also the smallest space containing those vectors.&lt;/p&gt;
+&lt;p&gt;Vectors \(\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_k\) &lt;em&gt;span&lt;/em&gt; a space when the space consists of all combinations of those vectors. The space spanned is also the smallest space containing those vectors.&lt;/p&gt;
 
 &lt;h3 id=&quot;basis-and-dimension&quot;&gt;Basis and dimension&lt;/h3&gt;
 
-&lt;p&gt;A &lt;em&gt;basis&lt;/em&gt; for a vector space is a sequence of vectors &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d&lt;/script&gt; with two properties:&lt;/p&gt;
+&lt;p&gt;A &lt;em&gt;basis&lt;/em&gt; for a vector space is a sequence of vectors \(\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d\) with two properties:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d&lt;/script&gt; are independent;&lt;/li&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d&lt;/script&gt; span the vector space.&lt;/li&gt;
+  &lt;li&gt;\(\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d\) are independent;&lt;/li&gt;
+  &lt;li&gt;\(\boldsymbol{v}_1, \boldsymbol{v}_2, \dots, \boldsymbol{v}_d\) span the vector space.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The number of vectors in a basis for a vector space is the &lt;em&gt;dimension&lt;/em&gt; of the space. There are exactly &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; vectors in every basis for &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^n&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;The number of vectors in a basis for a vector space is the &lt;em&gt;dimension&lt;/em&gt; of the space. There are exactly \(n\) vectors in every basis for \(\mathbb{R}^n\).&lt;/p&gt;
 
 &lt;h3 id=&quot;basis-of-a-column-space-and-nullspace&quot;&gt;Basis of a column space and nullspace&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{dimension of }C(A)  = \text{number of pivot columns of }A = \text{rank}(A)&lt;/script&gt;
+\[\text{dimension of }C(A)  = \text{number of pivot columns of }A = \text{rank}(A)\]
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{dimension of }N(A)  = \text{number of free variables of }A = \text{number of columns of }A - \text{rank}(A)&lt;/script&gt;
+\[\text{dimension of }N(A)  = \text{number of free variables of }A = \text{number of columns of }A - \text{rank}(A)\]
 
 &lt;hr /&gt;
 
@@ -566,25 +556,24 @@ R &amp; I &amp; \begin{bmatrix}I \\ \boldsymbol{0}\end{bmatrix} &amp; \begin{bma
 
 &lt;p&gt;OK, here we go!&lt;/p&gt;
 
-&lt;h1 id=&quot;unit-i-aboldsymbolx--boldsymbolb-and-the-four-subspaces&quot;&gt;Unit I: &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt; and the Four Subspaces&lt;/h1&gt;
+&lt;h1 id=&quot;unit-i-aboldsymbolx--boldsymbolb-and-the-four-subspaces&quot;&gt;Unit I: \(A\boldsymbol{x} = \boldsymbol{b}\) and the Four Subspaces&lt;/h1&gt;
 
 &lt;h2 id=&quot;session-11-the-geometry-of-linear-equations&quot;&gt;Session 1.1: The Geometry of Linear Equations&lt;/h2&gt;
 
 &lt;p&gt;We have a system of equations:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\left\{
+\[\left\{
 \begin{aligned}
-2x - y &amp;= 0 \\
--x + 2y &amp;= 3
+2x - y &amp;amp;= 0 \\
+-x + 2y &amp;amp;= 3
 \end{aligned}
-\right . %]]&gt;&lt;/script&gt;
+\right .\]
 
 &lt;!--more--&gt;
 
 &lt;h3 id=&quot;row-picture&quot;&gt;Row Picture&lt;/h3&gt;
 
-&lt;p&gt;Line &lt;script type=&quot;math/tex&quot;&gt;2x - y = 0&lt;/script&gt; and line &lt;script type=&quot;math/tex&quot;&gt;-x + 2y = 0&lt;/script&gt; intersects at the point &lt;script type=&quot;math/tex&quot;&gt;(1, 2)&lt;/script&gt;, so &lt;script type=&quot;math/tex&quot;&gt;(1, 2)&lt;/script&gt; is the solution of the system of equations.&lt;/p&gt;
+&lt;p&gt;Line \(2x - y = 0\) and line \(-x + 2y = 0\) intersects at the point \((1, 2)\), so \((1, 2)\) is the solution of the system of equations.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Maybe I should draw a X-Y coordinates here &amp;gt;_&amp;gt;&lt;/p&gt;
@@ -594,11 +583,11 @@ R &amp; I &amp; \begin{bmatrix}I \\ \boldsymbol{0}\end{bmatrix} &amp; \begin{bma
 
 &lt;p&gt;We rewrite the system of linear equations as a single equation:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x\begin{bmatrix}2 \\ -1\end{bmatrix} + y\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}&lt;/script&gt;
+\[x\begin{bmatrix}2 \\ -1\end{bmatrix} + y\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}\]
 
-&lt;p&gt;We see &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; as scalars of column vectors: &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v_1} = \begin{bmatrix}2 \\ -1\end{bmatrix}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v_2} = \begin{bmatrix}-1 \\ 2\end{bmatrix}&lt;/script&gt;, and the sum &lt;script type=&quot;math/tex&quot;&gt;x\boldsymbol{v_1} + y\boldsymbol{v_2}&lt;/script&gt; is called a &lt;em&gt;linear combination&lt;/em&gt; of &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v_1}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v_2}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;We see \(x\) and \(y\) as scalars of column vectors: \(\boldsymbol{v_1} = \begin{bmatrix}2 \\ -1\end{bmatrix}\) and \(\boldsymbol{v_2} = \begin{bmatrix}-1 \\ 2\end{bmatrix}\), and the sum \(x\boldsymbol{v_1} + y\boldsymbol{v_2}\) is called a &lt;em&gt;linear combination&lt;/em&gt; of \(\boldsymbol{v_1}\) and \(\boldsymbol{v_2}\).&lt;/p&gt;
 
-&lt;p&gt;Geometrically, we can find one copy of &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v_1}&lt;/script&gt; added to two copies of &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{v_2}&lt;/script&gt; just equals the vector &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}0 \\ 3\end{bmatrix}&lt;/script&gt;. Then the solution should be &lt;script type=&quot;math/tex&quot;&gt;x = 1, y =2&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Geometrically, we can find one copy of \(\boldsymbol{v_1}\) added to two copies of \(\boldsymbol{v_2}\) just equals the vector \(\begin{bmatrix}0 \\ 3\end{bmatrix}\). Then the solution should be \(x = 1, y =2\).&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;I will add a figure when time is available &amp;gt;_&amp;gt;&lt;/p&gt;
@@ -608,19 +597,17 @@ R &amp; I &amp; \begin{bmatrix}I \\ \boldsymbol{0}\end{bmatrix} &amp; \begin{bma
 
 &lt;p&gt;We rewrite the equations in our example as a compact form,&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;A\boldsymbol{x} = \boldsymbol{b},&lt;/script&gt;
+\[A\boldsymbol{x} = \boldsymbol{b},\]
 
 &lt;p&gt;that is&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{bmatrix}2 &amp; -1 \\ -1 &amp; 2\end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix} %]]&gt;&lt;/script&gt;
+\[\begin{bmatrix}2 &amp;amp; -1 \\ -1 &amp;amp; 2\end{bmatrix}\begin{bmatrix}x \\ y\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}\]
 
 &lt;h3 id=&quot;matrix-multiplication&quot;&gt;Matrix Multiplication&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{aligned}
-\begin{bmatrix}2 &amp; -1 \\ -1 &amp; 2\end{bmatrix} \begin{bmatrix}1 \\ 2\end{bmatrix} = 1\begin{bmatrix}2 \\ -1\end{bmatrix} + 2\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}
-\end{aligned} %]]&gt;&lt;/script&gt;
+\[\begin{aligned}
+\begin{bmatrix}2 &amp;amp; -1 \\ -1 &amp;amp; 2\end{bmatrix} \begin{bmatrix}1 \\ 2\end{bmatrix} = 1\begin{bmatrix}2 \\ -1\end{bmatrix} + 2\begin{bmatrix}-1 \\ 2\end{bmatrix} = \begin{bmatrix}0 \\ 3\end{bmatrix}
+\end{aligned}\]
 
 &lt;p&gt;A matrix times by a vector is just &lt;strong&gt;a linear combination of the column vectors of the matrix&lt;/strong&gt;.&lt;/p&gt;
 
@@ -637,44 +624,42 @@ a combination of the columns of the matrix.&lt;/p&gt;
 
 &lt;h3 id=&quot;subspaces&quot;&gt;Subspaces&lt;/h3&gt;
 &lt;p&gt;All combinations of column vectors creates a subspace.
-The subspaces of &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^3&lt;/script&gt; are:&lt;/p&gt;
+The subspaces of \(\mathbb{R}^3\) are:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;the origin,&lt;/li&gt;
   &lt;li&gt;a line through the origin,&lt;/li&gt;
   &lt;li&gt;a plane through the origin,&lt;/li&gt;
-  &lt;li&gt;all of &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}^3&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;all of \(\mathbb{R}^3\).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is invertible&lt;/p&gt;
+    &lt;p&gt;\(A\) is invertible&lt;/p&gt;
 
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt; has the unique solution &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}&lt;/script&gt; for each &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b}&lt;/script&gt;&lt;/p&gt;
+    &lt;p&gt;\(\Leftrightarrow\) \(A\boldsymbol{x} = \boldsymbol{b}\) has the unique solution \(\boldsymbol{x}\) for each \(\boldsymbol{b}\)&lt;/p&gt;
 
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt; has no non-zero solution &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}&lt;/script&gt;&lt;/p&gt;
+    &lt;p&gt;\(\Leftrightarrow\) \(A\boldsymbol{x} = \boldsymbol{0}\) has no non-zero solution \(\boldsymbol{x}\)&lt;/p&gt;
 
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; The columns of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; are &lt;em&gt;independent&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;\(\Leftrightarrow\) The columns of \(A\) are &lt;em&gt;independent&lt;/em&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; All vectors &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x}&lt;/script&gt; cover the whole vector space&lt;/p&gt;
+    &lt;p&gt;\(\Leftrightarrow\) All vectors \(A\boldsymbol{x}\) cover the whole vector space&lt;/p&gt;
 
-    &lt;p&gt;Example: &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-A = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -1 &amp; 1 &amp; 0 \\ 0 &amp; -1 &amp; 1\end{bmatrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+    &lt;p&gt;Example: \(A = \begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ -1 &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; -1 &amp;amp; 1\end{bmatrix}\)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is not invertible&lt;/p&gt;
+    &lt;p&gt;\(A\) is not invertible&lt;/p&gt;
 
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt; has a solution &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}&lt;/script&gt; only for some of &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b}&lt;/script&gt; in the vector space&lt;/p&gt;
+    &lt;p&gt;\(\Leftrightarrow\) \(A\boldsymbol{x} = \boldsymbol{b}\) has a solution \(\boldsymbol{x}\) only for some of \(\boldsymbol{b}\) in the vector space&lt;/p&gt;
 
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt; has non-zero solutions &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}&lt;/script&gt;&lt;/p&gt;
+    &lt;p&gt;\(\Leftrightarrow\) \(A\boldsymbol{x} = \boldsymbol{0}\) has non-zero solutions \(\boldsymbol{x}\)&lt;/p&gt;
 
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; The columns of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; are &lt;em&gt;dependent&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;\(\Leftrightarrow\) The columns of \(A\) are &lt;em&gt;dependent&lt;/em&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Leftrightarrow&lt;/script&gt; All vectors &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x}&lt;/script&gt; lies in only a subspace of the vector space&lt;/p&gt;
+    &lt;p&gt;\(\Leftrightarrow\) All vectors \(A\boldsymbol{x}\) lies in only a subspace of the vector space&lt;/p&gt;
 
-    &lt;p&gt;Example: &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-A = \begin{bmatrix}1 &amp; 0 &amp; -1 \\ -1 &amp; 1 &amp; 0 \\ 0 &amp; -1 &amp; 1\end{bmatrix} %]]&gt;&lt;/script&gt;&lt;/p&gt;
+    &lt;p&gt;Example: \(A = \begin{bmatrix}1 &amp;amp; 0 &amp;amp; -1 \\ -1 &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; -1 &amp;amp; 1\end{bmatrix}\)&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -684,64 +669,58 @@ A = \begin{bmatrix}1 &amp; 0 &amp; -1 \\ -1 &amp; 1 &amp; 0 \\ 0 &amp; -1 &amp; 
 
 &lt;h3 id=&quot;method-of-elimination&quot;&gt;Method of Elimination&lt;/h3&gt;
 
-&lt;p&gt;We have an example &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{b}&lt;/script&gt;,&lt;/p&gt;
+&lt;p&gt;We have an example \(A\boldsymbol{x} = \boldsymbol{b}\),&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-A = \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 3 &amp; 8 &amp; 1 \\ 0 &amp; 4 &amp; 1\end{bmatrix} %]]&gt;&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\2\end{bmatrix}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;\(A = \begin{bmatrix}1 &amp;amp; 2 &amp;amp; 1 \\ 3 &amp;amp; 8 &amp;amp; 1 \\ 0 &amp;amp; 4 &amp;amp; 1\end{bmatrix}\) and \(\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\2\end{bmatrix}\).&lt;/p&gt;
 
 &lt;p&gt;Steps of Elimination:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Step 1: subtract &lt;script type=&quot;math/tex&quot;&gt;3&lt;/script&gt; times row &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; from row &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;;&lt;/li&gt;
-  &lt;li&gt;Step 2: subtract &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt; times row &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt; from row &lt;script type=&quot;math/tex&quot;&gt;3&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;Step 1: subtract \(3\) times row \(1\) from row \(2\);&lt;/li&gt;
+  &lt;li&gt;Step 2: subtract \(2\) times row \(2\) from row \(3\).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-A = \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 3 &amp; 8 &amp; 1 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
-\rightarrow \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 2 &amp; -2 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
-\rightarrow U = \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 1 &amp; -2 \\ 0 &amp; 0 &amp; 5\end{bmatrix} %]]&gt;&lt;/script&gt;
+\[A = \begin{bmatrix}1 &amp;amp; 2 &amp;amp; 1 \\ 3 &amp;amp; 8 &amp;amp; 1 \\ 0 &amp;amp; 4 &amp;amp; 1\end{bmatrix}
+\rightarrow \begin{bmatrix}1 &amp;amp; 2 &amp;amp; 1 \\ 0 &amp;amp; 2 &amp;amp; -2 \\ 0 &amp;amp; 4 &amp;amp; 1\end{bmatrix}
+\rightarrow U = \begin{bmatrix}1 &amp;amp; 2 &amp;amp; 1 \\ 0 &amp;amp; 1 &amp;amp; -2 \\ 0 &amp;amp; 0 &amp;amp; 5\end{bmatrix}\]
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\ 2\end{bmatrix}
-\rightarrow \cdots \rightarrow \begin{bmatrix}2 \\ 6 \\ -10\end{bmatrix}&lt;/script&gt;
+\[\boldsymbol{b} = \begin{bmatrix}2 \\ 12 \\ 2\end{bmatrix}
+\rightarrow \cdots \rightarrow \begin{bmatrix}2 \\ 6 \\ -10\end{bmatrix}\]
 
-&lt;p&gt;Thus, we can easily solve the systems of equations, &lt;script type=&quot;math/tex&quot;&gt;\begin{bmatrix}x \\ y  \\ z\end{bmatrix} = \begin{bmatrix}2 \\ 1  \\ -2\end{bmatrix}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Thus, we can easily solve the systems of equations, \(\begin{bmatrix}x \\ y  \\ z\end{bmatrix} = \begin{bmatrix}2 \\ 1  \\ -2\end{bmatrix}\).&lt;/p&gt;
 
 &lt;h3 id=&quot;elimination-matrices&quot;&gt;Elimination Matrices&lt;/h3&gt;
 
-&lt;p&gt;The product of a matrix (&lt;script type=&quot;math/tex&quot;&gt;3 \times 3&lt;/script&gt;) and a column vector (&lt;script type=&quot;math/tex&quot;&gt;3 \times 1&lt;/script&gt;) is a column vector
-(&lt;script type=&quot;math/tex&quot;&gt;3 \times 1&lt;/script&gt;) that is a linear combination of the columns of the matrix.&lt;/p&gt;
+&lt;p&gt;The product of a matrix (\(3 \times 3\)) and a column vector (\(3 \times 1\)) is a column vector
+(\(3 \times 1\)) that is a linear combination of the columns of the matrix.&lt;/p&gt;
 
-&lt;p&gt;The product of a row vector (&lt;script type=&quot;math/tex&quot;&gt;1 \times 3&lt;/script&gt;) and a matrix (&lt;script type=&quot;math/tex&quot;&gt;3 \times 3&lt;/script&gt;) is a row vector (&lt;script type=&quot;math/tex&quot;&gt;1 \times 3&lt;/script&gt;) that is a linear
+&lt;p&gt;The product of a row vector (\(1 \times 3\)) and a matrix (\(3 \times 3\)) is a row vector (\(1 \times 3\)) that is a linear
 combination of the rows of the matrix.&lt;/p&gt;
 
 &lt;p&gt;For example,&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{bmatrix}1 &amp; 0 &amp; 0 \\ -3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
-\begin{bmatrix}1 &amp; 2 &amp; 1 \\ 3 &amp; 8 &amp; 1 \\ 0 &amp; 4 &amp; 1\end{bmatrix}
-= \begin{bmatrix}1 &amp; 2 &amp; 1 \\ 0 &amp; 2 &amp; -2 \\ 0 &amp; 4 &amp; 1\end{bmatrix}. %]]&gt;&lt;/script&gt;
+\[\begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ -3 &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; 0 &amp;amp; 1\end{bmatrix}
+\begin{bmatrix}1 &amp;amp; 2 &amp;amp; 1 \\ 3 &amp;amp; 8 &amp;amp; 1 \\ 0 &amp;amp; 4 &amp;amp; 1\end{bmatrix}
+= \begin{bmatrix}1 &amp;amp; 2 &amp;amp; 1 \\ 0 &amp;amp; 2 &amp;amp; -2 \\ 0 &amp;amp; 4 &amp;amp; 1\end{bmatrix}.\]
 
 &lt;p&gt;Multiplying on the left by a permutation matrix exchanges the rows of a matrix, while multiplying on the right exchanges the columns. For example,&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-P = \begin{bmatrix}0 &amp; 1 &amp; 0 \\ 1 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}. %]]&gt;&lt;/script&gt;
+\[P = \begin{bmatrix}0 &amp;amp; 1 &amp;amp; 0 \\ 1 &amp;amp; 0 &amp;amp; 0 \\ 0 &amp;amp; 0 &amp;amp; 1\end{bmatrix}.\]
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; is a &lt;em&gt;permutation matrix&lt;/em&gt; and the first and second rows of the matrix &lt;script type=&quot;math/tex&quot;&gt;PA&lt;/script&gt; are the second and first rows of the matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;\(P\) is a &lt;em&gt;permutation matrix&lt;/em&gt; and the first and second rows of the matrix \(PA\) are the second and first rows of the matrix \(A\).&lt;/p&gt;
 
 &lt;p&gt;Note, matrix multiplication is &lt;em&gt;associative&lt;/em&gt; but &lt;em&gt;not commutative&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;inverses&quot;&gt;Inverses&lt;/h3&gt;
 &lt;p&gt;We have a matrix:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-E_{21} = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix} %]]&gt;&lt;/script&gt;
+\[E_{21} = \begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ -3 &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; 0 &amp;amp; 1\end{bmatrix}\]
 
-&lt;p&gt;which subtracts &lt;script type=&quot;math/tex&quot;&gt;3&lt;/script&gt; times row &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; from row &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;. To “&lt;strong&gt;undo&lt;/strong&gt;” this operation we must add &lt;script type=&quot;math/tex&quot;&gt;3&lt;/script&gt; times row &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; to row &lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt; using the inverse matrix:&lt;/p&gt;
+&lt;p&gt;which subtracts \(3\) times row \(1\) from row \(2\). To “&lt;strong&gt;undo&lt;/strong&gt;” this operation we must add \(3\) times row \(1\) to row \(2\) using the inverse matrix:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-E_{21}^{-1} = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ 3 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}. %]]&gt;&lt;/script&gt;
+\[E_{21}^{-1} = \begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ 3 &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; 0 &amp;amp; 1\end{bmatrix}.\]
 
-&lt;p&gt;In fact, &lt;script type=&quot;math/tex&quot;&gt;E_{21}^{-1}E_{21} = I&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;In fact, \(E_{21}^{-1}E_{21} = I\).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -749,147 +728,140 @@ E_{21}^{-1} = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ 3 &amp; 1 &amp; 0 \\ 0 &amp; 0
 
 &lt;h3 id=&quot;four-and-a-half-ways-we-see-matrix-multiplication&quot;&gt;Four and a half ways we see matrix multiplication&lt;/h3&gt;
 
-&lt;p&gt;We have &lt;script type=&quot;math/tex&quot;&gt;AB = C&lt;/script&gt;. &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;m \times n&lt;/script&gt; matrix and &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;n \times p&lt;/script&gt; matrix, then &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; is an &lt;script type=&quot;math/tex&quot;&gt;m \times p&lt;/script&gt; matrix. We use &lt;script type=&quot;math/tex&quot;&gt;c_{ij}&lt;/script&gt; to denote the entry in row &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt; and column &lt;script type=&quot;math/tex&quot;&gt;j&lt;/script&gt; of matrix &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; and the same denotation applies to &lt;script type=&quot;math/tex&quot;&gt;a_{ij}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;b_{ij}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;We have \(AB = C\). \(A\) is an \(m \times n\) matrix and \(B\) is an \(n \times p\) matrix, then \(C\) is an \(m \times p\) matrix. We use \(c_{ij}\) to denote the entry in row \(i\) and column \(j\) of matrix \(C\) and the same denotation applies to \(a_{ij}\) and \(b_{ij}\).&lt;/p&gt;
 
 &lt;h4 id=&quot;row-times-column&quot;&gt;Row times column&lt;/h4&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;c_{ij} = \sum_{k=1}^n a_{ik}b_{kj}&lt;/script&gt;
+\[c_{ij} = \sum_{k=1}^n a_{ik}b_{kj}\]
 
 &lt;h4 id=&quot;columns&quot;&gt;Columns&lt;/h4&gt;
 
-&lt;p&gt;The product of matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; and column &lt;script type=&quot;math/tex&quot;&gt;j&lt;/script&gt; of matrix &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; equals column &lt;script type=&quot;math/tex&quot;&gt;j&lt;/script&gt; of matrix &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;. This tells us that the columns of &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; are combinations of columns of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;The product of matrix \(A\) and column \(j\) of matrix \(B\) equals column \(j\) of matrix \(C\). This tells us that the columns of \(C\) are combinations of columns of \(A\).&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-A
+\[A
 \begin{bmatrix}
-| &amp; | &amp; | \\
-column 1 &amp; column 2 &amp; column 3 \\
-| &amp; | &amp; |
+| &amp;amp; | &amp;amp; | \\
+column 1 &amp;amp; column 2 &amp;amp; column 3 \\
+| &amp;amp; | &amp;amp; |
 \end{bmatrix}
 =\begin{bmatrix}
-| &amp; | &amp; | \\
-A(column 1) &amp; A(column 2) &amp; A(column 3) \\
-| &amp; | &amp; |
-\end{bmatrix} %]]&gt;&lt;/script&gt;
+| &amp;amp; | &amp;amp; | \\
+A(column 1) &amp;amp; A(column 2) &amp;amp; A(column 3) \\
+| &amp;amp; | &amp;amp; |
+\end{bmatrix}\]
 
 &lt;h4 id=&quot;rows&quot;&gt;Rows&lt;/h4&gt;
-&lt;p&gt;The product of row &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt; of matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; and matrix &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt; equals row &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt; of matrix &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;. So the rows of &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; are combinations of rows of &lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;The product of row \(i\) of matrix \(A\) and matrix \(B\) equals row \(i\) of matrix \(C\). So the rows of \(C\) are combinations of rows of \(B\).&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\left[
+\[\left[
 \begin{matrix}
---- &amp; row 1 &amp; --- \\
---- &amp; row 2 &amp; --- \\
---- &amp; row 3 &amp; ---
+--- &amp;amp; row 1 &amp;amp; --- \\
+--- &amp;amp; row 2 &amp;amp; --- \\
+--- &amp;amp; row 3 &amp;amp; ---
 \end{matrix}
 \right]
 B
 =\left[
 \begin{matrix}
---- &amp; (row 1)B &amp; --- \\
---- &amp; (row 2)B &amp; --- \\
---- &amp; (row 3)B &amp; ---
+--- &amp;amp; (row 1)B &amp;amp; --- \\
+--- &amp;amp; (row 2)B &amp;amp; --- \\
+--- &amp;amp; (row 3)B &amp;amp; ---
 \end{matrix}
-\right] %]]&gt;&lt;/script&gt;
+\right]\]
 
 &lt;h4 id=&quot;column-times-row&quot;&gt;Column times row&lt;/h4&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-AB = \sum_{k=1}{n}
+\[AB = \sum_{k=1}{n}
 \begin{bmatrix}a_{1k} \\ \vdots \\ a_{mk}\end{bmatrix}
-\begin{bmatrix}b_{k1} &amp; \cdots &amp; b_{kp}\end{bmatrix} %]]&gt;&lt;/script&gt;
+\begin{bmatrix}b_{k1} &amp;amp; \cdots &amp;amp; b_{kp}\end{bmatrix}\]
 
 &lt;blockquote&gt;
-  &lt;p&gt;note: Here I fixed a typo in the &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/MIT18_06SCF11_Ses1.3sum.pdf&quot;&gt;lecture summary (PDf)&lt;/a&gt; of this session: &lt;script type=&quot;math/tex&quot;&gt;b_{kp}&lt;/script&gt; instead of the original &lt;script type=&quot;math/tex&quot;&gt;b_{kn}&lt;/script&gt;.&lt;/p&gt;
+  &lt;p&gt;note: Here I fixed a typo in the &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/MIT18_06SCF11_Ses1.3sum.pdf&quot;&gt;lecture summary (PDf)&lt;/a&gt; of this session: \(b_{kp}\) instead of the original \(b_{kn}\).&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h4 id=&quot;blocks&quot;&gt;Blocks&lt;/h4&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{bmatrix}A_1 &amp; A_2 \\ A_3 &amp; A_4 \end{bmatrix}
-\begin{bmatrix}B_1 &amp; B_2 \\ B_3 &amp; B_4 \end{bmatrix}
+\[\begin{bmatrix}A_1 &amp;amp; A_2 \\ A_3 &amp;amp; A_4 \end{bmatrix}
+\begin{bmatrix}B_1 &amp;amp; B_2 \\ B_3 &amp;amp; B_4 \end{bmatrix}
 =\begin{bmatrix}
-A_1B_1+A_2B_3 &amp; A_1B_2+A_2B_4 \\
-A_3B_1+A_4B_3 &amp; A_3B_2+A_4B_4
-\end{bmatrix} %]]&gt;&lt;/script&gt;
+A_1B_1+A_2B_3 &amp;amp; A_1B_2+A_2B_4 \\
+A_3B_1+A_4B_3 &amp;amp; A_3B_2+A_4B_4
+\end{bmatrix}\]
 
 &lt;h3 id=&quot;inverses-1&quot;&gt;Inverses&lt;/h3&gt;
 
-&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is &lt;em&gt;singular&lt;/em&gt; or &lt;em&gt;not invertible&lt;/em&gt;,&lt;/p&gt;
+&lt;p&gt;If \(A\) is &lt;em&gt;singular&lt;/em&gt; or &lt;em&gt;not invertible&lt;/em&gt;,&lt;/p&gt;
 
 &lt;p&gt;then A does not have an inverse,&lt;/p&gt;
 
-&lt;p&gt;and we can find some non-zero vector &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{x}&lt;/script&gt; for which &lt;script type=&quot;math/tex&quot;&gt;A\boldsymbol{x} = \boldsymbol{0}&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;and we can find some non-zero vector \(\boldsymbol{x}\) for which \(A\boldsymbol{x} = \boldsymbol{0}\)&lt;/p&gt;
 
 &lt;h4 id=&quot;gauss-jordan-elimination&quot;&gt;Gauss-Jordan Elimination&lt;/h4&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-E
+&lt;p&gt;\(E
 \left[
 \begin{array}{c|c}
-A &amp; I
+A &amp;amp; I
 \end{array}
 \right]
 =\left[
 \begin{array}{c|c}
-I &amp; E
+I &amp;amp; E
 \end{array}
-\right] %]]&gt;&lt;/script&gt;
-If &lt;script type=&quot;math/tex&quot;&gt;EA = I&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;E = A^{-1}&lt;/script&gt;.&lt;/p&gt;
+\right]\)
+If \(EA = I\), then \(E = A^{-1}\).&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;session-15-factorization-into-a--lu&quot;&gt;Session 1.5: Factorization into &lt;script type=&quot;math/tex&quot;&gt;A = LU&lt;/script&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;session-15-factorization-into-a--lu&quot;&gt;Session 1.5: Factorization into \(A = LU\)&lt;/h2&gt;
 
 &lt;h3 id=&quot;inverse-of-a-product&quot;&gt;Inverse of a product&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(AB)^{-1} = B^{-1}A^{-1}&lt;/script&gt;
+\[(AB)^{-1} = B^{-1}A^{-1}\]
 
 &lt;h3 id=&quot;transpose-of-a-product&quot;&gt;Transpose of a product&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(AB)^{T} = B^{T}A^{T}, \quad (A^{T})^{-1} = (A^{-1})^{T}&lt;/script&gt;
+\[(AB)^{T} = B^{T}A^{T}, \quad (A^{T})^{-1} = (A^{-1})^{T}\]
 
-&lt;h3 id=&quot;a--lu&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;A = LU&lt;/script&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;a--lu&quot;&gt;\(A = LU\)&lt;/h3&gt;
 
-&lt;p&gt;We can use elimination to convert &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; into an upper triangular matrix &lt;script type=&quot;math/tex&quot;&gt;U&lt;/script&gt;, that is &lt;script type=&quot;math/tex&quot;&gt;EA = U&lt;/script&gt;, and further we can also convert this to a factorization &lt;script type=&quot;math/tex&quot;&gt;A = LU&lt;/script&gt; in which &lt;script type=&quot;math/tex&quot;&gt;L = E^{-1}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;We can use elimination to convert \(A\) into an upper triangular matrix \(U\), that is \(EA = U\), and further we can also convert this to a factorization \(A = LU\) in which \(L = E^{-1}\).&lt;/p&gt;
 
-&lt;p&gt;For example, in a three dimensional case, if &lt;script type=&quot;math/tex&quot;&gt;E_{32}E_{31}E_{21}A = U&lt;/script&gt; then &lt;script type=&quot;math/tex&quot;&gt;A=E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U = LU&lt;/script&gt;. Suppose &lt;script type=&quot;math/tex&quot;&gt;E_{31}&lt;/script&gt; is the identity matrix and &lt;script type=&quot;math/tex&quot;&gt;E_{32}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;E_{21}&lt;/script&gt; are as shown below:&lt;/p&gt;
+&lt;p&gt;For example, in a three dimensional case, if \(E_{32}E_{31}E_{21}A = U\) then \(A=E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U = LU\). Suppose \(E_{31}\) is the identity matrix and \(E_{32}\) and \(E_{21}\) are as shown below:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{array}{cccc}
-E_{32} &amp; E_{21} &amp; &amp; E \\
-\begin{bmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; -5 &amp; 1\end{bmatrix}
-&amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -2 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
-&amp; = &amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ -2 &amp; 1 &amp; 0 \\ 10 &amp; -5 &amp; 1\end{bmatrix}
-\end{array}. %]]&gt;&lt;/script&gt;
+\[\begin{array}{cccc}
+E_{32} &amp;amp; E_{21} &amp;amp; &amp;amp; E \\
+\begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ 0 &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; -5 &amp;amp; 1\end{bmatrix}
+&amp;amp; \begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ -2 &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; 0 &amp;amp; 1\end{bmatrix}
+&amp;amp; = &amp;amp; \begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ -2 &amp;amp; 1 &amp;amp; 0 \\ 10 &amp;amp; -5 &amp;amp; 1\end{bmatrix}
+\end{array}.\]
 
-&lt;p&gt;Here &lt;script type=&quot;math/tex&quot;&gt;L = E^{-1} = E_{21}^{-1}E_{32}^{-1}&lt;/script&gt;:&lt;/p&gt;
+&lt;p&gt;Here \(L = E^{-1} = E_{21}^{-1}E_{32}^{-1}\):&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{array}{cccc}
-E_{21}^{-1} &amp; E_{32}^{-1} &amp; &amp; L \\
-\begin{bmatrix}1 &amp; 0 &amp; 0 \\ \underline{2} &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1\end{bmatrix}
-&amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; \underline{5} &amp; 1\end{bmatrix}
-&amp; = &amp; \begin{bmatrix}1 &amp; 0 &amp; 0 \\ \underline{2} &amp; 1 &amp; 0 \\ 0 &amp; \underline{5} &amp; 1\end{bmatrix}
-\end{array} %]]&gt;&lt;/script&gt;
+\[\begin{array}{cccc}
+E_{21}^{-1} &amp;amp; E_{32}^{-1} &amp;amp; &amp;amp; L \\
+\begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ \underline{2} &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; 0 &amp;amp; 1\end{bmatrix}
+&amp;amp; \begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ 0 &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; \underline{5} &amp;amp; 1\end{bmatrix}
+&amp;amp; = &amp;amp; \begin{bmatrix}1 &amp;amp; 0 &amp;amp; 0 \\ \underline{2} &amp;amp; 1 &amp;amp; 0 \\ 0 &amp;amp; \underline{5} &amp;amp; 1\end{bmatrix}
+\end{array}\]
 
-&lt;p&gt;Notice the &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; in row three column one of &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; had a &lt;script type=&quot;math/tex&quot;&gt;10&lt;/script&gt;. The factorization &lt;script type=&quot;math/tex&quot;&gt;A = LU&lt;/script&gt; is preferable to the statement &lt;script type=&quot;math/tex&quot;&gt;EA = U&lt;/script&gt; because the combination of row subtractions does not have the effect on &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt; that it did on &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Notice the \(0\) in row three column one of \(L\), where \(E\) had a \(10\). The factorization \(A = LU\) is preferable to the statement \(EA = U\) because the combination of row subtractions does not have the effect on \(L\) that it did on \(E\).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;If there are no row exchanges, the multipliers from the elimination matrices are copied directly into &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If there are no row exchanges, the multipliers from the elimination matrices are copied directly into \(L\).&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;cost-of-elimination&quot;&gt;Cost of elimination&lt;/h3&gt;
 
-&lt;p&gt;If we define a typical operation is to multiply one row and then subtract it from another, then the total number of operations needed to factor &lt;script type=&quot;math/tex&quot;&gt;n \times n&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; into &lt;script type=&quot;math/tex&quot;&gt;LU&lt;/script&gt; is on the order of &lt;script type=&quot;math/tex&quot;&gt;n^3&lt;/script&gt;:&lt;/p&gt;
+&lt;p&gt;If we define a typical operation is to multiply one row and then subtract it from another, then the total number of operations needed to factor \(n \times n\) \(A\) into \(LU\) is on the order of \(n^3\):&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1^2 + 2^2 + \cdots + (n - 1)^2 + n^2 = \sum_{i = 1}^{n}i^2 \approx \int_0^n x\,\mathrm{d}x = \frac{1}{3}n^3.&lt;/script&gt;
+\[1^2 + 2^2 + \cdots + (n - 1)^2 + n^2 = \sum_{i = 1}^{n}i^2 \approx \int_0^n x\,\mathrm{d}x = \frac{1}{3}n^3.\]
 
-&lt;p&gt;While we’re factoring &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; we’re also operating on &lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{b}&lt;/script&gt;. That costs about &lt;script type=&quot;math/tex&quot;&gt;n^2&lt;/script&gt; operations, which is hardly worth counting compared to &lt;script type=&quot;math/tex&quot;&gt;1/3n^3&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;While we’re factoring \(A\) we’re also operating on \(\boldsymbol{b}\). That costs about \(n^2\) operations, which is hardly worth counting compared to \(1/3n^3\).&lt;/p&gt;
 
 &lt;h3 id=&quot;row-exchanges&quot;&gt;Row exchanges&lt;/h3&gt;
 
-&lt;p&gt;The inverse of any permutation matrix &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;P^{-1} = P^{T}&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;The inverse of any permutation matrix \(P\) is \(P^{-1} = P^{T}\).&lt;/p&gt;
 
-&lt;p&gt;There are &lt;script type=&quot;math/tex&quot;&gt;n!&lt;/script&gt; different ways to permute the rows of an &lt;script type=&quot;math/tex&quot;&gt;n \times n&lt;/script&gt; matrix (including the permutation that leaves all rows unfixed) so there are &lt;script type=&quot;math/tex&quot;&gt;n!&lt;/script&gt; permutation matrices. These matrices form a &lt;em&gt;multiplicative group&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There are \(n!\) different ways to permute the rows of an \(n \times n\) matrix (including the permutation that leaves all rows unfixed) so there are \(n!\) permutation matrices. These matrices form a &lt;em&gt;multiplicative group&lt;/em&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
