@@ -1,6 +1,8 @@
-/* colors definition */
+/*** Constants. ***/
+/* colors.  */
+/* font sizes.*/
 /* Used RGB values Yuri purple: #9528bd deepskyblue: #00bfff */
-body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif; min-height: 100%; margin: 0; padding: 0 0 3.2em 0; }
+body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif; font-size: 16px; min-height: 100%; margin: 0; padding: 0 0 3.2em 0; }
 
 /* Banner. */
 #banner { color: #ffffff; background-color: #00bfff; border-bottom: 1px solid #00bfff; }
@@ -32,6 +34,8 @@ body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "He
 /* Content. */
 #content { margin: 10px auto; padding: 0 .6em; max-width: 33em; font-size: 16px; }
 
+#content h2 { font-size: 1.5em; }
+
 #content blockquote { margin: 0; margin-left: 1.5em; border-left: 10px solid #ccc; padding: 15px; color: #444444; background: #f0f0f0; }
 
 #content blockquote p { border-radius: 5px; font-style: italic; }
@@ -44,7 +48,7 @@ body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "He
 #clear { clear: both; height: 1px; }
 
 /* Footer. */
-#footer { clear: both; position: fixed; left: 0; bottom: 0; height: auto; width: 100%; border-top: 1px solid #00bfff; background-color: #00bfff; }
+#footer { clear: both; position: fixed; left: 0; bottom: 0; height: auto; width: 100%; border-top: 1px solid #00bfff; background-color: #00bfff; font-size: 14px; }
 
 #footer #inner { margin: .2em .6em; text-align: right; color: #ffffff; }
 
@@ -53,7 +57,7 @@ body { color: #000; background-color: #f6f6f6; font-family: "San Francisco", "He
 
 #publications em { font-style: normal; font-weight: bold; }
 
-#publications .title { font-style: italic; }
+#publications .title { font-style: italic; font-size: 18px; }
 
 #publications ul li { padding: 5px 0px; }
 
